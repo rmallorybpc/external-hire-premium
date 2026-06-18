@@ -1,0 +1,612 @@
+transition_id,gvkey,cik,coname,appt_date,classification,predecessor,successor,pred_last_full_fy,succ_first_full_fy
+900001,,,CONTINENTAL AIRLINES INC,2010-01-01,internal,Lawrence W. Kellner,Jeffery A. Smisek,2009,2010
+1323,4510,37785.0,FMC CORP,2010-01-01,external,William Gerald Walter,Pierre R. Brondeau,2009,2010
+4158,12206,1465112.0,DIRECTV,2010-01-01,external,Larry D. Hunter,Michael D. White,2009,2010
+1184,4094,,DUN & BRADSTREET CORP,2010-01-01,internal,Steven W. Alesio,S. Sara Mathew,2009,2010
+8488,136725,1035267.0,INTUITIVE SURGICAL INC,2010-01-01,internal,Lonnie M. Smith,"Gary S. Guthart, Ph.D.",2009,2010
+6505,28338,,TRANSOCEAN LTD,2010-03-01,internal,Robert L. Long,Steven L. Newman,2009,2011
+3370,10035,93751.0,STATE STREET CORP,2010-03-01,internal,Ronald E. Logue,"Joseph L. Hooley, Esq.",2009,2011
+1379,4674,1281761.0,REGIONS FINANCIAL CORP,2010-03-31,internal,C. Dowd Ritter,"O. B. Grayson Hall, Jr.",2009,2011
+1593,5234,42582.0,GOODYEAR TIRE & RUBBER CO,2010-04-13,internal,Robert J. Keegan,Richard J. Kramer,2009,2011
+1294,4430,33213.0,EQT CORP,2010-04-21,internal,Murry Steven Gerber,David L. Porges,2009,2011
+3553,10466,50104.0,ANDEAVOR,2010-05-01,external,Bruce Anderson Smith,Gregory J. Goff,2009,2011
+537,2403,14272.0,BRISTOL-MYERS SQUIBB CO,2010-05-04,internal,James Milton Cornelius,Lamberto Andreotti,2009,2011
+959,3439,201533.0,CMS ENERGY CORP,2010-05-21,internal,David W. Joos,John G. Russell,2009,2011
+697,2817,18230.0,CATERPILLAR INC,2010-06-01,internal,James W. Owens,Douglas Ray Oberhelman,2009,2011
+8661,145049,1326380.0,GAMESTOP CORP,2010-06-01,internal,Daniel A. DeMatteo,J. Paul Raines,2009,2011
+5819,24468,875045.0,BIOGEN INC,2010-06-08,internal,James C. Mullen,John Richels,2009,2011
+4871,14934,1090012.0,DEVON ENERGY CORP,2010-06-08,external,J. Larry Nichols,"George A. Scangos, Ph.D.",2009,2011
+4579,13599,816284.0,CELGENE CORP,2010-06-16,internal,"Sol J. Barer, Ph.D.","Robert J. Hugin, MBA",2009,2011
+3017,8873,751652.0,QUESTAR CORP,2010-06-30,internal,Keith O. Rattie,Ronald W. Jibson,2009,2011
+8877,160225,1141391.0,MASTERCARD INC,2010-07-01,external,Robert W. Selander,Ajaypal S. Banga,2009,2011
+2807,8402,723531.0,PAYCHEX INC,2010-07-01,internal,Jonathan J. Judge,Martin Mucci,2009,2011
+477,2269,12659.0,BLOCK H & R INC,2010-07-07,external,Russell P. Smyth,Alan Munro Bennett,2009,2011
+3477,10277,350563.0,TECO ENERGY INC,2010-08-04,internal,Sherrill Wayne Hudson,John Braulio Ramil,2009,2011
+1713,5606,47217.0,HP INC,2010-08-06,external,Mark Vincent Hurd,Leo Apotheker,2009,2011
+3167,9411,,HILLSHIRE BRANDS CO,2010-08-09,internal,Brenda C. Barnes,Marcel H. M. Smits,2009,2011
+8707,147175,,LORILLARD INC,2010-09-01,external,Martin L. Orlowsky,Murray S. Kessler,2009,2011
+9121,175263,1365135.0,WESTERN UNION CO,2010-09-01,internal,Christina Albehdina Gold,Hikmet Ersek,2009,2011
+1082,3897,936340.0,DTE ENERGY CO,2010-10-01,internal,"Anthony F. Earley, Jr.",Gerard M. Anderson,2009,2011
+3949,11513,36270.0,WILMINGTON TRUST CORP,2010-11-01,external,William J. Farrell II,Donald E. Foley,2009,2011
+4804,14624,800240.0,OFFICE DEPOT INC,2010-11-01,external,Stephen A. Odland,Neil R. Austrian,2009,2011
+55,1177,,AETNA INC,2010-11-01,internal,Ronald Allan Williams,Mark Thomas Bertolini,2009,2011
+3252,9699,90185.0,SIGMA-ALDRICH CORP,2010-11-13,internal,"Jai P. Nagarkatti, Ph.D.",Rakesh Sachdev,2009,2011
+3304,9850,92122.0,SOUTHERN CO,2010-12-01,internal,David M. Ratcliffe,Thomas A. Fanning,2009,2011
+2859,8530,78003.0,PFIZER INC,2010-12-05,internal,"Jeffrey B. Kindler, Esq., J.D.",Ian C. Read,2009,2011
+5656,23945,873364.0,CEPHALON INC,2010-12-16,internal,"Frank Baldino, Jr., Ph.D.",J. Kevin Buchi,2009,2011
+8578,141400,37748.0,MASSEY ENERGY CO,2010-12-30,internal,Donald L. Blankenship,"Baxter F. Phillips, Jr.",2009,2011
+7253,61513,1000180.0,SANDISK CORP,2010-12-31,internal,Eli Harari,Sanjay Mehrotra,2009,2011
+3936,11506,107263.0,WILLIAMS COS INC,2010-12-31,internal,Steven J. Malcolm,Alan S. Armstrong,2009,2011
+2345,7257,310158.0,MERCK & CO,2011-01-01,internal,Richard T. Clark,Kenneth C. Frazier,2010,2011
+8078,112168,1060391.0,REPUBLIC SERVICES INC,2011-01-01,internal,James E. O'Connor,Donald W. Slager,2010,2011
+4830,14824,20286.0,CINCINNATI FINANCIAL CORP,2011-01-01,internal,Kenneth William Stecher,Steven J. Johnston,2010,2011
+2453,7585,68505.0,MOTOROLA SOLUTIONS INC,2011-01-04,internal,"Sanjay K. Jha, Ph.D., B.E.",Gregory Q. Brown,2010,2012
+2672,8068,797468.0,OCCIDENTAL PETROLEUM CORP,2011-01-05,internal,Ray R. Irani,Stephen I. Chazen,2010,2012
+45,1161,2488.0,ADVANCED MICRO DEVICES,2011-01-10,external,Derrick R. Meyer,Rory P. Read,2010,2012
+10384,183257,1457543.0,CAREFUSION CORP,2011-01-29,external,David L. Schlotterbeck,Kieran T. Gallahue,2010,2012
+1444,4818,1124198.0,FLUOR CORP,2011-02-01,internal,"Alan Lee Boeckmann, B.E.",David Thomas Seaton,2010,2012
+2007,6307,1310067.0,SEARS HOLDINGS CORP,2011-02-24,external,William Bruce Johnson,Louis Joseph D'Ambrosio,2010,2012
+8253,120877,1275283.0,REYNOLDS AMERICAN INC,2011-02-28,internal,Susan M. Cameron,Daniel M. Delen,2010,2012
+2331,7241,64803.0,CVS HEALTH CORP,2011-03-01,internal,Thomas M. Ryan,Larry J. Merlo,2010,2012
+7261,61552,1001288.0,LEXMARK INTL INC -CL A,2011-03-27,internal,Paul J. Curlander,Paul A. Rooke,2010,2012
+8879,160255,1274057.0,HOSPIRA INC,2011-03-28,external,Christopher B. Begley,F. Michael Ball,2010,2012
+8882,160329,1652044.0,ALPHABET INC,2011-04-01,internal,Eric E. Schmidt,Lawrence Edward Page,2010,2012
+3519,10405,1018963.0,ALLEGHENY TECHNOLOGIES INC,2011-04-01,internal,L. Patrick Hassey,Richard J. Harshman,2010,2012
+7360,62374,1020569.0,IRON MOUNTAIN INC,2011-04-12,internal,Robert T. Brennan,C. Richard Reese,2010,2012
+2324,7228,1613103.0,MEDTRONIC PLC,2011-04-29,external,"William A. Hawkins, III, M.B.A.",S. Omar Ishrak,2010,2012
+2759,8264,1004980.0,PG&E CORP,2011-04-30,external,Peter A. Darbee,"Anthony F. Earley, Jr.",2010,2012
+3284,9783,91576.0,KEYCORP,2011-05-01,internal,"Henry L. Meyer, III",Beth E. Mooney,2010,2012
+7974,66446,1050915.0,QUANTA SERVICES INC,2011-05-01,internal,John R. Colson,"James Francis O'Neil, III",2010,2012
+8462,133768,1099219.0,METLIFE INC,2011-05-01,internal,Carl Robert Henrikson,Steven Albert Kandarian,2010,2012
+478,2269,12659.0,BLOCK H & R INC,2011-05-16,external,Alan Munro Bennett,William C. Cobb,2010,2012
+1707,5597,47111.0,HERSHEY CO,2011-05-17,internal,David J. West,John P. Bilbrey,2010,2012
+6275,26011,859014.0,COMPUWARE CORP,2011-06-01,internal,"Peter Karmanos, Jr.",Robert C. Paul,2010,2012
+3435,10187,,SUNTRUST BANKS INC,2011-06-01,internal,"James M. Wells, III","William Henry Rogers, Jr.",2010,2012
+7137,60900,,DISH NETWORK CORP,2011-06-20,external,Charles William Ergen,Joseph P. Clayton,2010,2012
+2767,8272,1032208.0,SEMPRA ENERGY,2011-06-27,internal,Donald E. Felsinger,Debra Lynn Reed-Klages,2010,2012
+9173,177264,,COVIDIEN PLC,2011-07-01,internal,Richard J. Meelia,Jose E. Almeida,2010,2012
+2569,7875,814453.0,NEWELL BRANDS INC,2011-07-18,external,Mark D. Ketchum,Michael B. Polk,2010,2012
+649,2663,16732.0,CAMPBELL SOUP CO,2011-07-31,internal,Douglas R. Conant,Denise Mullen Morrison,2010,2012
+419,2136,732712.0,VERIZON COMMUNICATIONS INC,2011-08-01,internal,Ivan G. Seidenberg,Lowell C. McAdam,2010,2012
+7959,66368,1014473.0,VERISIGN INC,2011-08-01,internal,Mark D. McLaughlin,D. James Bidzos,2010,2012
+2618,7977,72903.0,XCEL ENERGY INC,2011-08-24,internal,Richard C. Kelly,"Benjamin Gwynn Stonestreet Fowke, III",2010,2012
+245,1690,320193.0,APPLE INC,2011-08-24,internal,Steven P. Jobs,Timothy D. Cook,2010,2012
+1714,5606,47217.0,HP INC,2011-09-26,external,Leo Apotheker,Margaret Cushing Whitman,2010,2012
+5724,24216,874761.0,AES CORP,2011-09-30,internal,Paul T. Hanrahan,"Andres R. Gluski, Ph.D.",2010,2012
+413,2111,10795.0,BECTON DICKINSON & CO,2011-09-30,internal,"Edward J. Ludwig, M.B.A.",Vincent A. Forlenza,2010,2012
+1497,4988,39899.0,TEGNA INC,2011-10-06,internal,Craig A. Dubow,Gracia Catherine Martore,2010,2012
+125,1408,789073.0,BEAM INC,2011-10-09,internal,Bruce A. Carbonari,Matthew John Shattock,2010,2012
+6097,25279,885725.0,BOSTON SCIENTIFIC CORP,2011-10-17,internal,J. Raymond Elliott,William H. Kucheman,2010,2012
+9131,175404,1274494.0,FIRST SOLAR INC,2011-10-26,external,Robert J. Gillette,James A. Hughes,2010,2012
+227,1661,1163739.0,NABORS INDUSTRIES LTD,2011-10-28,internal,Eugene M. Isenberg,Anthony G. Petrello,2010,2012
+1801,5860,216228.0,ITT INC,2011-10-31,internal,Steven R. Loranger,Denise L. Ramos,2010,2012
+307,1891,8670.0,AUTOMATIC DATA PROCESSING,2011-11-09,internal,Gary C. Butler,Carlos A. Rodriguez,2010,2012
+142,1440,4904.0,AMERICAN ELECTRIC POWER CO,2011-11-11,internal,Michael G. Morris,Nicholas K. Akins,2010,2012
+2829,8455,922224.0,PPL CORP,2011-11-17,internal,James H. Miller,William H. Spence,2010,2012
+14,1045,,AMERICAN AIRLINES GROUP INC,2011-11-28,internal,Gerard J. Arpey,Thomas W. Horton,2010,2012
+3174,9445,754737.0,SCANA CORP,2011-11-30,internal,William B. Timmerman,Kevin B. Marsh,2010,2012
+1026,3650,26172.0,CUMMINS INC,2011-12-31,internal,Theodore M. Solso,Norman Thomas Linebarger,2010,2012
+2268,7116,63276.0,MATTEL INC,2011-12-31,internal,Robert A. Eckert,Bryan G. Stockton,2010,2012
+10467,29875,915912.0,AVALONBAY COMMUNITIES INC,2011-12-31,internal,Bryce F. Blair,Timothy J. Naughton,2010,2012
+2172,6788,315852.0,RANGE RESOURCES CORP,2012-01-01,internal,John Howard Pinkerton,Jeffrey L. Ventura,2011,2012
+6644,29028,909832.0,COSTCO WHOLESALE CORP,2012-01-01,internal,James D. Sinegal,W. Craig Jelinek,2011,2012
+330,1976,,BAKER HUGHES INC,2012-01-01,internal,Chadwick C. Deaton,Martin S. Craighead,2011,2012
+1881,6066,51143.0,INTL BUSINESS MACHINES CORP,2012-01-01,internal,Samuel J. Palmisano,Virginia M. Rometty,2011,2012
+6682,29150,912615.0,URBAN OUTFITTERS INC,2012-01-09,internal,Glen T. Senk,Richard A. Hayne,2011,2013
+2372,7343,723125.0,MICRON TECHNOLOGY INC,2012-02-01,internal,Steven R. Appleton,Mark M. Dermot Durcan,2011,2013
+3407,10115,310764.0,STRYKER CORP,2012-02-08,internal,Stephen P. MacMillan,Kevin A. Lobo,2011,2013
+2399,7435,66740.0,3M CO,2012-02-24,internal,"George W. Buckley, Ph.D.","Inge G. Thulin, M.B.A.",2011,2013
+3426,10156,95304.0,SUNOCO INC,2012-03-01,internal,Lynn Laverty Elsenhans,Brian P. MacDonald,2011,2013
+2784,8304,75829.0,PALL CORP,2012-03-01,external,Eric Krasnoff,Lawrence D. Kingsley,2011,2013
+1242,4241,31978.0,EL PASO ELECTRIC CO,2012-03-02,external,David Wayne Stevens,"Thomas V. Shockley, III",2011,2013
+3697,10867,100885.0,UNION PACIFIC CORP,2012-03-02,internal,James R. Young,John J. Koraleski,2011,2013
+920,3336,1688568.0,DXC TECHNOLOGY COMPANY,2012-03-19,external,Michael W. Laphen,John Michael Lawrie,2011,2013
+6629,28930,1048286.0,MARRIOTT INTL INC,2012-03-31,internal,"John Willard Marriott, Jr.",Arne M. Sorenson,2011,2013
+443,2184,764478.0,BEST BUY CO INC,2012-04-09,external,Brian J. Dunn,Hubert Joly,2011,2013
+319,1920,8868.0,AVON PRODUCTS,2012-04-22,external,Andrea Jung,Sherilyn S. D. McCoy,2011,2013
+1977,6266,200406.0,JOHNSON & JOHNSON,2012-04-26,internal,William C. Weldon,Alex Gorsky,2011,2013
+8860,158354,1276520.0,GENWORTH FINANCIAL INC,2012-05-01,external,Michael Desmond Fraizer,Thomas J. McInerney,2011,2013
+8757,149070,1156375.0,CME GROUP INC,2012-05-01,internal,Craig Steven Donohue,Phupinder S. Gill,2011,2013
+7668,64166,1022079.0,QUEST DIAGNOSTICS INC,2012-05-01,external,Surya N. Mohapatra,Stephen H. Rusckowski,2011,2013
+4082,11923,773910.0,ANADARKO PETROLEUM CORP,2012-05-15,internal,James T. Hackett,Robert A. Walker,2011,2013
+2874,8543,764180.0,ALTRIA GROUP INC,2012-05-17,internal,Michael E. Szymanczyk,Martin J. Barrington,2011,2013
+195,1602,318154.0,AMGEN INC,2012-05-23,internal,Kevin W. Sharer,Robert A. Bradway,2011,2013
+2879,8549,1163165.0,CONOCOPHILLIPS,2012-06-01,internal,James J. Mulva,Ryan M. Lance,2011,2013
+9031,165123,1336920.0,LEIDOS HOLDINGS INC,2012-06-15,external,Walter P. Havenstein,John P. Jumper,2011,2013
+2461,7620,717423.0,MURPHY OIL CORP,2012-06-21,internal,David M. Wood,Steven A. Cosse,2011,2013
+2299,7154,63908.0,MCDONALD'S CORP,2012-06-30,internal,James A. Skinner,Donald Thompson,2011,2013
+4391,12950,804212.0,AIRGAS INC,2012-08-01,internal,Peter McCausland,Michael L. Molinini,2011,2013
+7526,63501,,E TRADE FINANCIAL CORP,2012-08-01,external,Steven Jay Freiberg,Paul Thomas Idzik,2011,2013
+3650,10787,,TYCO INTERNATIONAL PLC,2012-09-01,internal,Edward D. Breen,George R. Oliver,2011,2013
+3800,11115,203527.0,VARIAN MEDICAL SYSTEMS INC,2012-09-29,internal,Timothy E. Guertin,Dow R. Wilson,2011,2013
+7402,62655,931336.0,DEAN FOODS CO,2012-10-01,internal,Gregg L. Engles,Gregg A. Tanner,2011,2013
+2127,6653,,LEGG MASON INC,2012-10-01,internal,Mark Raymond Fetting,Joseph A. Sullivan,2011,2013
+1816,5878,49826.0,ILLINOIS TOOL WORKS,2012-10-12,internal,David B. Speer,E. Scott Santi,2011,2013
+889,3243,831001.0,CITIGROUP INC,2012-10-16,internal,Vikram Shankar Pandit,Michael L. Corbat,2011,2013
+9271,179534,1403161.0,VISA INC,2012-11-01,external,Joseph W. Saunders,Charles W. Scharf,2011,2013
+6098,25279,885725.0,BOSTON SCIENTIFIC CORP,2012-11-01,internal,William H. Kucheman,Michael F. Mahoney,2011,2013
+9482,260774,1138118.0,CBRE GROUP INC,2012-11-30,internal,W. Brett White,Robert E. Sulentic,2011,2013
+6588,28742,908255.0,BORGWARNER INC,2012-12-01,internal,Timothy M. Manganello,James R. Verrier,2011,2013
+6615,28877,1418135.0,KEURIG DR PEPPER INC,2012-12-03,external,Lawrence J. Blanford,Brian P. Kelley,2011,2013
+8377,125595,1086222.0,AKAMAI TECHNOLOGIES INC,2012-12-31,internal,Paul L. Sagan,"F. Thomson Leighton, Ph.D.",2011,2013
+1521,5046,40533.0,GENERAL DYNAMICS CORP,2012-12-31,internal,Jay Lynn Johnson,Phebe N. Novakovic,2011,2013
+8579,141459,1121788.0,GARMIN LTD,2012-12-31,internal,"Min-Hwan Kao, Ph.D.",Clifton A. Pemble,2011,2013
+6382,27914,49071.0,HUMANA INC,2012-12-31,internal,Michael B. McCallister,Bruce D. Broussard,2011,2013
+3123,9299,85961.0,RYDER SYSTEM INC,2013-01-01,internal,Gregory T. Swienton,Robert E. Sanchez,2012,2013
+3905,11456,106535.0,WEYERHAEUSER CO,2013-01-01,external,Daniel S. Fulton,Doyle R. Simons,2012,2013
+2910,8606,78814.0,PITNEY BOWES INC,2013-01-01,external,Murray D. Martin,Marc B. Lautenbach,2012,2013
+2658,8030,73309.0,NUCOR CORP,2013-01-01,internal,Daniel R. DiMicco,John J. Ferriola,2012,2013
+2380,7366,65984.0,ENTERGY CORP,2013-01-01,internal,J. Wayne Leonard,Leo P. Denault,2012,2013
+8204,119314,1075531.0,BOOKING HOLDINGS INC,2013-01-01,external,Jeffery H. Boyd,Darren Richard Huston,2012,2013
+7534,63527,861878.0,STERICYCLE INC,2013-01-01,internal,Mark C. Miller,Charles A. Alutto,2012,2013
+3889,11399,106040.0,WESTERN DIGITAL CORP,2013-01-01,external,John F. Coyne,Stephen D. Milligan,2012,2013
+2164,6774,936468.0,LOCKHEED MARTIN CORP,2013-01-01,internal,Robert J. Stevens,Marillyn A. Hewson,2012,2013
+7361,62374,1020569.0,IRON MOUNTAIN INC,2013-01-07,external,C. Richard Reese,William L. Meaney,2012,2014
+3201,9555,1012100.0,SEALED AIR CORP,2013-03-01,external,William V. Hickey,Jerome A. Peribere,2012,2014
+6476,28195,898293.0,JABIL INC,2013-03-01,internal,Timothy L. Main,Mark T. Mondello,2012,2014
+2575,7881,1164727.0,NEWMONT MINING CORP,2013-03-01,internal,"Richard T. OBrien, B.A., J.D.","Gary J. Goldberg, B.S., M.B.A.",2012,2014
+203,1632,6281.0,ANALOG DEVICES,2013-03-28,internal,Jerald G. Fishman,Vincent T. Roche,2012,2014
+5069,16721,712515.0,ELECTRONIC ARTS INC,2013-03-30,internal,John S. Riccitiello,Andrew Wilson,2012,2014
+6350,27786,,CHESAPEAKE ENERGY CORP,2013-04-01,external,Aubrey K. McClendon,Robert Douglas Lawler,2012,2014
+3816,11220,899689.0,VORNADO REALTY TRUST,2013-04-15,internal,Michael D. Fascitelli,Steven Roth,2012,2014
+9327,180833,1452575.0,MEAD JOHNSON NUTRITION CO,2013-04-30,internal,Stephen W. Golsby,Peter Kasper Jakobsen,2012,2014
+4109,12123,,BIG LOTS INC,2013-05-06,external,Steven S. Fishman,David J. Campisi,2012,2014
+9280,179621,1413329.0,PHILIP MORRIS INTERNATIONAL,2013-05-08,internal,"Louis Carey Camilleri, BA",Andre Calantzopoulos,2012,2014
+3152,9359,86144.0,SAFEWAY INC,2013-05-14,internal,Steven A. Burd,Robert L. Edwards,2012,2014
+1856,6008,50863.0,INTEL CORP,2013-05-16,internal,Paul S. Otellini,Brian Matthew Krzanich,2012,2014
+6533,28477,354908.0,FLIR SYSTEMS INC,2013-05-19,internal,"Earl Ray Lewis, III",Andrew C. Teich,2012,2014
+2963,8762,80424.0,PROCTER & GAMBLE CO,2013-05-23,external,Robert A. McDonald,Alan George Lafley,2012,2014
+5318,20430,1032033.0,SLM CORP,2013-05-29,internal,Albert L. Lord,John F. Remondi,2012,2014
+6570,28648,863157.0,PETSMART INC,2013-06-14,internal,Robert F. Moran,David K. Lenhardt,2012,2014
+5025,16478,821189.0,EOG RESOURCES INC,2013-07-01,internal,Mark G. Papa,William R. Thomas,2012,2014
+1178,4093,1326160.0,DUKE ENERGY CORP,2013-07-01,internal,"James E. Rogers, Jr.",Lynn J. Good,2012,2014
+2236,7017,101778.0,MARATHON OIL CORP,2013-07-01,external,"Clarence P. Cazalot, Jr.",Lee M. Tillman,2012,2014
+8288,121718,1043604.0,JUNIPER NETWORKS INC,2013-07-23,external,Kevin R. Johnson,Shaygan Kheradpir,2012,2014
+8633,144066,1137411.0,ROCKWELL COLLINS,2013-07-31,internal,Clayton M. Jones,Robert K. Ortberg,2012,2014
+2462,7620,717423.0,MURPHY OIL CORP,2013-08-30,internal,Steven A. Cosse,Roger W. Jenkins,2012,2014
+5662,23978,1163302.0,UNITED STATES STEEL CORP,2013-09-01,internal,"John P. Surma, Jr.",Filho Mario Longhi,2012,2014
+249,1704,6951.0,APPLIED MATERIALS INC,2013-09-01,internal,Michael R. Splinter,Gary E. Dickerson,2012,2014
+1981,6268,833444.0,JOHNSON CONTROLS INTL PLC,2013-09-01,internal,Stephen A. Roell,Alex A. Molinaroli,2012,2014
+9457,189491,1524472.0,XYLEM INC,2013-09-09,external,Gretchen W. McClain,Patrick K. Decker,2012,2014
+1458,4843,38074.0,FOREST LABORATORIES -CL A,2013-09-30,external,Howard Solomon,"Brenton L. Saunders, J.D.",2012,2014
+1185,4094,,DUN & BRADSTREET CORP,2013-10-07,external,S. Sara Mathew,Robert P. Carrigan,2012,2014
+2305,7163,64040.0,S&P GLOBAL INC,2013-11-01,internal,"Harold Whittlesey McGraw, III",Douglas L. Peterson,2012,2014
+832,3107,764065.0,CLEVELAND-CLIFFS INC,2013-11-18,external,Joseph A. Carrabba,Gary Bernard Halverson,2012,2014
+4396,13003,801898.0,JOY GLOBAL INC,2013-12-01,internal,Michael W. Sutherlin,"Edward L. Doheny, II",2012,2014
+2077,6502,56873.0,KROGER CO,2013-12-31,internal,David B. Dillon,W. Rodney McMullen,2012,2014
+1771,5742,1130310.0,CENTERPOINT ENERGY INC,2013-12-31,internal,David M. McClanahan,Scott M. Prochazka,2012,2014
+9425,187128,1518832.0,WPX ENERGY INC,2013-12-31,external,Ralph A. Hill,Richard E. Muncrief,2012,2014
+8009,100873,,NIELSEN HOLDINGS PLC,2014-01-01,internal,David L. Calhoun,Dwight Mitchell Barns,2013,2014
+9146,176404,1377013.0,TIME WARNER CABLE INC,2014-01-01,internal,Glenn Alan Britt,Robert D. Marcus,2013,2014
+8992,163946,1324404.0,CF INDUSTRIES HOLDINGS INC,2014-01-01,internal,Stephen R. Wilson,W. Anthony Will,2013,2014
+8538,140541,1116132.0,TAPESTRY INC,2014-01-01,internal,Lew Frankfort,Victor Luis,2013,2014
+6740,29392,915389.0,EASTMAN CHEMICAL CO,2014-01-01,internal,James P. Rogers,Mark J. Costa,2013,2014
+1739,5680,354950.0,HOME DEPOT INC,2014-01-11,internal,Francis S. Blake,Craig A. Menear,2013,2015
+1537,5073,1467858.0,GENERAL MOTORS CO,2014-01-15,internal,Daniel Francis Akerson,Mary T. Barra,2013,2015
+2709,8151,1039684.0,ONEOK INC,2014-01-31,internal,John W. Gibson,Terry K. Spencer,2013,2015
+3831,11259,104169.0,WALMART INC,2014-02-01,internal,Michael Terry Duke,C. Douglas McMillon,2013,2015
+4129,12141,789019.0,MICROSOFT CORP,2014-02-04,internal,Steven A. Ballmer,Satya Nadella,2013,2015
+2256,7085,62996.0,MASCO CORP,2014-02-14,internal,Timothy Wadhams,Keith J. Allman,2013,2015
+7612,63892,1021860.0,NATIONAL OILWELL VARCO INC,2014-02-27,internal,"Merrill A. Miller, Jr.",Clay C. Williams,2013,2015
+1313,4494,746515.0,EXPEDITORS INTL WASH INC,2014-03-01,internal,Peter J. Rose,Jeffrey S. Musser,2013,2015
+5929,24800,804328.0,QUALCOMM INC,2014-03-04,internal,"Paul E. Jacobs, Ph.D.",Steven M. Mollenkopf,2013,2015
+1697,5581,46765.0,HELMERICH & PAYNE,2014-03-05,internal,"Hans Christian Helmerich, III",John W. Lindsay,2013,2015
+3034,8972,1047122.0,RAYTHEON CO,2014-03-31,internal,William H. Swanson,Thomas A. Kennedy,2013,2015
+1683,5543,766704.0,WELLTOWER INC,2014-04-13,external,George L. Chapman,Thomas J. DeRosa,2013,2015
+2753,8253,75362.0,PACCAR INC,2014-04-27,internal,Mark C. Pigott,"Ronald E. Armstrong, CPA",2013,2015
+8254,120877,1275283.0,REYNOLDS AMERICAN INC,2014-04-30,external,Daniel M. Delen,Susan M. Cameron,2013,2015
+4916,15247,1035002.0,VALERO ENERGY CORP,2014-05-01,internal,William R. Klesse,Joseph W. Gorder,2013,2015
+3100,9248,745732.0,ROSS STORES INC,2014-05-01,internal,Michael Balmuth,Barbara Rentler,2013,2015
+1058,3813,27419.0,TARGET CORP,2014-05-05,external,Gregg W. Steinhafel,Brian C. Cornell,2013,2015
+8231,120093,1070412.0,CNX RESOURCES CORPORATION,2014-05-07,internal,J. Brett Harvey,Nicholas J. DeIuliis,2013,2015
+482,2270,,ENSCO PLC,2014-06-01,external,Daniel W. Rabun,Carl G. Trowell,2013,2015
+67,1209,2969.0,AIR PRODUCTS & CHEMICALS INC,2014-07-01,external,John E. McGlade,Seifollah Ghasemi,2013,2015
+3819,11228,1396009.0,VULCAN MATERIALS CO,2014-07-01,internal,Donald M. James,J. Thomas Hill,2013,2015
+1454,4839,37996.0,FORD MOTOR CO,2014-07-01,internal,Alan R. Mulally,Mark Fields,2013,2015
+6368,27845,,ALLERGAN PLC,2014-07-01,external,"Paul M. Bisaro, J.D.","Brenton L. Saunders, J.D.",2013,2015
+434,2154,11199.0,BEMIS CO INC,2014-08-07,internal,Henry J. Theisen,William F. Austen,2013,2015
+1887,6078,51253.0,INTL FLAVORS & FRAGRANCES,2014-09-01,external,"Douglas D. Tough, B.B.A., BBA, M.B.A., MBA",Andreas Fibig,2013,2015
+165,1487,5272.0,AMERICAN INTERNATIONAL GROUP,2014-09-01,internal,Robert Herman Benmosche,Peter D. Hancock,2013,2015
+3722,10920,1090727.0,UNITED PARCEL SERVICE INC,2014-09-01,internal,"D. Scott Davis, C.P.A., CPA",David P. Abney,2013,2015
+1047,3735,313616.0,DANAHER CORP,2014-09-09,internal,"H. Lawrence Culp, Jr.","Thomas P. Joyce, Jr.",2013,2015
+8302,122015,,HUDSON CITY BANCORP INC,2014-09-11,internal,"Ronald E. Hermance, Jr.",Denis J. Salamone,2013,2015
+6124,25340,882184.0,D R HORTON INC,2014-10-01,internal,Donald J. Tomnitz,David V. Auld,2013,2015
+7080,31846,940944.0,DARDEN RESTAURANTS INC,2014-10-14,internal,"Clarence Otis, Jr.","Eugene I. Lee, Jr.",2013,2015
+2589,7912,72207.0,NOBLE ENERGY INC,2014-10-21,internal,Charles D. Davidson,David L. Stover,2013,2015
+1906,6104,51434.0,INTL PAPER CO,2014-10-31,internal,John V. Faraci,Mark S. Sutton,2013,2015
+8289,121718,1043604.0,JUNIPER NETWORKS INC,2014-11-01,internal,Shaygan Kheradpir,Rami Rahim,2013,2015
+837,3121,21076.0,CLOROX CO/DE,2014-11-20,internal,Donald R. Knauss,Benno O. Dorer,2013,2015
+7548,63643,,ABERCROMBIE & FITCH -CL A,2014-12-08,internal,Michael S. Jeffries,Fran Horowitz,2013,2015
+4393,12978,1545158.0,KRAFT FOODS GROUP INC,2014-12-27,external,William Anthony Vernon,John T. Cahill,2013,2015
+4705,14225,815556.0,FASTENAL CO,2014-12-31,internal,Willard D. Oberton,"Leland J. Hein, Jr.",2013,2015
+7847,65417,1041061.0,YUM BRANDS INC,2014-12-31,internal,David C. Novak,Greg Creed,2013,2015
+985,3505,24545.0,MOLSON COORS BREWING CO,2014-12-31,internal,Peter S. Swinburn,Mark Roderick Hunter,2013,2015
+8842,157057,1267238.0,ASSURANT INC,2014-12-31,internal,Robert Brian Pollock,Alan B. Colberg,2013,2015
+7138,60900,,DISH NETWORK CORP,2015-01-01,internal,"Joseph P. Clayton, CPA",Charles William Ergen,2014,2015
+3157,9372,203077.0,ST JUDE MEDICAL INC,2015-01-01,internal,Daniel J. Starks,Michael T. Rousseau,2014,2015
+4324,12726,5513.0,UNUM GROUP,2015-01-01,internal,Thomas Ros Watjen,Richard P. McKenney,2014,2015
+257,1722,7084.0,ARCHER-DANIELS-MIDLAND CO,2015-01-01,internal,Patricia A. Woertz,Juan R. Luciano,2014,2015
+1503,4990,,GAP INC,2015-01-01,internal,"Glenn K. Murphy, B.A., BA",Arthur Peck,2014,2015
+8115,114524,1065088.0,EBAY INC,2015-01-01,internal,"John J. Donahoe, II",Devin N. Wenig,2014,2015
+9057,165993,1136893.0,FIDELITY NATIONAL INFO SVCS,2015-01-01,internal,"Frank R. Martire, Jr.",Gary A. Norcross,2014,2015
+2690,8099,1031296.0,FIRSTENERGY CORP,2015-01-01,internal,Anthony J. Alexander,"Charles E. Jones, Jr.",2014,2015
+3839,11264,1618921.0,WALGREENS BOOTS ALLIANCE INC,2015-01-09,external,Gregory David Wasson,Stefano Pessina,2014,2016
+2269,7116,63276.0,MATTEL INC,2015-01-25,external,Bryan G. Stockton,Christopher A. Sinclair,2014,2016
+2300,7154,63908.0,MCDONALD'S CORP,2015-01-28,internal,Donald Thompson,Stephen J. Easterbrook,2014,2016
+2800,8358,76334.0,PARKER-HANNIFIN CORP,2015-02-01,internal,Donald E. Washkewicz,Thomas L. Williams,2014,2016
+6506,28338,1451505.0,TRANSOCEAN LTD,2015-02-16,external,"Steven Leon Newman, Ph.D.",Jeremy D. Thigpen,2014,2016
+1760,5723,,STARWOOD HOTELS&RESORTS WRLD,2015-02-17,internal,Frits Dirk van Paasschen,Thomas B. Mangas,2014,2016
+8181,118122,1521332.0,APTIV PLC,2015-03-01,internal,Rodney O'Neal,Kevin P. Clark,2014,2016
+8395,126554,1090872.0,AGILENT TECHNOLOGIES INC,2015-03-18,internal,William P. Sullivan,Michael R. McMullen,2014,2016
+4597,13646,98246.0,TIFFANY & CO,2015-03-31,internal,Michael J. Kowalski,Frederic Patrick Cumenal,2014,2016
+7347,62263,899866.0,ALEXION PHARMACEUTICALS INC,2015-04-01,internal,Leonard Bell,David L. Hallal,2014,2016
+8476,135484,20520.0,FRONTIER COMMUNICATIONS CORP,2015-04-03,internal,Mary Agnes Wilderotter,Daniel J. McCarthy,2014,2016
+934,3362,23217.0,CONAGRA BRANDS INC,2015-04-06,external,Gary M. Rodkin,Sean M. Connolly,2014,2016
+8256,121077,1048695.0,F5 NETWORKS INC,2015-04-22,external,John McAdam,Manuel F. Rivelo,2014,2016
+4210,12389,793952.0,HARLEY-DAVIDSON INC,2015-04-30,internal,Keith E. Wandell,Matthew S. Levatich,2014,2016
+538,2403,14272.0,BRISTOL-MYERS SQUIBB CO,2015-05-05,internal,Lamberto Andreotti,"Giovanni Caforio, M.D.",2014,2016
+2600,7923,702165.0,NORFOLK SOUTHERN CORP,2015-06-01,internal,"Charles W. Moorman, IV",James A. Squires,2014,2016
+7288,61591,1002047.0,NETAPP INC,2015-06-01,internal,Thomas Georgens,George Kurian,2014,2016
+2012,6310,1506307.0,KINDER MORGAN INC,2015-06-01,internal,Richard D. Kinder,Steven J. Kean,2014,2016
+1123,4016,29534.0,DOLLAR GENERAL CORP,2015-06-03,internal,Richard W. Dreiling,Todd J. Vasos,2014,2016
+500,2285,12927.0,BOEING CO,2015-06-30,internal,"W. James McNerney, Jr.",Dennis A. Muilenburg,2014,2016
+2614,7974,1111711.0,NISOURCE INC,2015-07-01,internal,"Robert C. Skaggs, Jr.",Joseph J. Hamrock,2014,2016
+4706,14225,815556.0,FASTENAL CO,2015-07-20,external,"Leland J. Hein, Jr.",Willard D. Oberton,2014,2016
+5336,20779,858877.0,CISCO SYSTEMS INC,2015-07-26,internal,John T. Chambers,Charles H. Robbins,2014,2016
+4872,14934,1090012.0,DEVON ENERGY CORP,2015-07-31,internal,John Richels,David A. Hager,2014,2016
+8921,162129,1285785.0,MOSAIC CO,2015-08-05,internal,James T. Prokopanko,James C. O'Rourke,2014,2016
+8679,145701,1126328.0,PRINCIPAL FINANCIAL GRP INC,2015-08-18,internal,Larry Donald Zimpleman,Daniel J. Houston,2014,2016
+2750,8247,79879.0,PPG INDUSTRIES INC,2015-09-01,internal,Charles E. Bunch,Michael H. McGarry,2014,2016
+3668,10795,100517.0,UNITED CONTINENTAL HLDGS INC,2015-09-08,external,Jeffery A. Smisek,Oscar Munoz,2014,2016
+7279,61574,1000697.0,WATERS CORP,2015-09-08,external,Douglas A. Berthiaume,Christopher James O'Connell,2014,2016
+3698,10867,100885.0,UNION PACIFIC CORP,2015-09-30,internal,John J. Koraleski,Lance M. Fritz,2014,2016
+7136,60894,941548.0,CAMERON INTERNATIONAL CORP,2015-10-05,internal,Jack B. Moore,Scott C. Rowe,2014,2016
+7298,61676,877890.0,CITRIX SYSTEMS INC,2015-10-21,external,Mark B. Templeton,Kirill Tatarinov,2014,2016
+2964,8762,80424.0,PROCTER & GAMBLE CO,2015-11-01,internal,Alan George Lafley,David S. Taylor,2014,2016
+1370,4640,35527.0,FIFTH THIRD BANCORP,2015-11-01,internal,Kevin T. Kabat,Gregory D. Carmichael,2014,2016
+7758,64891,1037038.0,RALPH LAUREN CORP,2015-11-02,external,Ralph Lauren,Stefan Larsson,2014,2016
+1715,5606,47217.0,HP INC,2015-11-30,internal,Margaret Cushing Whitman,Dion J. Weisler,2014,2016
+8480,135990,1013871.0,NRG ENERGY INC,2015-12-03,internal,David W. Crane,Mauricio Gutierrez,2014,2016
+2736,8215,812074.0,OWENS-ILLINOIS INC,2015-12-31,internal,"Albert P. L. Stroucken, Ph.D.",Andres A. Lopez,2014,2016
+4123,12138,1113169.0,PRICE (T. ROWE) GROUP,2015-12-31,internal,"James Aloysius-Charles Kennedy, C.F.A., CFA","William J. Stromberg, C.F.A.",2014,2016
+2124,6649,58492.0,LEGGETT & PLATT INC,2015-12-31,internal,David S. Haffner,Karl G. Glassman,2014,2016
+3238,9667,89800.0,SHERWIN-WILLIAMS CO,2015-12-31,internal,Christopher M. Connor,John G. Morikis,2014,2016
+8257,121077,1048695.0,F5 NETWORKS INC,2015-12-31,external,Manuel F. Rivelo,John McAdam,2014,2016
+8104,113490,1051470.0,CROWN CASTLE INTL CORP,2016-01-01,internal,W. Benjamin Moreland,Jay A. Brown,2015,2016
+7975,66446,1050915.0,QUANTA SERVICES INC,2016-01-01,internal,"James Francis O'Neil, III","Earl C. Austin, Jr.",2015,2016
+5908,24731,879101.0,KIMCO REALTY CORP,2016-01-01,internal,David Beard Henry,Conor C. Flynn,2015,2016
+1730,5667,,HOLLYFRONTIER CORP,2016-01-01,internal,Michael C. Jennings,George J. Damiris,2015,2016
+8758,149070,1156375.0,CME GROUP INC,2016-01-01,internal,Phupinder S. Gill,Terrence A. Duffy,2015,2016
+900002,,,FASTENAL CO,2016-01-01,internal,Willard D. Oberton,Daniel L. Florness,2015,2016
+406,2086,10456.0,BAXTER INTERNATIONAL INC,2016-01-01,external,"Robert L. Parkinson, Jr.",Jose E. Almeida,2015,2016
+782,3026,313927.0,CHURCH & DWIGHT INC,2016-01-01,internal,James R. Craigie,Matthew T. Farrell,2015,2016
+8687,145977,1158449.0,ADVANCE AUTO PARTS INC,2016-01-02,external,Darren R. Jackson,Thomas R. Greco,2015,2017
+3320,9904,7332.0,SOUTHWESTERN ENERGY CO,2016-01-06,internal,Steven L. Mueller,William J. Way,2015,2017
+4018,11672,109198.0,TJX COMPANIES INC,2016-01-31,internal,Carol M. Meyrowitz,Ernie L. Herrman,2015,2017
+2286,7146,63754.0,MCCORMICK & CO INC,2016-02-01,internal,Alan D. Wilson,Lawrence E. Kurzius,2015,2017
+4580,13599,816284.0,CELGENE CORP,2016-03-01,internal,"Robert J. Hugin, MBA",Mark J. Alles,2015,2017
+5943,24856,882095.0,GILEAD SCIENCES INC,2016-03-10,internal,"John C. Martin, Ph.D.","John F. Milligan, Ph.D.",2015,2017
+3275,9777,91419.0,SMUCKER (JM) CO,2016-04-01,internal,Richard K. Smucker,Mark T. Smucker,2015,2017
+5920,24782,1585364.0,PERRIGO CO PLC,2016-04-24,internal,Joseph C. Papa,John T. Hendrickson,2015,2017
+8205,119314,1075531.0,BOOKING HOLDINGS INC,2016-04-28,internal,Darren Richard Huston,Glenn D. Fogel,2015,2017
+2673,8068,797468.0,OCCIDENTAL PETROLEUM CORP,2016-04-29,internal,Stephen I. Chazen,Vicki A. Hollub,2015,2017
+311,1913,8818.0,AVERY DENNISON CORP,2016-05-01,internal,Dean A. Scarborough,Mitchell R. Butier,2015,2017
+9531,11550,783325.0,WEC ENERGY GROUP INC,2016-05-01,internal,Gale E. Klappa,Allen Lewis Leverett,2015,2017
+1073,3851,27904.0,DELTA AIR LINES INC,2016-05-02,internal,Richard H. Anderson,Edward H. Bastian,2015,2017
+2609,7970,72741.0,EVERSOURCE ENERGY,2016-05-04,internal,Thomas J. May,James J. Judge,2015,2017
+6129,25356,1532063.0,EXPRESS SCRIPTS HOLDING CO,2016-05-04,internal,George Paz,Timothy C. Wentworth,2015,2017
+9205,178310,816761.0,TERADATA CORP,2016-05-05,external,Michael F. Koehler,Victor Lynn Lund,2015,2017
+192,1598,1037868.0,AMETEK INC,2016-05-05,internal,Frank S. Hermance,David A. Zapico,2015,2017
+107,1327,4127.0,SKYWORKS SOLUTIONS INC,2016-05-11,internal,David J. Aldrich,Liam K. Griffin,2015,2017
+1220,4199,1551182.0,EATON CORP PLC,2016-05-31,internal,Alexander M. Cutler,Craig Arnold,2015,2017
+4973,15521,791519.0,STAPLES INC,2016-06-14,internal,"Ronald L. Sargent, M.B.A.",Shira D. Goodman,2015,2017
+9132,175404,1274494.0,FIRST SOLAR INC,2016-06-30,internal,James A. Hughes,Mark R. Widmar,2015,2017
+960,3439,201533.0,CMS ENERGY CORP,2016-07-01,internal,John G. Russell,Patricia Kessler Poppe,2015,2017
+2023,6335,54480.0,KANSAS CITY SOUTHERN,2016-07-01,internal,David L. Starling,Patrick J. Ottensmeyer,2015,2017
+3084,9203,1024478.0,ROCKWELL AUTOMATION,2016-07-01,internal,Keith D. Nosbusch,Blake D. Moret,2015,2017
+8505,138205,1110803.0,ILLUMINA INC,2016-07-05,internal,Jay T. Flatley,Francis A. deSouza,2015,2017
+3365,10016,93556.0,STANLEY BLACK & DECKER INC,2016-07-31,internal,John F. Lundgren,James M. Loree,2015,2017
+9043,165675,1339947.0,VIACOM INC,2016-08-01,internal,Philippe P. Dauman,Robert M. Bakish,2015,2017
+7707,64410,1170010.0,CARMAX INC,2016-08-31,internal,Thomas Joseph Folliard,William D. Nash,2015,2017
+1609,5256,277135.0,GRAINGER (W W) INC,2016-09-01,internal,James T. Ryan,Donald G. Macpherson,2015,2017
+2994,8823,822416.0,PULTEGROUP INC,2016-09-08,internal,"Richard J. Dugas, Jr.",Ryan R. Marshall,2015,2017
+7527,63501,,E TRADE FINANCIAL CORP,2016-09-12,internal,Paul Thomas Idzik,Karl A. Roessner,2015,2017
+7554,63645,,ENDO INTERNATIONAL PLC,2016-09-23,external,Rajiv Kanishka Liyanaarchchie De Silva,Paul V. Campanelli,2015,2017
+9126,175319,1359841.0,HANESBRANDS INC,2016-10-01,internal,Richard A. Noll,"Gerald W. Evans, Jr.",2015,2017
+1755,5709,48465.0,HORMEL FOODS CORP,2016-10-31,internal,Jeffrey M. Ettinger,James P. Snee,2015,2017
+4778,14477,823768.0,WASTE MANAGEMENT INC,2016-11-11,internal,David P. Steiner,"James C. Fish, Jr.",2015,2017
+4735,14359,1038357.0,PIONEER NATURAL RESOURCES CO,2016-12-01,internal,Scott Douglas Sheffield,Timothy L. Dove,2015,2017
+9272,179534,1403161.0,VISA INC,2016-12-01,external,Charles W. Scharf,"Alfred Francis Kelly, Jr.",2015,2017
+7348,62263,899866.0,ALEXION PHARMACEUTICALS INC,2016-12-12,external,David L. Hallal,"Ludwig N. Hantson, Ph.D.",2015,2017
+1320,4503,34088.0,EXXON MOBIL CORP,2016-12-31,internal,Rex W. Tillerson,Darren W. Woods,2015,2017
+8763,149337,1120193.0,NASDAQ INC,2016-12-31,internal,Robert Greifeld,Adena T. Friedman,2015,2017
+3659,10793,100493.0,TYSON FOODS INC -CL A,2016-12-31,internal,Donnie Smith,Thomas P. Hayes,2015,2017
+8890,160479,1289490.0,EXTRA SPACE STORAGE INC,2016-12-31,external,Spencer F. Kirk,Joseph D. Margolis,2015,2017
+4000,11636,1770450.0,XEROX CORP,2016-12-31,internal,Ursula Maxine Burns,Jeffrey Jacobson,2015,2017
+2140,6730,59478.0,LILLY (ELI) & CO,2016-12-31,internal,John C. Lechleiter,David A. Ricks,2015,2017
+3788,11060,103379.0,VF CORP,2016-12-31,internal,Eric C. Wiseman,Steven E. Rendle,2015,2017
+8255,120877,1275283.0,REYNOLDS AMERICAN INC,2017-01-01,internal,Susan M. Cameron,Debra A. Crew,2016,2017
+698,2817,18230.0,CATERPILLAR INC,2017-01-01,internal,Douglas Ray Oberhelman,"D. James Umpleby, III",2016,2017
+1295,4430,33213.0,EQT CORP,2017-01-01,internal,David L. Porges,Steven T. Schlotterbeck,2016,2017
+1362,4611,794367.0,MACY'S INC,2017-01-01,internal,Terry J. Lundgren,Jeffrey Gennette,2016,2017
+2242,7063,1070750.0,HOST HOTELS & RESORTS INC,2017-01-01,internal,"W. Edward Walter, III",James F. Risoleo,2016,2017
+5820,24468,875045.0,BIOGEN INC,2017-01-06,external,"George A. Scangos, Ph.D.",Michel Vounatsos,2016,2018
+4598,13646,98246.0,TIFFANY & CO,2017-02-05,external,Frederic Patrick Cumenal,Alessandro Bogliolo,2016,2018
+302,1878,769397.0,AUTODESK INC,2017-02-08,internal,Carl Bass,Andrew Anagnost,2016,2018
+2270,7116,63276.0,MATTEL INC,2017-02-08,external,Christopher A. Sinclair,Mary Margaret-Hastings Georgiadis,2016,2018
+1708,5597,47111.0,HERSHEY CO,2017-03-01,internal,John P. Bilbrey,Michele G. Buck,2016,2018
+617,2574,277948.0,CSX CORP,2017-03-06,external,Michael Jon Ward,"E. Hunter Harrison, LL.D.",2016,2018
+102,1300,773840.0,HONEYWELL INTERNATIONAL INC,2017-03-31,internal,David M. Cote,Darius Adamczyk,2016,2018
+1197,4108,30625.0,FLOWSERVE CORP,2017-03-31,external,"Mark A. Blinn, C.F.A.",R. Scott Rowe,2016,2018
+8258,121077,1048695.0,F5 NETWORKS INC,2017-04-01,external,John McAdam,Francois Locoh-Donou,2016,2018
+6146,25434,829224.0,STARBUCKS CORP,2017-04-03,internal,Howard D. Schultz,Kevin R. Johnson,2016,2018
+6466,,,ARCONIC INC,2017-04-17,external,"Klaus-Christian Kleinfeld, Dipl.-Kfm., rer. pol.","Charles P. Blankenship, Jr.",2016,2018
+850,3144,21344.0,COCA-COLA CO,2017-04-30,internal,Muhtar Kent,James R. Quincey,2016,2018
+7759,64891,1037038.0,RALPH LAUREN CORP,2017-05-01,external,Stefan Larsson,Patrice J. Louvet,2016,2018
+2373,7343,723125.0,MICRON TECHNOLOGY INC,2017-05-08,external,Mark M. Dermot Durcan,Sanjay Mehrotra,2016,2018
+166,1487,5272.0,AMERICAN INTERNATIONAL GROUP,2017-05-14,external,Peter D. Hancock,Brian Charles Duperreault,2016,2018
+1455,4839,37996.0,FORD MOTOR CO,2017-05-22,internal,Mark Fields,James Patrick Hackett,2016,2018
+8815,155394,1065696.0,LKQ CORP,2017-05-31,internal,Robert Louis Wagman,Dominick P. Zarcone,2016,2018
+1498,4988,39899.0,TEGNA INC,2017-06-01,internal,Gracia Catherine Martore,David T. Lougee,2016,2018
+1644,5439,45012.0,HALLIBURTON CO,2017-06-01,internal,"David John Lesar, B.Sc., C.P.A., CPA, M.B.A.",Jeffrey A. Miller,2016,2018
+6237,25880,891024.0,PATTERSON COMPANIES INC,2017-06-01,external,Scott P. Anderson,Mark S. Walchirk,2016,2018
+1532,5071,40704.0,GENERAL MILLS INC,2017-06-01,internal,Kendall J. Powell,Jeffrey L. Harmening,2016,2018
+6534,28477,354908.0,FLIR SYSTEMS INC,2017-06-19,external,Andrew C. Teich,James J. Cannon,2016,2018
+1559,5125,40987.0,GENUINE PARTS CO,2017-06-30,internal,Thomas C. Gallagher,Paul D. Donahue,2016,2018
+7299,61676,877890.0,CITRIX SYSTEMS INC,2017-07-07,internal,Kirill Tatarinov,David James Henshall,2016,2018
+4371,12850,804753.0,CERNER CORP,2017-07-09,external,Neal L. Patterson,David Brent Shafer,2016,2018
+8648,144559,1136869.0,ZIMMER BIOMET HOLDINGS INC,2017-07-11,external,David Carr Dvorak,Bryan C. Hanson,2016,2018
+1524,5047,40545.0,GENERAL ELECTRIC CO,2017-07-31,internal,Jeffrey R. Immelt,John L. Flannery,2016,2018
+4970,15520,832988.0,SIGNET JEWELERS LTD,2017-08-01,external,Mark S. Light,Virginia C. Drosos,2016,2018
+8386,126296,1324424.0,EXPEDIA GROUP INC,2017-08-30,internal,Dara Khosrowshahi,Mark D. Okerstrom,2016,2018
+3713,10903,731766.0,UNITEDHEALTH GROUP INC,2017-09-01,internal,Stephen J. Hemsley,David Scott Wichmann,2016,2018
+7059,31587,935703.0,DOLLAR TREE INC,2017-09-18,internal,Bobby L. Sasser,Gary M. Philbin,2016,2018
+1289,4423,33185.0,EQUIFAX INC,2017-09-26,external,Richard F. Smith,Mark W. Begor,2016,2018
+3916,11465,106640.0,WHIRLPOOL CORP,2017-10-01,internal,Jeffrey M. Fettig,Marc R. Bitzer,2016,2018
+8791,150937,1137789.0,SEAGATE TECHNOLOGY PLC,2017-10-01,internal,Stephen J. Luczo,William David Mosley,2016,2018
+4608,13700,818479.0,DENTSPLY SIRONA INC,2017-10-02,external,Jeffrey T. Slovin,"Donald M. Casey, Jr.",2016,2018
+3963,11550,783325.0,WEC ENERGY GROUP INC,2017-10-12,external,Allen Lewis Leverett,Gale E. Klappa,2016,2018
+8611,142953,1103982.0,MONDELEZ INTERNATIONAL INC,2017-11-19,external,Irene B. Rosenfeld,Dirk Van de Put,2016,2018
+9053,165914,1058090.0,CHIPOTLE MEXICAN GRILL INC,2017-11-29,external,M. Steven Ells,Brian R. Niccol,2016,2018
+7139,60900,1001082.0,DISH NETWORK CORP,2017-12-05,internal,Charles William Ergen,W. Erik Carlson,2016,2018
+1397,4699,36270.0,M & T BANK CORP,2017-12-16,internal,Robert G. Wilmers,Rene F. Jones,2016,2018
+618,2574,277948.0,CSX CORP,2017-12-16,external,"E. Hunter Harrison, LL.D.",James M. Foote,2016,2018
+8041,110685,1039101.0,L3 TECHNOLOGIES INC,2017-12-31,internal,Michael T. Strianese,"Christopher E. Kubasik, CPA",2016,2018
+3175,9445,754737.0,SCANA CORP,2017-12-31,internal,Kevin B. Marsh,Jimmy E. Addison,2016,2018
+3202,9555,1012100.0,SEALED AIR CORP,2017-12-31,external,Jerome A. Peribere,"Edward L. Doheny, II",2016,2018
+767,2991,93410.0,CHEVRON CORP,2018-01-01,internal,John S. Watson,Michael K. Wirth,2017,2018
+2629,7982,73124.0,NORTHERN TRUST CORP,2018-01-01,internal,Frederick H. Waddell,Michael G. O'Grady,2017,2018
+3464,10247,96021.0,SYSCO CORP,2018-01-01,internal,"William J. DeLaney, III",Thomas L. Bené,2017,2018
+660,2751,721371.0,CARDINAL HEALTH INC,2018-01-01,internal,George S. Barrett,Michael C. Kaufmann,2017,2018
+5921,24782,1585364.0,PERRIGO CO PLC,2018-01-15,external,John T. Hendrickson,Uwe F. Roehrhoff,2017,2019
+8517,138743,1101239.0,EQUINIX INC,2018-01-19,internal,Stephen M. Smith,Charles J. Meyers,2017,2019
+5487,22325,743988.0,XILINX INC,2018-01-28,internal,Moshe N. Gavrielov,Victor Peng,2017,2019
+6308,26156,1645590.0,HEWLETT PACKARD ENTERPRISE,2018-02-01,internal,Margaret Cushing Whitman,Antonio F. Neri,2017,2019
+146,1447,4962.0,AMERICAN EXPRESS CO,2018-02-01,internal,Kenneth I. Chenault,Stephen Joseph Squeri,2017,2019
+8761,149318,1174922.0,WYNN RESORTS LTD,2018-02-06,internal,Stephen A. Wynn,Matthew Ode Maddox,2017,2019
+1186,4094,,DUN & BRADSTREET CORP,2018-02-12,external,Robert P. Carrigan,Thomas J. Manning,2017,2019
+1296,4430,33213.0,EQT CORP,2018-03-15,internal,Steven T. Schlotterbeck,Robert J. McNally,2017,2019
+8731,148349,1260221.0,TRANSDIGM GROUP INC,2018-04-01,internal,Walter Nicholas Howley,Kevin M. Stein,2017,2019
+479,2269,12659.0,BLOCK H & R INC,2018-04-09,external,William C. Cobb,"Jeffrey J. Jones, II",2017,2019
+2132,6669,920760.0,LENNAR CORP,2018-04-12,internal,Stuart A. Miller,Richard Beckwitt,2017,2019
+2271,7116,63276.0,MATTEL INC,2018-04-26,external,Mary Margaret-Hastings Georgiadis,Ynon Kreiz,2017,2019
+2834,8463,77360.0,PENTAIR PLC,2018-04-30,internal,"Randall J. Hogan, III",John L. Stauch,2017,2019
+980,3504,711404.0,COOPER COMPANIES INC,2018-04-30,internal,Robert S. Weiss,"Albert G. White, III",2017,2019
+1140,4058,29905.0,DOVER CORP,2018-04-30,external,Robert A. Livingston,Richard J. Tobin,2017,2019
+2768,8272,1032208.0,SEMPRA ENERGY,2018-05-01,internal,Debra Lynn Reed-Klages,Jeffrey W. Martin,2017,2019
+6461,28180,898173.0,O'REILLY AUTOMOTIVE INC,2018-05-07,internal,Gregory L. Henslee,Gregory D. Johnson,2017,2019
+4001,11636,1770450.0,XEROX CORP,2018-05-14,external,Jeffrey Jacobson,Giovanni G. Visentin,2017,2019
+6102,25283,885639.0,KOHL'S CORP,2018-05-16,internal,Kevin Mansell,Michelle D. Gass,2017,2019
+2875,8543,764180.0,ALTRIA GROUP INC,2018-05-17,internal,Martin J. Barrington,"Howard A. Willard, III",2017,2019
+650,2663,16732.0,CAMPBELL SOUP CO,2018-05-18,external,Denise Mullen Morrison,Mark A. Clouse,2017,2019
+7922,65886,,AFFILIATED MANAGERS GRP INC,2018-05-29,internal,Sean Michael Healey,Nathaniel Dalton,2017,2019
+2400,7435,66740.0,3M CO,2018-06-01,internal,"Inge G. Thulin, M.B.A.",Michael F. Roman,2017,2019
+3562,10499,97476.0,TEXAS INSTRUMENTS INC,2018-06-01,internal,Richard K. Templeton,Brian T. Crutcher,2017,2019
+1857,6008,50863.0,INTEL CORP,2018-06-21,internal,Brian Matthew Krzanich,Robert Holmes Swan,2017,2019
+1380,4674,1281761.0,REGIONS FINANCIAL CORP,2018-07-02,internal,"O. B. Grayson Hall, Jr.","John M. Turner, Jr.",2017,2019
+2195,6829,60667.0,LOWE'S COMPANIES INC,2018-07-02,external,Robert Alan Niblock,Marvin R. Ellison,2017,2019
+3563,10499,97476.0,TEXAS INSTRUMENTS INC,2018-07-17,internal,Brian T. Crutcher,Richard K. Templeton,2017,2019
+420,2136,732712.0,VERIZON COMMUNICATIONS INC,2018-08-01,internal,Lowell C. McAdam,Hans E. Vestberg,2017,2019
+6589,28742,908255.0,BORGWARNER INC,2018-08-01,internal,James R. Verrier,Frederic B. Lissalde,2017,2019
+9962,9771,91142.0,SMITH (A.O.),2018-09-01,internal,Ajita G. Rajendra,Kevin J. Wheeler,2017,2019
+5971,24925,882835.0,ROPER TECHNOLOGIES INC,2018-09-01,internal,Brian D. Jellison,L. Neil Hunn,2017,2019
+3660,10793,100493.0,TYSON FOODS INC -CL A,2018-09-30,internal,Thomas P. Hayes,Noel White,2017,2019
+9177,177376,,DISCOVER FINANCIAL SVCS,2018-10-01,internal,David W. Nelms,Roger C. Hochschild,2017,2019
+8120,114628,886982.0,GOLDMAN SACHS GROUP INC,2018-10-01,internal,Lloyd C. Blankfein,David M. Solomon,2017,2019
+1525,5047,40545.0,GENERAL ELECTRIC CO,2018-10-01,external,John L. Flannery,"H. Lawrence Culp, Jr.",2017,2019
+2847,8479,77476.0,PEPSICO INC,2018-10-03,internal,"Indra K. Nooyi, M.P.P.M.",Ramon L. Laguarta,2017,2019
+9534,24782,1585364.0,PERRIGO CO PLC,2018-10-08,external,Uwe F. Rehrhoff,Murray S. Kessler,2017,2019
+6959,30822,726728.0,REALTY INCOME CORP,2018-10-16,internal,John P. Case,Sumit Roy,2017,2019
+4142,12151,1024305.0,COTY INC,2018-11-12,external,Camillo Pane,Pierre Laubies,2017,2019
+8615,143356,1137774.0,PRUDENTIAL FINANCIAL INC,2018-12-01,internal,"John Robert Strangfeld, Jr.",Charles F. Lowrey,2017,2019
+6819,29868,912242.0,MACERICH CO,2018-12-01,internal,"Arthur M. Coppola, CPA",Thomas E. O'Hern,2017,2019
+8010,100873,,NIELSEN HOLDINGS PLC,2018-12-03,external,Dwight Mitchell Barns,David Kenny,2017,2019
+2103,6565,707549.0,LAM RESEARCH CORP,2018-12-05,internal,Martin B. Anstice,Timothy M. Archer,2017,2019
+544,2435,14693.0,BROWN FORMAN CORP,2018-12-31,internal,Paul C. Varga,Lawson E. Whiting,2017,2019
+3371,10035,93751.0,STATE STREET CORP,2018-12-31,internal,"Joseph L. Hooley, Esq.",Ronald P. O'Hanley,2017,2019
+5944,24856,882095.0,GILEAD SCIENCES INC,2018-12-31,external,"John F. Milligan, Ph.D.",Daniel P. O'Day,2017,2019
+2633,7985,1133421.0,NORTHROP GRUMMAN CORP,2018-12-31,internal,Wesley G. Bush,Kathy J. Warden,2017,2019
+5482,22260,860730.0,HCA HEALTHCARE INC,2018-12-31,internal,R. Milton Johnson,Samuel N. Hazen,2017,2019
+6585,28733,906107.0,EQUITY RESIDENTIAL,2018-12-31,internal,David J. Neithercut,Mark J. Parrell,2017,2019
+2860,8530,78003.0,PFIZER INC,2019-01-01,internal,Ian C. Read,Albert Bourla,2018,2019
+3906,11456,106535.0,WEYERHAEUSER CO,2019-01-01,internal,Doyle R. Simons,Devin W. Stockfish,2018,2019
+2068,6435,55785.0,KIMBERLY-CLARK CORP,2019-01-01,internal,Thomas J. Falk,Michael D. Hsu,2018,2019
+3393,10096,1393311.0,PUBLIC STORAGE,2019-01-01,internal,"Ronald L. Havner, Jr.","Joseph D. Russell, Jr.",2018,2019
+6396,27928,896878.0,INTUIT INC,2019-01-01,internal,Brad D. Smith,Sasan K. Goodarzi,2018,2019
+9163,176928,1383312.0,BROADRIDGE FINANCIAL SOLUTNS,2019-01-02,internal,Richard J. Daly,Timothy C. Gokey,2018,2020
+8619,143357,1467373.0,ACCENTURE PLC,2019-01-10,internal,Pierre Nanterme,Julie Sweet,2018,2020
+2762,8264,1004980.0,PG&E CORP,2019-01-14,external,Geisha Jimenez Williams,William Dean Johnson,2018,2020
+3964,11550,783325.0,WEC ENERGY GROUP INC,2019-02-01,internal,Gale E. Klappa,Joseph Kevin Fletcher,2018,2020
+6468,28192,,HOWMET AEROSPACE INC,2019-02-06,external,"Charles P. Blankenship, Jr.",John C. Plant,2018,2020
+4736,14359,1038357.0,PIONEER NATURAL RESOURCES CO,2019-02-22,external,Timothy L. Dove,Scott D. Sheffield,2018,2020
+654,2710,16918.0,CONSTELLATION BRANDS -CL A,2019-03-01,internal,"Robert S. Sands, II",William A. Newlands,2018,2020
+8067,111864,1058290.0,COGNIZANT TECH SOLUTIONS,2019-03-31,external,Francisco D'Souza,Brian Humphries,2018,2020
+2311,7171,927653.0,MCKESSON CORP,2019-03-31,internal,John H. Hammergren,Brian S. Tyler,2018,2020
+7240,61483,927066.0,DAVITA INC,2019-04-29,internal,Kent J. Thiry,Javier J. Rodriguez,2018,2020
+861,3170,21665.0,COLGATE-PALMOLIVE CO,2019-04-29,internal,Ian M. Cook,Noel R. Wallace,2018,2020
+8463,133768,1099219.0,METLIFE INC,2019-04-30,internal,Steven Albert Kandarian,Michel A. Khalaf,2018,2020
+1445,4818,1124198.0,FLUOR CORP,2019-05-01,internal,David Thomas Seaton,Carlos M. Hernandez,2018,2020
+8927,162254,1306830.0,CELANESE CORP,2019-05-01,external,Mark C. Rohr,Lori J. Ryerkerk,2018,2020
+7882,65609,1043277.0,C H ROBINSON WORLDWIDE INC,2019-05-07,internal,John P. Wiehoff,"Robert C. Biesterfeld, Jr.",2018,2020
+6121,25338,,BED BATH & BEYOND INC,2019-05-13,external,Steven H. Temares,Mark J. Tritton,2018,2020
+7923,65886,,AFFILIATED MANAGERS GRP INC,2019-05-29,internal,Nathaniel Dalton,Jay C. Horgen,2018,2020
+8628,143974,,ALLIANCE DATA SYSTEMS CORP,2019-06-05,internal,Edward J. Heffernan,Melisa A. Miller,2018,2020
+444,2184,764478.0,BEST BUY CO INC,2019-06-11,internal,Hubert Joly,Corie S. Barry,2018,2020
+1691,5568,1637459.0,KRAFT HEINZ CO,2019-06-25,external,Bernardo Vieira Hees,Miguel Patricio,2018,2020
+2570,7875,814453.0,NEWELL BRANDS INC,2019-06-28,external,Michael B. Polk,Ravichandra K. Saligram,2018,2020
+2754,8253,75362.0,PACCAR INC,2019-06-30,internal,"Ronald E. Armstrong, CPA",R. Preston Feight,2018,2020
+7155,60979,943452.0,WABTEC CORP,2019-07-01,external,Raymond T. Betler,Rafael O. Santana,2018,2020
+1083,3897,936340.0,DTE ENERGY CO,2019-07-01,internal,Gerard M. Anderson,Gerardo Norcia,2018,2020
+1298,4430,,EQT CORP,2019-07-10,external,Robert J. McNally,Toby Z. Rice,2018,2020
+7528,63501,,E TRADE FINANCIAL CORP,2019-08-14,internal,Karl A. Roessner,Michael A. Pizzi,2018,2020
+8539,140541,1116132.0,TAPESTRY INC,2019-09-03,external,Victor Luis,Jide J. Zeitlin,2018,2020
+921,3336,1688568.0,DXC TECHNOLOGY COMPANY,2019-09-12,external,John Michael Lawrie,Michael J. Salvino,2018,2020
+8116,114524,1065088.0,EBAY INC,2019-09-24,external,Devin N. Wenig,Jamie Iannone,2018,2020
+986,3505,24545.0,MOLSON COORS BREWING CO,2019-09-27,internal,Mark Roderick Hunter,Gavin D. K. Hattersley,2018,2020
+1278,4383,731802.0,ATMOS ENERGY CORP,2019-09-30,internal,Michael E. Haefner,John Kevin Akers,2018,2020
+2576,7881,1164727.0,NEWMONT MINING CORP,2019-10-01,internal,"Gary J. Goldberg, B.S., M.B.A.",Thomas R. Palmer,2018,2020
+4881,14960,920148.0,LABORATORY CP OF AMER HLDGS,2019-10-31,external,"David P. King, J.D.",Adam H. Schechter,2018,2020
+2301,7154,63908.0,MCDONALD'S CORP,2019-11-01,internal,Stephen J. Easterbrook,Christopher J. Kempczinski,2018,2020
+5719,24197,874716.0,IDEXX LABS INC,2019-11-01,internal,Jonathan W. Ayers,Jonathan J. Mazelsky,2018,2020
+1716,5606,47217.0,HP INC,2019-11-01,internal,Dion J. Weisler,Enrique J. Lores,2018,2020
+1068,3835,315189.0,DEERE & CO,2019-11-04,internal,Samuel R. Allen,"John C. May, II",2018,2020
+1504,4990,,GAP INC,2019-11-07,internal,Arthur Peck,Sonia Syngal,2018,2020
+8629,143974,,ALLIANCE DATA SYSTEMS CORP,2019-11-18,external,Melisa A. Miller,Ralph J. Andretta,2018,2020
+8883,160329,1652044.0,ALPHABET INC,2019-12-03,internal,Lawrence Edward Page,Sundar Pichai,2018,2020
+8387,126296,1324424.0,EXPEDIA GROUP INC,2019-12-04,external,Mark D. Okerstrom,Peter M. Kern,2018,2020
+511,2312,315213.0,ROBERT HALF INTL INC,2019-12-15,internal,"Harold Max Messmer, Jr.",M. Keith Waddell,2018,2020
+501,2285,12927.0,BOEING CO,2019-12-23,external,Dennis A. Muilenburg,David L. Calhoun,2018,2020
+881,3231,,COMERICA INC,2019-12-31,internal,"Ralph W. Babb, Jr.",Curtis Chatman Farmer,2018,2020
+2659,8030,73309.0,NUCOR CORP,2019-12-31,internal,John J. Ferriola,Leon J. Topalian,2018,2020
+4623,13721,1555280.0,ZOETIS INC,2019-12-31,internal,Juan Ramn Alaix,Kristin C. Peck,2018,2020
+7848,65417,1041061.0,YUM BRANDS INC,2019-12-31,internal,Greg Creed,David W. Gibbs,2018,2020
+1731,5667,48039.0,HOLLYFRONTIER CORP,2019-12-31,external,George J. Damiris,Michael C. Jennings,2018,2020
+1882,6066,51143.0,INTL BUSINESS MACHINES CORP,2020-01-01,internal,Virginia M. Rometty,Arvind Krishna,2019,2020
+6660,29099,910606.0,REGENCY CENTERS CORP,2020-01-01,internal,"Martin E. Stein, Jr.",Lisa Palmer,2019,2020
+9029,165052,1336917.0,UNDER ARMOUR INC,2020-01-01,internal,Kevin A. Plank,Patrik Frisk,2019,2020
+6801,29736,916365.0,TRACTOR SUPPLY CO,2020-01-12,external,Gregory A. Sandfort,"Harry A. Lawton, III",2019,2021
+2587,7906,320187.0,NIKE INC -CL B,2020-01-13,external,Mark G. Parker,"John J. Donahoe, II",2019,2021
+414,2111,10795.0,BECTON DICKINSON & CO,2020-01-28,internal,Vincent A. Forlenza,Thomas E. Polen,2019,2021
+3465,10247,96021.0,SYSCO CORP,2020-01-31,external,Thomas L. Ben,Kevin P. Hourican,2019,2021
+4211,12389,793952.0,HARLEY-DAVIDSON INC,2020-02-01,external,Matthew S. Levatich,Jochen Zeitz,2019,2021
+1473,4885,38777.0,FRANKLIN RESOURCES INC,2020-02-11,internal,"Gregory Eugene Johnson, CPA, CPA",Jennifer M. Johnson,2019,2021
+1148,4060,1666700.0,DUPONT DE NEMOURS INC,2020-02-18,internal,Marc C. Doyle,Edward D. Breen,2019,2021
+1772,5742,1130310.0,CENTERPOINT ENERGY INC,2020-02-19,external,Scott M. Prochazka,David J. Lesar,2019,2021
+1118,3980,1744489.0,DISNEY (WALT) CO,2020-02-26,internal,Robert A. Iger,Robert A. Chapek,2019,2021
+9416,186989,1510295.0,MARATHON PETROLEUM CORP,2020-03-01,external,Gary R. Heminger,Michael J. Hennigan,2019,2021
+3890,11399,106040.0,WESTERN DIGITAL CORP,2020-03-06,external,Stephen D. Milligan,David V. Goeckeler,2019,2021
+4760,14418,789570.0,MGM RESORTS INTERNATIONAL,2020-03-22,internal,James Joseph Murren,William J. Hornbuckle,2019,2021
+5765,24344,875320.0,VERTEX PHARMACEUTICALS INC,2020-03-31,internal,"Jeffrey Marc Leiden, M.D., Ph.D.","Reshma Kewalramani, M.D.",2019,2021
+32,1078,1800.0,ABBOTT LABORATORIES,2020-03-31,internal,"Miles D. White, M.B.A.",Robert B. Ford,2019,2021
+5185,17874,1283699.0,T-MOBILE US INC,2020-04-01,internal,John J. Legere,G. Michael Sievert,2019,2021
+9266,179437,1410636.0,AMERICAN WATER WORKS CO INC,2020-04-01,internal,Susan N. Story,Walter J. Lynch,2019,2021
+2876,8543,764180.0,ALTRIA GROUP INC,2020-04-14,internal,"Howard A. Willard, III, BA (Hons), MBA","William F. Gifford, Jr.",2019,2021
+6804,29751,915913.0,ALBEMARLE CORP,2020-04-20,external,"Luther C. Kissam, IV","J. Kent Masters, Jr.",2019,2021
+2325,7228,1613103.0,MEDTRONIC PLC,2020-04-26,internal,S. Omar Ishrak,Geoffrey S. Martha,2019,2021
+3285,9783,91576.0,KEYCORP,2020-05-01,internal,Beth E. Mooney,Christopher M. Gorman,2019,2021
+3670,10795,100517.0,UNITED CONTINENTAL HLDGS INC,2020-05-20,internal,Oscar Munoz,J. Scott Kirby,2019,2021
+2830,8455,922224.0,PPL CORP,2020-05-31,internal,William H. Spence,Vincent Sorgi,2019,2021
+1324,4510,37785.0,FMC CORP,2020-05-31,internal,Pierre R. Brondeau,Mark A. Douglas,2019,2021
+3723,10920,1090727.0,UNITED PARCEL SERVICE INC,2020-06-01,external,David P. Abney,Carol B. Tome,2019,2021
+2165,6774,936468.0,LOCKHEED MARTIN CORP,2020-06-15,external,Marillyn A. Hewson,"James D. Taiclet, Jr.",2019,2021
+3317,9899,732717.0,AT&T INC,2020-06-30,internal,Randall L. Stephenson,John T. Stankey,2019,2021
+4307,12635,798354.0,FISERV INC,2020-07-01,external,"Jeffery W. Yabuki, B.S., CPA",Frank J. Bisignano,2019,2021
+8540,140541,1116132.0,TAPESTRY INC,2020-07-20,internal,Jide J. Zeitlin,Joanne C. Crevoiserat,2019,2021
+7060,31587,935703.0,DOLLAR TREE INC,2020-07-20,internal,Gary M. Philbin,Michael A. Witynski,2019,2021
+838,3121,21076.0,CLOROX CO/DE,2020-08-03,internal,Benno O. Dorer,Linda Rendle,2019,2021
+9127,175319,1359841.0,HANESBRANDS INC,2020-08-03,external,"Gerald W. Evans, Jr.",Stephen B. Bratspies,2019,2021
+4144,12151,1024305.0,COTY INC,2020-09-01,external,Peter Harf,Sue Y. Nabi,2019,2021
+1048,3735,313616.0,DANAHER CORP,2020-09-01,internal,"Thomas P. Joyce, Jr.",Rainer M. Blair,2019,2021
+10105,61574,1000697.0,WATERS CORP,2020-09-01,external,Christopher James O'Connell,"Udit Batra, Ph.D.",2019,2021
+1126,4029,715957.0,DOMINION ENERGY INC,2020-10-01,internal,"Thomas F. Farrell, II",Robert M. Blue,2019,2021
+1457,4839,37996.0,FORD MOTOR CO,2020-10-01,internal,James Patrick Hackett,"James D. Farley, Jr.",2019,2021
+3661,10793,100493.0,TYSON FOODS INC  -CL A,2020-10-03,external,Noel White,"Samuel Dean Banks, Jr.",2019,2021
+1684,5543,766704.0,WELLTOWER INC,2020-10-05,internal,Thomas J. DeRosa,Shankh S. Mitra,2019,2021
+2691,8099,1031296.0,FIRSTENERGY CORP,2020-10-29,internal,"Charles E. Jones, Jr.",Steven E. Strah,2019,2021
+961,3439,201533.0,CMS ENERGY CORP,2020-12-01,internal,Patricia Kessler Poppe,Garrick J. Rochow,2019,2021
+4923,15267,832101.0,IDEX CORP,2020-12-15,internal,Andrew K. Silvernail,Eric D. Ashleman,2019,2021
+8528,139665,1059556.0,MOODY'S CORP,2020-12-31,internal,"Raymond W. McDaniel, Jr.",Robert S. Fauber,2019,2021
+1927,6136,,INTERPUBLIC GROUP OF COS,2021-01-01,internal,Michael Isor Roth,Philippe Krakowsky,2020,2021
+1232,4213,31462.0,ECOLAB INC,2021-01-01,internal,"Douglas M. Baker, Jr.",Christophe Beck,2020,2021
+9981,11032,352915.0,UNIVERSAL HEALTH SVCS INC,2021-01-01,internal,Alan B. Miller,Marc D. Miller,2020,2021
+8878,160225,1141391.0,MASTERCARD INC,2021-01-01,internal,Ajaypal S. Banga,Michael Miebach,2020,2021
+8916,161844,1300514.0,LAS VEGAS SANDS CORP,2021-01-11,internal,Sheldon Gary Adelson,Robert G. Goldstein,2020,2022
+9931,7241,64803.0,CVS HEALTH CORP,2021-01-31,internal,Larry J. Merlo,Karen S. Lynch,2020,2022
+2884,8551,78239.0,PVH CORP,2021-02-01,internal,Emanuel Chirico,Stefan Larsson,2020,2022
+3714,10903,731766.0,UNITEDHEALTH GROUP INC,2021-02-04,internal,David Scott Wichmann,Sir Andrew Witty,2020,2022
+1262,4321,32604.0,EMERSON ELECTRIC CO,2021-02-05,internal,David N. Farr,Surendralal Karsanbhai,2020,2022
+1858,6008,50863.0,INTEL CORP,2021-02-15,external,Robert Holmes Swan,Patrick P. Gelsinger,2020,2022
+6630,28930,1048286.0,MARRIOTT INTL INC,2021-02-16,internal,Arne M. Sorenson,Anthony G. Capuano,2020,2022
+890,3243,831001.0,CITIGROUP INC,2021-02-26,internal,Michael L. Corbat,Jane Fraser,2020,2022
+167,1487,5272.0,AMERICAN INTERNATIONAL GROUP,2021-03-01,internal,Brian Charles Duperreault,Peter S. Zaffino,2020,2022
+3840,11264,1618921.0,WALGREENS BOOTS ALLIANCE INC,2021-03-01,external,Stefano Pessina,Rosalind G. Brewer,2020,2022
+6412,27965,827054.0,MICROCHIP TECHNOLOGY INC,2021-03-01,internal,Stephen Sanghi,Ganesh Moorthy,2020,2022
+74,1230,766421.0,ALASKA AIR GROUP INC,2021-03-31,internal,Bradley D. Tilden,Benito Minicucci,2020,2022
+7913,65772,1037646.0,METTLER-TOLEDO INTL INC,2021-04-01,external,Olivier A. Filliol,Patrick K. Kaltenbach,2020,2022
+5331,20686,1601712.0,SYNCHRONY FINANCIAL,2021-04-01,internal,Margaret M. Keane,Brian D. Doubles,2020,2022
+10156,175955,1111928.0,IPG PHOTONICS CORP,2021-05-04,internal,"Valentin P. Gapontsev, Ph.D.","Eugene Scherbakov, Ph.D.",2020,2022
+2610,7970,72741.0,EVERSOURCE ENERGY,2021-05-05,internal,James J. Judge,"Joseph R. Nolan, Jr.",2020,2022
+9281,179621,1413329.0,PHILIP MORRIS INTERNATIONAL,2021-05-05,internal,Andre Calantzopoulos,Jacek Olczak,2020,2022
+802,3062,723254.0,CINTAS CORP,2021-05-31,internal,Scott D. Farmer,Todd M. Schneider,2020,2022
+9224,178704,1403568.0,ULTA BEAUTY INC,2021-06-02,internal,Mary N. Dillon,David C. Kimbell,2020,2022
+3662,10793,100493.0,TYSON FOODS INC  -CL A,2021-06-02,internal,"Samuel Dean Banks, Jr.",Donnie D. King,2020,2022
+8079,112168,1060391.0,REPUBLIC SERVICES INC,2021-06-25,internal,Donald W. Slager,Jon Vander Ark,2020,2022
+2710,8151,1039684.0,ONEOK INC,2021-06-28,external,Terry K. Spencer,"Pierce H. Norton, II",2020,2022
+2346,7257,310158.0,MERCK & CO,2021-06-30,internal,Kenneth C. Frazier,Robert M. Davis,2020,2022
+1827,5959,1466258.0,TRANE TECHNOLOGIES PLC,2021-07-01,internal,Michael W. Lamach,David S. Regnery,2020,2022
+10114,64768,1018724.0,AMAZON.COM INC,2021-07-05,internal,Jeffrey P. Bezos,Andrew R. Jassy,2020,2022
+6108,25313,1757898.0,STERIS PLC,2021-07-29,internal,"Walter M. Rosebrough, Jr.",Daniel A. Carestio,2020,2022
+2619,7977,72903.0,XCEL ENERGY INC,2021-08-18,internal,"Benjamin Gwynn Stonestreet Fowke, III",Robert C. Frenzel,2020,2022
+4373,12850,,CERNER CORP,2021-08-19,external,David Brent Shafer,"David T. Feinberg, M.D.",2020,2022
+5026,16478,821189.0,EOG RESOURCES INC,2021-10-01,internal,William R. Thomas,Ezra Y. Yacob,2020,2022
+1675,5518,46080.0,HASBRO INC,2021-10-10,internal,Brian D. Goldner,Christian P. Cocks,2020,2022
+8402,126721,1094285.0,TELEDYNE TECHNOLOGIES INC,2021-10-15,internal,Aldo Pichelli,"Robert Mehrabian, Ph.D.",2020,2022
+10358,35168,1755672.0,CORTEVA INC,2021-11-01,external,"James C. Collins, Jr.",Charles V. Magro,2020,2022
+2965,8762,80424.0,PROCTER & GAMBLE CO,2021-11-01,internal,David S. Taylor,Jon R. Moeller,2020,2022
+5236,18872,,TWITTER INC,2021-11-29,internal,Jack Dorsey,Parag Agrawal,2020,2022
+9122,175263,1365135.0,WESTERN UNION CO,2021-12-01,external,Hikmet Ersek,Devin B. McGranahan,2020,2022
+4537,13421,813672.0,CADENCE DESIGN SYSTEMS INC,2021-12-15,internal,Lip-Bu Tan,"Anirudh Devgan, Ph.D.",2020,2022
+2125,6649,,LEGGETT & PLATT INC,2021-12-31,internal,Karl G. Glassman,J. Mitchell Dolloff,2020,2022
+4124,12138,1113169.0,PRICE (T. ROWE) GROUP,2021-12-31,internal,"William J. Stromberg, C.F.A.",Robert W. Sharps,2020,2022
+8843,157057,1267238.0,ASSURANT INC,2021-12-31,internal,Alan B. Colberg,Keith W. Demmings,2020,2022
+4722,14275,,FIRST REPUBLIC BANK,2022-01-01,internal,"James H. Herbert, II",Michael J. Roffler,2021,2022
+3694,10860,1002910.0,AMEREN CORP,2022-01-01,internal,"Warner L. Baxter, CPA, CPA","Martin J. Lyons, Jr.",2021,2022
+1978,6266,200406.0,JOHNSON & JOHNSON,2022-01-02,internal,Alex Gorsky,Joaquin Duato,2021,2023
+6464,28191,884887.0,ROYAL CARIBBEAN CRUISES LTD,2022-01-03,internal,Richard D. Fain,Jason T. Liberty,2021,2023
+6824,29875,915912.0,AVALONBAY COMMUNITIES INC,2022-01-03,external,Timothy J. Naughton,Benjamin W. Schall,2021,2023
+8762,149318,1174922.0,WYNN RESORTS LTD,2022-01-31,internal,Matthew Ode Maddox,Craig S. Billings,2021,2023
+3312,9882,92380.0,SOUTHWEST AIRLINES,2022-02-01,internal,Gary C. Kelly,Robert E. Jordan,2021,2023
+3965,11550,783325.0,WEC ENERGY GROUP INC,2022-02-01,internal,Joseph Kevin Fletcher,Scott J. Lauber,2021,2023
+10167,179437,1410636.0,AMERICAN WATER WORKS CO INC,2022-02-02,internal,Walter J. Lynch,M. Susan Hardwick,2021,2023
+2615,7974,1111711.0,NISOURCE INC,2022-02-14,external,Joseph J. Hamrock,Lloyd M. Yates,2021,2023
+1888,6078,51253.0,INTL FLAVORS & FRAGRANCES,2022-02-14,external,Andreas Fibig,Frank Clyburn,2021,2023
+6046,25124,1707925.0,LINDE PLC,2022-03-01,internal,Stephen F. Angel,Sanjiv Lamba,2021,2023
+1740,5680,354950.0,HOME DEPOT INC,2022-03-01,internal,Craig A. Menear,Edward P. Decker,2021,2023
+1327,4517,753308.0,NEXTERA ENERGY INC,2022-03-01,internal,James L. Robo,John W. Ketchum,2021,2023
+16,1045,6201.0,AMERICAN AIRLINES GROUP INC,2022-03-31,internal,William Douglas Parker,"Robert D. Isom, Jr.",2021,2023
+10061,25434,829224.0,STARBUCKS CORP,2022-04-04,external,Kevin R. Johnson,Laxman Narasimhan,2021,2023
+8677,145552,1071739.0,CENTENE CORP,2022-04-07,internal,Michael Frederic Neidorff,Sarah M. London,2021,2023
+4610,13700,818479.0,DENTSPLY SIRONA INC,2022-04-19,external,"Donald M. Casey, Jr.",Simon D. Campion,2021,2023
+5303,20232,1601046.0,KEYSIGHT TECHNOLOGIES INC,2022-04-30,internal,Ronald S. Nersesian,Satish C. Dhanasekaran,2021,2023
+2601,7923,702165.0,NORFOLK SOUTHERN CORP,2022-05-01,internal,James A. Squires,Alan H. Shaw,2021,2023
+4239,12459,906163.0,NVR INC,2022-05-05,internal,Paul C. Saville,Eugene J. Bredow,2021,2023
+9324,180652,1442145.0,VERISK ANALYTICS INC,2022-05-18,internal,Scott G. Stephenson,Lee M. Shavel,2021,2023
+2150,6742,59558.0,LINCOLN NATIONAL CORP,2022-05-27,internal,Dennis Robert Glass,Ellen G. Cooper,2021,2023
+7081,31846,940944.0,DARDEN RESTAURANTS INC,2022-05-29,internal,"Eugene I. Lee, Jr.",Ricardo Cardenas,2021,2023
+10067,26061,891103.0,MATCH GROUP INC,2022-05-31,external,Sharmistha Dubey,Bernard Kim,2021,2023
+1336,4598,1048911.0,FEDEX CORP,2022-06-01,internal,Frederick W. Smith,Rajesh Subramaniam,2021,2023
+10152,165052,1336917.0,UNDER ARMOUR INC,2022-06-01,external,Patrik Frisk,Stephanie Linnartz,2021,2023
+3366,10016,93556.0,STANLEY BLACK & DECKER INC,2022-07-01,internal,James M. Loree,"Donald Allan, Jr.",2021,2023
+5302,20228,,CATALENT INC,2022-07-01,internal,John R. Chiminski,Alessandro Maselli,2021,2023
+10375,170841,1534701.0,PHILLIPS 66,2022-07-01,internal,Greg C. Garland,Mark E. Lashier,2021,2023
+1371,4640,35527.0,FIFTH THIRD BANCORP,2022-07-05,internal,Gregory D. Carmichael,Timothy N. Spence,2021,2023
+10316,28877,1418135.0,KEURIG DR PEPPER INC,2022-07-29,internal,Robert J. Gamgort,Ozan Dokmecioglu,2021,2023
+1027,3650,26172.0,CUMMINS INC,2022-08-01,internal,Norman Thomas Linebarger,Jennifer W. Rumsey,2021,2023
+661,2751,721371.0,CARDINAL HEALTH INC,2022-09-01,internal,Michael C. Kaufmann,Jason M. Hollar,2021,2023
+9584,8402,723531.0,PAYCHEX INC,2022-10-14,internal,Martin Mucci,John B. Gibson,2021,2023
+7669,64166,1022079.0,QUEST DIAGNOSTICS INC,2022-11-01,internal,Stephen H. Rusckowski,James E. Davis,2021,2023
+1124,4016,29534.0,DOLLAR GENERAL CORP,2022-11-01,internal,Todd J. Vasos,Jeffery C. Owen,2021,2023
+9883,2884,18926.0,LUMEN TECHNOLOGIES INC,2022-11-07,external,Jeffrey K. Storey,Kate Johnson,2021,2023
+6103,25283,,KOHL'S CORP,2022-11-08,external,Michelle D. Gass,Thomas A. Kingsbury,2021,2023
+10213,28877,1418135.0,KEURIG DR PEPPER INC,2022-11-10,internal,Ozan Dokmecioglu,Robert J. Gamgort,2021,2023
+2868,8539,1109357.0,EXELON CORP,2022-12-30,internal,Christopher Mark Crane,"Calvin G. Butler, Jr.",2021,2023

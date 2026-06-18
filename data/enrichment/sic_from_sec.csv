@@ -1,0 +1,562 @@
+transition_id,cik,sic,sic2,sic_desc
+1323,37785,2800,28,Chemicals & Allied Products
+4158,1465112,4899,48,"Communications Services, NEC"
+8488,1035267,3842,38,"Orthopedic, Prosthetic & Surgical Appliances & Supplies"
+3370,93751,6022,60,State Commercial Banks
+1379,1281761,6021,60,National Commercial Banks
+1593,42582,3011,30,Tires & Inner Tubes
+1294,33213,1311,13,Crude Petroleum & Natural Gas
+3553,50104,2911,29,Petroleum Refining
+537,14272,2834,28,Pharmaceutical Preparations
+959,201533,4931,49,Electric & Other Services Combined
+697,18230,3531,35,Construction Machinery & Equip
+8661,1326380,5734,57,Retail-Computer & Computer Software Stores
+5819,875045,2836,28,"Biological Products, (No Diagnostic Substances)"
+4871,1090012,1311,13,Crude Petroleum & Natural Gas
+4579,816284,2834,28,Pharmaceutical Preparations
+3017,751652,4923,49,Natural Gas Transmisison & Distribution
+8877,1141391,7389,73,"Services-Business Services, NEC"
+2807,723531,8700,87,"Services-Engineering, Accounting, Research, Management"
+477,12659,7200,72,Services-Personal Services
+3477,350563,4911,49,Electric Services
+1713,47217,3570,35,Computer & office Equipment
+9121,1365135,7389,73,"Services-Business Services, NEC"
+1082,936340,4911,49,Electric Services
+3949,36270,6022,60,State Commercial Banks
+4804,800240,5940,59,Retail-Miscellaneous Shopping Goods Stores
+3252,90185,5160,51,Wholesale-Chemicals & Allied Products
+3304,92122,4911,49,Electric Services
+2859,78003,2834,28,Pharmaceutical Preparations
+5656,873364,2834,28,Pharmaceutical Preparations
+8578,37748,1221,12,Bituminous Coal & Lignite Surface Mining
+7253,1000180,3572,35,Computer Storage Devices
+3936,107263,4922,49,Natural Gas Transmission
+2345,310158,2834,28,Pharmaceutical Preparations
+8078,1060391,4953,49,Refuse Systems
+4830,20286,6331,63,"Fire, Marine & Casualty Insurance"
+2453,68505,3663,36,Radio & Tv Broadcasting & Communications Equipment
+2672,797468,1311,13,Crude Petroleum & Natural Gas
+45,2488,3674,36,Semiconductors & Related Devices
+10384,1457543,3841,38,Surgical & Medical Instruments & Apparatus
+1444,1124198,1600,16,Heavy Construction Other Than Bldg Const - Contractors
+2007,1310067,5311,53,Retail-Department Stores
+8253,1275283,2111,21,Cigarettes
+2331,64803,5912,59,Retail-Drug Stores and Proprietary Stores
+7261,1001288,3570,35,Computer & office Equipment
+8879,1274057,2834,28,Pharmaceutical Preparations
+8882,1652044,7370,73,"Services-Computer Programming, Data Processing, Etc."
+3519,1018963,3317,33,Steel Pipe & Tubes
+7360,1020569,6798,67,Real Estate Investment Trusts
+2324,1613103,3845,38,Electromedical & Electrotherapeutic Apparatus
+2759,1004980,4931,49,Electric & Other Services Combined
+3284,91576,6021,60,National Commercial Banks
+7974,1050915,1731,17,Electrical Work
+8462,1099219,6311,63,Life Insurance
+478,12659,7200,72,Services-Personal Services
+1707,47111,2060,20,Sugar & Confectionery Products
+6275,859014,7372,73,Services-Prepackaged Software
+2767,1032208,4932,49,Gas & Other Services Combined
+2569,814453,3089,30,"Plastics Products, NEC"
+649,16732,2000,20,Food and Kindred Products
+419,732712,4813,48,Telephone Communications (No Radiotelephone)
+7959,1014473,7371,73,Services-Computer Programming Services
+2618,72903,4931,49,Electric & Other Services Combined
+245,320193,3571,35,Electronic Computers
+1714,47217,3570,35,Computer & office Equipment
+5724,874761,4991,49,Cogeneration Services & Small Power Producers
+413,10795,3841,38,Surgical & Medical Instruments & Apparatus
+1497,39899,4833,48,Television Broadcasting Stations
+125,789073,2080,20,Beverages
+6097,885725,3841,38,Surgical & Medical Instruments & Apparatus
+9131,1274494,3674,36,Semiconductors & Related Devices
+227,1163739,1381,13,Drilling Oil & Gas Wells
+1801,216228,3561,35,Pumps & Pumping Equipment
+307,8670,7374,73,Services-Computer Processing & Data Preparation
+142,4904,4911,49,Electric Services
+2829,922224,4911,49,Electric Services
+3174,754737,4931,49,Electric & Other Services Combined
+1026,26172,3510,35,Engines & Turbines
+2268,63276,3942,39,Dolls & Stuffed Toys
+10467,915912,6798,67,Real Estate Investment Trusts
+2172,315852,1311,13,Crude Petroleum & Natural Gas
+6644,909832,5331,53,Retail-Variety Stores
+1881,51143,3570,35,Computer & office Equipment
+6682,912615,5651,56,Retail-Family Clothing Stores
+2372,723125,3674,36,Semiconductors & Related Devices
+3407,310764,3841,38,Surgical & Medical Instruments & Apparatus
+2399,66740,3841,38,Surgical & Medical Instruments & Apparatus
+3426,95304,2911,29,Petroleum Refining
+2784,75829,3569,35,"General Industrial Machinery & Equipment, NEC"
+1242,31978,4911,49,Electric Services
+3697,100885,4011,40,"Railroads, Line-Haul Operating"
+920,1688568,7374,73,Services-Computer Processing & Data Preparation
+6629,1048286,7011,70,Hotels & Motels
+443,764478,5731,57,"Retail-Radio, Tv & Consumer Electronics Stores"
+319,8868,2844,28,"Perfumes, Cosmetics & Other Toilet Preparations"
+1977,200406,2834,28,Pharmaceutical Preparations
+8860,1276520,6311,63,Life Insurance
+8757,1156375,6200,62,"Security & Commodity Brokers, Dealers, Exchanges & Services"
+7668,1022079,8071,80,Services-Medical Laboratories
+4082,773910,1311,13,Crude Petroleum & Natural Gas
+2874,764180,2111,21,Cigarettes
+195,318154,2836,28,"Biological Products, (No Diagnostic Substances)"
+2879,1163165,2911,29,Petroleum Refining
+9031,1336920,7373,73,Services-Computer Integrated Systems Design
+2461,717423,1311,13,Crude Petroleum & Natural Gas
+2299,63908,5812,58,Retail-Eating  Places
+4391,804212,5084,50,Wholesale-Industrial Machinery & Equipment
+3800,203527,3845,38,Electromedical & Electrotherapeutic Apparatus
+7402,931336,2020,20,Dairy Products
+1816,49826,3560,35,General Industrial Machinery & Equipment
+889,831001,6021,60,National Commercial Banks
+9271,1403161,7389,73,"Services-Business Services, NEC"
+6098,885725,3841,38,Surgical & Medical Instruments & Apparatus
+9482,1138118,6500,65,Real Estate
+6588,908255,3714,37,Motor Vehicle Parts & Accessories
+6615,1418135,2080,20,Beverages
+8377,1086222,7389,73,"Services-Business Services, NEC"
+1521,40533,3730,37,Ship & Boat Building & Repairing
+8579,1121788,3812,38,"Search, Detection, Navigation, Guidance, Aeronautical Sys"
+6382,49071,6324,63,Hospital & Medical Service Plans
+3123,85961,7510,75,Services-Auto Rental & Leasing (No Drivers)
+3905,106535,6798,67,Real Estate Investment Trusts
+2910,78814,3579,35,"Office Machines, NEC"
+2658,73309,3312,33,"Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)"
+2380,65984,4911,49,Electric Services
+8204,1075531,4700,47,Transportation Services
+7534,861878,4955,49,Hazardous Waste Management
+3889,106040,3572,35,Computer Storage Devices
+2164,936468,3760,37,Guided Missiles & Space Vehicles & Parts
+7361,1020569,6798,67,Real Estate Investment Trusts
+3201,1012100,2820,28,"Plastic Material, Synth Resin/Rubber, Cellulos (No Glass)"
+6476,898293,3672,36,Printed Circuit Boards
+2575,1164727,1040,10,Gold and Silver Ores
+203,6281,3674,36,Semiconductors & Related Devices
+5069,712515,7372,73,Services-Prepackaged Software
+3816,899689,6798,67,Real Estate Investment Trusts
+9327,1452575,2000,20,Food and Kindred Products
+9280,1413329,2111,21,Cigarettes
+3152,86144,5411,54,Retail-Grocery Stores
+1856,50863,3674,36,Semiconductors & Related Devices
+6533,354908,3812,38,"Search, Detection, Navigation, Guidance, Aeronautical Sys"
+2963,80424,2840,28,"Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics"
+5318,1032033,6141,61,Personal Credit Institutions
+6570,863157,5990,59,"Retail-Retail Stores, NEC"
+5025,821189,1311,13,Crude Petroleum & Natural Gas
+1178,1326160,4931,49,Electric & Other Services Combined
+2236,101778,1311,13,Crude Petroleum & Natural Gas
+8288,1043604,3576,35,Computer Communications Equipment
+8633,1137411,3728,37,"Aircraft Parts & Auxiliary Equipment, NEC"
+2462,717423,1311,13,Crude Petroleum & Natural Gas
+5662,1163302,3312,33,"Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)"
+249,6951,3674,36,Semiconductors & Related Devices
+1981,833444,3585,35,Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip
+9457,1524472,3561,35,Pumps & Pumping Equipment
+1458,38074,2834,28,Pharmaceutical Preparations
+2305,64040,7320,73,"Services-Consumer Credit Reporting, Collection Agencies"
+832,764065,1000,10,Metal Mining
+4396,801898,3532,35,Mining Machinery & Equip (No Oil & Gas Field Mach & Equip)
+2077,56873,5411,54,Retail-Grocery Stores
+1771,1130310,4911,49,Electric Services
+9425,1518832,1311,13,Crude Petroleum & Natural Gas
+9146,1377013,4841,48,Cable & Other Pay Television Services
+8992,1324404,2870,28,Agricultural Chemicals
+8538,1116132,3100,31,Leather & Leather Products
+6740,915389,2821,28,"Plastic Materials, Synth Resins & Nonvulcan Elastomers"
+1739,354950,5211,52,Retail-Lumber & Other Building Materials Dealers
+1537,1467858,3711,37,Motor Vehicles & Passenger Car Bodies
+2709,1039684,4923,49,Natural Gas Transmisison & Distribution
+3831,104169,5331,53,Retail-Variety Stores
+4129,789019,7372,73,Services-Prepackaged Software
+2256,62996,3430,34,"Heating Equip, Except Elec & Warm Air; & Plumbing Fixtures"
+7612,1021860,3533,35,Oil & Gas Field Machinery & Equipment
+1313,746515,4731,47,Arrangement of  Transportation of  Freight & Cargo
+5929,804328,3663,36,Radio & Tv Broadcasting & Communications Equipment
+1697,46765,1381,13,Drilling Oil & Gas Wells
+3034,1047122,3812,38,"Search, Detection, Navigation, Guidance, Aeronautical Sys"
+1683,766704,6798,67,Real Estate Investment Trusts
+2753,75362,3711,37,Motor Vehicles & Passenger Car Bodies
+8254,1275283,2111,21,Cigarettes
+4916,1035002,2911,29,Petroleum Refining
+3100,745732,5651,56,Retail-Family Clothing Stores
+1058,27419,5331,53,Retail-Variety Stores
+8231,1070412,1311,13,Crude Petroleum & Natural Gas
+67,2969,2810,28,Industrial Inorganic Chemicals
+3819,1396009,1400,14,Mining & Quarrying of  Nonmetallic Minerals (No Fuels)
+1454,37996,3711,37,Motor Vehicles & Passenger Car Bodies
+434,11199,2670,26,Converted Paper & Paperboard Prods (No Contaners/Boxes)
+1887,51253,2860,28,Industrial Organic Chemicals
+165,5272,6331,63,"Fire, Marine & Casualty Insurance"
+3722,1090727,4210,42,Trucking & Courier Services (No Air)
+1047,313616,3823,38,"Industrial Instruments For Measurement, Display, and Control"
+6124,882184,1531,15,Operative Builders
+7080,940944,5812,58,Retail-Eating  Places
+2589,72207,1311,13,Crude Petroleum & Natural Gas
+1906,51434,2621,26,Paper Mills
+8289,1043604,3576,35,Computer Communications Equipment
+837,21076,2842,28,"Specialty Cleaning, Polishing and Sanitation Preparations"
+4393,1545158,2000,20,Food and Kindred Products
+4705,815556,5200,52,"Retail-Building Materials, Hardware, Garden Supply"
+7847,1041061,5812,58,Retail-Eating  Places
+985,24545,2082,20,Malt Beverages
+8842,1267238,6399,63,"Insurance Carriers, NEC"
+3157,203077,3845,38,Electromedical & Electrotherapeutic Apparatus
+4324,5513,6321,63,Accident & Health Insurance
+257,7084,2070,20,Fats & Oils
+8115,1065088,7389,73,"Services-Business Services, NEC"
+9057,1136893,7389,73,"Services-Business Services, NEC"
+2690,1031296,4911,49,Electric Services
+3839,1618921,5912,59,Retail-Drug Stores and Proprietary Stores
+2269,63276,3942,39,Dolls & Stuffed Toys
+2300,63908,5812,58,Retail-Eating  Places
+2800,76334,3490,34,Miscellaneous Fabricated Metal Products
+6506,1451505,1381,13,Drilling Oil & Gas Wells
+8181,1521332,3714,37,Motor Vehicle Parts & Accessories
+8395,1090872,3826,38,Laboratory Analytical Instruments
+4597,98246,5944,59,Retail-Jewelry Stores
+7347,899866,2834,28,Pharmaceutical Preparations
+8476,20520,4813,48,Telephone Communications (No Radiotelephone)
+934,23217,2000,20,Food and Kindred Products
+8256,1048695,3576,35,Computer Communications Equipment
+4210,793952,3751,37,"Motorcycles, Bicycles & Parts"
+538,14272,2834,28,Pharmaceutical Preparations
+2600,702165,4011,40,"Railroads, Line-Haul Operating"
+7288,1002047,3572,35,Computer Storage Devices
+2012,1506307,4922,49,Natural Gas Transmission
+1123,29534,5331,53,Retail-Variety Stores
+500,12927,3721,37,Aircraft
+2614,1111711,4931,49,Electric & Other Services Combined
+4706,815556,5200,52,"Retail-Building Materials, Hardware, Garden Supply"
+5336,858877,3576,35,Computer Communications Equipment
+4872,1090012,1311,13,Crude Petroleum & Natural Gas
+8921,1285785,2870,28,Agricultural Chemicals
+8679,1126328,6321,63,Accident & Health Insurance
+2750,79879,2851,28,"Paints, Varnishes, Lacquers, Enamels & Allied Prods"
+3668,100517,4512,45,"Air Transportation, Scheduled"
+7279,1000697,3826,38,Laboratory Analytical Instruments
+3698,100885,4011,40,"Railroads, Line-Haul Operating"
+7136,941548,3533,35,Oil & Gas Field Machinery & Equipment
+7298,877890,7372,73,Services-Prepackaged Software
+2964,80424,2840,28,"Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics"
+1370,35527,6022,60,State Commercial Banks
+7758,1037038,2320,23,"Men's & Boys' Furnishgs, Work Clothg, & Allied Garments"
+1715,47217,3570,35,Computer & office Equipment
+8480,1013871,4911,49,Electric Services
+2736,812074,3221,32,Glass Containers
+4123,1113169,6282,62,Investment Advice
+2124,58492,2510,25,Household Furniture
+3238,89800,5200,52,"Retail-Building Materials, Hardware, Garden Supply"
+8257,1048695,3576,35,Computer Communications Equipment
+8104,1051470,6798,67,Real Estate Investment Trusts
+7975,1050915,1731,17,Electrical Work
+5908,879101,6798,67,Real Estate Investment Trusts
+8758,1156375,6200,62,"Security & Commodity Brokers, Dealers, Exchanges & Services"
+406,10456,3841,38,Surgical & Medical Instruments & Apparatus
+782,313927,2840,28,"Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics"
+8687,1158449,5531,55,Retail-Auto & Home Supply Stores
+3320,7332,1311,13,Crude Petroleum & Natural Gas
+4018,109198,5651,56,Retail-Family Clothing Stores
+2286,63754,2090,20,Miscellaneous Food Preparations & Kindred Products
+4580,816284,2834,28,Pharmaceutical Preparations
+5943,882095,2836,28,"Biological Products, (No Diagnostic Substances)"
+3275,91419,2033,20,"Canned, Fruits, Veg, Preserves, Jams & Jellies"
+5920,1585364,2834,28,Pharmaceutical Preparations
+8205,1075531,4700,47,Transportation Services
+2673,797468,1311,13,Crude Petroleum & Natural Gas
+311,8818,2670,26,Converted Paper & Paperboard Prods (No Contaners/Boxes)
+9531,783325,4931,49,Electric & Other Services Combined
+1073,27904,4512,45,"Air Transportation, Scheduled"
+2609,72741,4911,49,Electric Services
+6129,1532063,5912,59,Retail-Drug Stores and Proprietary Stores
+9205,816761,7372,73,Services-Prepackaged Software
+192,1037868,3823,38,"Industrial Instruments For Measurement, Display, and Control"
+107,4127,3674,36,Semiconductors & Related Devices
+1220,1551182,3590,35,Misc Industrial & Commercial Machinery & Equipment
+4973,791519,5940,59,Retail-Miscellaneous Shopping Goods Stores
+9132,1274494,3674,36,Semiconductors & Related Devices
+960,201533,4931,49,Electric & Other Services Combined
+2023,54480,4011,40,"Railroads, Line-Haul Operating"
+3084,1024478,3829,38,"Measuring & Controlling Devices, NEC"
+8505,1110803,3826,38,Laboratory Analytical Instruments
+3365,93556,3420,34,"Cutlery, Handtools & General Hardware"
+9043,1339947,4841,48,Cable & Other Pay Television Services
+7707,1170010,5500,55,Retail-Auto Dealers & Gasoline Stations
+1609,277135,5000,50,Wholesale-Durable Goods
+2994,822416,1531,15,Operative Builders
+9126,1359841,5600,56,Retail-Apparel & Accessory Stores
+1755,48465,2011,20,Meat Packing Plants
+4778,823768,4953,49,Refuse Systems
+4735,1038357,1311,13,Crude Petroleum & Natural Gas
+9272,1403161,7389,73,"Services-Business Services, NEC"
+7348,899866,2834,28,Pharmaceutical Preparations
+1320,34088,2911,29,Petroleum Refining
+8763,1120193,6200,62,"Security & Commodity Brokers, Dealers, Exchanges & Services"
+3659,100493,2015,20,Poultry Slaughtering and Processing
+8890,1289490,6798,67,Real Estate Investment Trusts
+4000,1770450,3577,35,"Computer Peripheral Equipment, NEC"
+2140,59478,2834,28,Pharmaceutical Preparations
+3788,103379,2320,23,"Men's & Boys' Furnishgs, Work Clothg, & Allied Garments"
+8255,1275283,2111,21,Cigarettes
+698,18230,3531,35,Construction Machinery & Equip
+1295,33213,1311,13,Crude Petroleum & Natural Gas
+1362,794367,5311,53,Retail-Department Stores
+2242,1070750,6798,67,Real Estate Investment Trusts
+5820,875045,2836,28,"Biological Products, (No Diagnostic Substances)"
+4598,98246,5944,59,Retail-Jewelry Stores
+302,769397,7372,73,Services-Prepackaged Software
+2270,63276,3942,39,Dolls & Stuffed Toys
+1708,47111,2060,20,Sugar & Confectionery Products
+617,277948,4011,40,"Railroads, Line-Haul Operating"
+102,773840,3724,37,Aircraft Engines & Engine Parts
+1197,30625,3561,35,Pumps & Pumping Equipment
+8258,1048695,3576,35,Computer Communications Equipment
+6146,829224,5810,58,Retail-Eating & Drinking Places
+850,21344,2080,20,Beverages
+7759,1037038,2320,23,"Men's & Boys' Furnishgs, Work Clothg, & Allied Garments"
+2373,723125,3674,36,Semiconductors & Related Devices
+166,5272,6331,63,"Fire, Marine & Casualty Insurance"
+1455,37996,3711,37,Motor Vehicles & Passenger Car Bodies
+8815,1065696,5010,50,Wholesale-Motor Vehicles & Motor Vehicle Parts & Supplies
+1498,39899,4833,48,Television Broadcasting Stations
+1644,45012,1389,13,"Oil & Gas Field Services, NEC"
+6237,891024,5047,50,"Wholesale-Medical, Dental & Hospital Equipment & Supplies"
+1532,40704,2040,20,Grain Mill Products
+6534,354908,3812,38,"Search, Detection, Navigation, Guidance, Aeronautical Sys"
+1559,40987,5013,50,Wholesale-Motor Vehicle Supplies & New Parts
+7299,877890,7372,73,Services-Prepackaged Software
+4371,804753,7373,73,Services-Computer Integrated Systems Design
+8648,1136869,3842,38,"Orthopedic, Prosthetic & Surgical Appliances & Supplies"
+1524,40545,3600,36,Electronic & Other Electrical Equipment (No Computer Equip)
+4970,832988,5944,59,Retail-Jewelry Stores
+8386,1324424,4700,47,Transportation Services
+3713,731766,6324,63,Hospital & Medical Service Plans
+7059,935703,5331,53,Retail-Variety Stores
+1289,33185,7320,73,"Services-Consumer Credit Reporting, Collection Agencies"
+3916,106640,3630,36,Household Appliances
+8791,1137789,3572,35,Computer Storage Devices
+4608,818479,3843,38,Dental Equipment & Supplies
+3963,783325,4931,49,Electric & Other Services Combined
+8611,1103982,2000,20,Food and Kindred Products
+9053,1058090,5812,58,Retail-Eating  Places
+7139,1001082,4841,48,Cable & Other Pay Television Services
+1397,36270,6022,60,State Commercial Banks
+618,277948,4011,40,"Railroads, Line-Haul Operating"
+8041,1039101,3663,36,Radio & Tv Broadcasting & Communications Equipment
+3175,754737,4931,49,Electric & Other Services Combined
+3202,1012100,2820,28,"Plastic Material, Synth Resin/Rubber, Cellulos (No Glass)"
+767,93410,2911,29,Petroleum Refining
+2629,73124,6022,60,State Commercial Banks
+3464,96021,5140,51,Wholesale-Groceries & Related Products
+660,721371,5122,51,"Wholesale-Drugs, Proprietaries & Druggists' Sundries"
+5921,1585364,2834,28,Pharmaceutical Preparations
+8517,1101239,6798,67,Real Estate Investment Trusts
+5487,743988,3674,36,Semiconductors & Related Devices
+6308,1645590,3570,35,Computer & office Equipment
+146,4962,6199,61,Finance Services
+8761,1174922,7011,70,Hotels & Motels
+1296,33213,1311,13,Crude Petroleum & Natural Gas
+8731,1260221,3728,37,"Aircraft Parts & Auxiliary Equipment, NEC"
+479,12659,7200,72,Services-Personal Services
+2132,920760,1520,15,General Bldg Contractors - Residential Bldgs
+2271,63276,3942,39,Dolls & Stuffed Toys
+2834,77360,3550,35,Special Industry Machinery (No Metalworking Machinery)
+980,711404,3851,38,Ophthalmic Goods
+1140,29905,3530,35,"Construction, Mining & Materials Handling Machinery & Equip"
+2768,1032208,4932,49,Gas & Other Services Combined
+6461,898173,5531,55,Retail-Auto & Home Supply Stores
+4001,1770450,3577,35,"Computer Peripheral Equipment, NEC"
+6102,885639,5311,53,Retail-Department Stores
+2875,764180,2111,21,Cigarettes
+650,16732,2000,20,Food and Kindred Products
+2400,66740,3841,38,Surgical & Medical Instruments & Apparatus
+3562,97476,3674,36,Semiconductors & Related Devices
+1857,50863,3674,36,Semiconductors & Related Devices
+1380,1281761,6021,60,National Commercial Banks
+2195,60667,5211,52,Retail-Lumber & Other Building Materials Dealers
+3563,97476,3674,36,Semiconductors & Related Devices
+420,732712,4813,48,Telephone Communications (No Radiotelephone)
+6589,908255,3714,37,Motor Vehicle Parts & Accessories
+9962,91142,3630,36,Household Appliances
+5971,882835,3823,38,"Industrial Instruments For Measurement, Display, and Control"
+3660,100493,2015,20,Poultry Slaughtering and Processing
+8120,886982,6211,62,"Security Brokers, Dealers & Flotation Companies"
+1525,40545,3600,36,Electronic & Other Electrical Equipment (No Computer Equip)
+2847,77476,2080,20,Beverages
+9534,1585364,2834,28,Pharmaceutical Preparations
+6959,726728,6798,67,Real Estate Investment Trusts
+4142,1024305,2844,28,"Perfumes, Cosmetics & Other Toilet Preparations"
+8615,1137774,6311,63,Life Insurance
+6819,912242,6798,67,Real Estate Investment Trusts
+2103,707549,3559,35,"Special Industry Machinery, NEC"
+544,14693,2080,20,Beverages
+3371,93751,6022,60,State Commercial Banks
+5944,882095,2836,28,"Biological Products, (No Diagnostic Substances)"
+2633,1133421,3812,38,"Search, Detection, Navigation, Guidance, Aeronautical Sys"
+5482,860730,8062,80,"Services-General Medical & Surgical Hospitals, NEC"
+6585,906107,6798,67,Real Estate Investment Trusts
+2860,78003,2834,28,Pharmaceutical Preparations
+3906,106535,6798,67,Real Estate Investment Trusts
+2068,55785,2670,26,Converted Paper & Paperboard Prods (No Contaners/Boxes)
+3393,1393311,6798,67,Real Estate Investment Trusts
+6396,896878,7372,73,Services-Prepackaged Software
+9163,1383312,7389,73,"Services-Business Services, NEC"
+8619,1467373,7389,73,"Services-Business Services, NEC"
+2762,1004980,4931,49,Electric & Other Services Combined
+3964,783325,4931,49,Electric & Other Services Combined
+4736,1038357,1311,13,Crude Petroleum & Natural Gas
+654,16918,2080,20,Beverages
+8067,1058290,7371,73,Services-Computer Programming Services
+2311,927653,5122,51,"Wholesale-Drugs, Proprietaries & Druggists' Sundries"
+7240,927066,8090,80,"Services-Misc Health & Allied Services, NEC"
+861,21665,2844,28,"Perfumes, Cosmetics & Other Toilet Preparations"
+8463,1099219,6311,63,Life Insurance
+1445,1124198,1600,16,Heavy Construction Other Than Bldg Const - Contractors
+8927,1306830,2820,28,"Plastic Material, Synth Resin/Rubber, Cellulos (No Glass)"
+7882,1043277,4731,47,Arrangement of  Transportation of  Freight & Cargo
+444,764478,5731,57,"Retail-Radio, Tv & Consumer Electronics Stores"
+1691,1637459,2030,20,"Canned, Frozen & Preservd Fruit, Veg & Food Specialties"
+2570,814453,3089,30,"Plastics Products, NEC"
+2754,75362,3711,37,Motor Vehicles & Passenger Car Bodies
+7155,943452,3743,37,Railroad Equipment
+1083,936340,4911,49,Electric Services
+8539,1116132,3100,31,Leather & Leather Products
+921,1688568,7374,73,Services-Computer Processing & Data Preparation
+8116,1065088,7389,73,"Services-Business Services, NEC"
+986,24545,2082,20,Malt Beverages
+1278,731802,4924,49,Natural Gas Distribution
+2576,1164727,1040,10,Gold and Silver Ores
+4881,920148,8071,80,Services-Medical Laboratories
+2301,63908,5812,58,Retail-Eating  Places
+5719,874716,2835,28,In Vitro & In Vivo Diagnostic Substances
+1716,47217,3570,35,Computer & office Equipment
+1068,315189,3523,35,Farm Machinery & Equipment
+8883,1652044,7370,73,"Services-Computer Programming, Data Processing, Etc."
+8387,1324424,4700,47,Transportation Services
+511,315213,7363,73,Services-Help Supply Services
+501,12927,3721,37,Aircraft
+2659,73309,3312,33,"Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)"
+4623,1555280,2834,28,Pharmaceutical Preparations
+7848,1041061,5812,58,Retail-Eating  Places
+1731,48039,2911,29,Petroleum Refining
+1882,51143,3570,35,Computer & office Equipment
+6660,910606,6798,67,Real Estate Investment Trusts
+9029,1336917,2300,23,Apparel & Other Finishd Prods of  Fabrics & Similar Matl
+6801,916365,5200,52,"Retail-Building Materials, Hardware, Garden Supply"
+2587,320187,3021,30,Rubber & Plastics Footwear
+414,10795,3841,38,Surgical & Medical Instruments & Apparatus
+3465,96021,5140,51,Wholesale-Groceries & Related Products
+4211,793952,3751,37,"Motorcycles, Bicycles & Parts"
+1473,38777,6282,62,Investment Advice
+1148,1666700,2821,28,"Plastic Materials, Synth Resins & Nonvulcan Elastomers"
+1772,1130310,4911,49,Electric Services
+1118,1744489,7990,79,Services-Miscellaneous Amusement & Recreation
+9416,1510295,2911,29,Petroleum Refining
+3890,106040,3572,35,Computer Storage Devices
+4760,789570,7011,70,Hotels & Motels
+5765,875320,2834,28,Pharmaceutical Preparations
+32,1800,2834,28,Pharmaceutical Preparations
+5185,1283699,4812,48,Radiotelephone Communications
+9266,1410636,4941,49,Water Supply
+2876,764180,2111,21,Cigarettes
+6804,915913,2821,28,"Plastic Materials, Synth Resins & Nonvulcan Elastomers"
+2325,1613103,3845,38,Electromedical & Electrotherapeutic Apparatus
+3285,91576,6021,60,National Commercial Banks
+3670,100517,4512,45,"Air Transportation, Scheduled"
+2830,922224,4911,49,Electric Services
+1324,37785,2800,28,Chemicals & Allied Products
+3723,1090727,4210,42,Trucking & Courier Services (No Air)
+2165,936468,3760,37,Guided Missiles & Space Vehicles & Parts
+3317,732717,4813,48,Telephone Communications (No Radiotelephone)
+4307,798354,7389,73,"Services-Business Services, NEC"
+8540,1116132,3100,31,Leather & Leather Products
+7060,935703,5331,53,Retail-Variety Stores
+838,21076,2842,28,"Specialty Cleaning, Polishing and Sanitation Preparations"
+9127,1359841,5600,56,Retail-Apparel & Accessory Stores
+4144,1024305,2844,28,"Perfumes, Cosmetics & Other Toilet Preparations"
+1048,313616,3823,38,"Industrial Instruments For Measurement, Display, and Control"
+10105,1000697,3826,38,Laboratory Analytical Instruments
+1126,715957,4911,49,Electric Services
+1457,37996,3711,37,Motor Vehicles & Passenger Car Bodies
+3661,100493,2015,20,Poultry Slaughtering and Processing
+1684,766704,6798,67,Real Estate Investment Trusts
+2691,1031296,4911,49,Electric Services
+961,201533,4931,49,Electric & Other Services Combined
+4923,832101,3561,35,Pumps & Pumping Equipment
+8528,1059556,7320,73,"Services-Consumer Credit Reporting, Collection Agencies"
+1232,31462,2840,28,"Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics"
+9981,352915,8062,80,"Services-General Medical & Surgical Hospitals, NEC"
+8878,1141391,7389,73,"Services-Business Services, NEC"
+8916,1300514,7011,70,Hotels & Motels
+9931,64803,5912,59,Retail-Drug Stores and Proprietary Stores
+2884,78239,2320,23,"Men's & Boys' Furnishgs, Work Clothg, & Allied Garments"
+3714,731766,6324,63,Hospital & Medical Service Plans
+1262,32604,3600,36,Electronic & Other Electrical Equipment (No Computer Equip)
+1858,50863,3674,36,Semiconductors & Related Devices
+6630,1048286,7011,70,Hotels & Motels
+890,831001,6021,60,National Commercial Banks
+167,5272,6331,63,"Fire, Marine & Casualty Insurance"
+3840,1618921,5912,59,Retail-Drug Stores and Proprietary Stores
+6412,827054,3674,36,Semiconductors & Related Devices
+74,766421,4512,45,"Air Transportation, Scheduled"
+7913,1037646,3826,38,Laboratory Analytical Instruments
+5331,1601712,6199,61,Finance Services
+10156,1111928,3674,36,Semiconductors & Related Devices
+2610,72741,4911,49,Electric Services
+9281,1413329,2111,21,Cigarettes
+802,723254,2320,23,"Men's & Boys' Furnishgs, Work Clothg, & Allied Garments"
+9224,1403568,5990,59,"Retail-Retail Stores, NEC"
+3662,100493,2015,20,Poultry Slaughtering and Processing
+8079,1060391,4953,49,Refuse Systems
+2710,1039684,4923,49,Natural Gas Transmisison & Distribution
+2346,310158,2834,28,Pharmaceutical Preparations
+1827,1466258,3822,38,Auto Controls For Regulating Residential & Comml Environments
+10114,1018724,5961,59,Retail-Catalog & Mail-Order Houses
+6108,1757898,3842,38,"Orthopedic, Prosthetic & Surgical Appliances & Supplies"
+2619,72903,4931,49,Electric & Other Services Combined
+5026,821189,1311,13,Crude Petroleum & Natural Gas
+1675,46080,3944,39,"Games, Toys & Children's Vehicles (No Dolls & Bicycles)"
+8402,1094285,3812,38,"Search, Detection, Navigation, Guidance, Aeronautical Sys"
+10358,1755672,0100,01,Agricultural Production-Crops
+2965,80424,2840,28,"Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics"
+9122,1365135,7389,73,"Services-Business Services, NEC"
+4537,813672,7372,73,Services-Prepackaged Software
+4124,1113169,6282,62,Investment Advice
+8843,1267238,6399,63,"Insurance Carriers, NEC"
+3694,1002910,4931,49,Electric & Other Services Combined
+1978,200406,2834,28,Pharmaceutical Preparations
+6464,884887,4400,44,Water Transportation
+6824,915912,6798,67,Real Estate Investment Trusts
+8762,1174922,7011,70,Hotels & Motels
+3312,92380,4512,45,"Air Transportation, Scheduled"
+3965,783325,4931,49,Electric & Other Services Combined
+10167,1410636,4941,49,Water Supply
+2615,1111711,4931,49,Electric & Other Services Combined
+1888,51253,2860,28,Industrial Organic Chemicals
+6046,1707925,2810,28,Industrial Inorganic Chemicals
+1740,354950,5211,52,Retail-Lumber & Other Building Materials Dealers
+1327,753308,4911,49,Electric Services
+16,6201,4512,45,"Air Transportation, Scheduled"
+10061,829224,5810,58,Retail-Eating & Drinking Places
+8677,1071739,6324,63,Hospital & Medical Service Plans
+4610,818479,3843,38,Dental Equipment & Supplies
+5303,1601046,3823,38,"Industrial Instruments For Measurement, Display, and Control"
+2601,702165,4011,40,"Railroads, Line-Haul Operating"
+4239,906163,1531,15,Operative Builders
+9324,1442145,7374,73,Services-Computer Processing & Data Preparation
+2150,59558,6311,63,Life Insurance
+7081,940944,5812,58,Retail-Eating  Places
+10067,891103,7370,73,"Services-Computer Programming, Data Processing, Etc."
+1336,1048911,4513,45,Air Courier Services
+10152,1336917,2300,23,Apparel & Other Finishd Prods of  Fabrics & Similar Matl
+3366,93556,3420,34,"Cutlery, Handtools & General Hardware"
+10375,1534701,2911,29,Petroleum Refining
+1371,35527,6022,60,State Commercial Banks
+10316,1418135,2080,20,Beverages
+1027,26172,3510,35,Engines & Turbines
+661,721371,5122,51,"Wholesale-Drugs, Proprietaries & Druggists' Sundries"
+9584,723531,8700,87,"Services-Engineering, Accounting, Research, Management"
+7669,1022079,8071,80,Services-Medical Laboratories
+1124,29534,5331,53,Retail-Variety Stores
+9883,18926,4813,48,Telephone Communications (No Radiotelephone)
+10213,1418135,2080,20,Beverages
+2868,1109357,4931,49,Electric & Other Services Combined
