@@ -1,5 +1,371 @@
-requests>=2.31
-pandas>=2.0
-lxml>=4.9
-html5lib>=1.1
-yfinance>=0.2
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The external hire premium</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Newsreader:ital,opsz,wght@0,12..72,400;0,12..72,500;1,12..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#12222a; --ink-2:#0d191f; --paper:#eef0ec; --paper-2:#e4e7e1;
+    --brass:#c0913f; --steel:#6b8c99; --text:#16242b; --muted:#5e6b6f;
+    --line:#cfd4cd; --line-dark:#2a3b43;
+    --disp:"Space Grotesk",system-ui,sans-serif;
+    --serif:"Newsreader",Georgia,serif;
+    --mono:"IBM Plex Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box} html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--text);font-family:var(--serif);
+       font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,.disp{font-family:var(--disp);font-weight:600;letter-spacing:-0.01em;line-height:1.1}
+  .mono{font-family:var(--mono)}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--brass)}
+
+  nav{position:sticky;top:0;z-index:20;background:rgba(18,34,42,.92);backdrop-filter:blur(6px);
+      border-bottom:1px solid var(--line-dark)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px}
+  nav .brand{font-family:var(--mono);font-size:13px;letter-spacing:.04em;color:var(--paper)}
+  nav .brand b{color:var(--brass);font-weight:600}
+  nav ul{display:flex;gap:24px;list-style:none;margin:0;padding:0}
+  nav a{font-family:var(--mono);font-size:12.5px;text-transform:uppercase;letter-spacing:.12em;
+        color:#a9b6ba;text-decoration:none;transition:color .2s}
+  nav a:hover{color:var(--brass)}
+  @media(max-width:760px){nav ul{display:none}}
+
+  .hero{background:var(--ink);color:var(--paper);padding:88px 0 80px;border-bottom:1px solid var(--line-dark)}
+  .hero h1{font-size:clamp(34px,6vw,66px);color:var(--paper);max-width:17ch}
+  .hero h1 em{font-style:normal;color:var(--brass)}
+  .hero .lede{font-size:clamp(18px,2.2vw,22px);color:#c5d0d2;max-width:58ch;margin-top:22px}
+  .hero .lede p{margin:0 0 8px}
+  .hero .meta{margin-top:30px;display:flex;gap:28px;flex-wrap:wrap;font-family:var(--mono);
+              font-size:12.5px;color:#92a2a6;letter-spacing:.03em}
+  .hero .meta b{color:var(--paper);font-weight:500}
+
+  section{padding:74px 0;border-bottom:1px solid var(--line)}
+  .stitle{display:flex;align-items:baseline;gap:16px;margin-bottom:10px}
+  .stitle h2{font-size:clamp(26px,3.4vw,38px)}
+  .snum{font-family:var(--mono);font-size:13px;color:var(--brass)}
+  .sub{color:var(--muted);max-width:64ch;margin:0 0 32px}
+  .lead-p{font-size:20px;max-width:60ch;margin:0 0 16px}
+
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:760px){.cards{grid-template-columns:1fr}}
+  .card{border:1px solid var(--line);background:#fff;border-radius:4px;padding:22px 22px 20px}
+  .card.hold{border-left:3px solid var(--brass)}
+  .card.fold{border-left:3px solid var(--steel)}
+  .card .tag{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .card h3{font-size:21px;margin:8px 0 8px}
+  .card p{margin:0;font-size:16.5px;color:#33444a}
+  .card .stat{font-family:var(--mono);font-size:13.5px;color:var(--ink);margin-top:12px;
+              padding-top:12px;border-top:1px solid var(--line)}
+
+  .figure{background:var(--ink-2);border:1px solid var(--line-dark);border-radius:4px;padding:26px 24px 18px}
+  .figure .cap{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;color:#8fa0a4;margin-top:10px;line-height:1.6}
+  .figure svg{width:100%;height:auto;display:block}
+  .chartsection{background:var(--ink);color:var(--paper);border-bottom:1px solid var(--line-dark)}
+  .chartsection .stitle h2{color:var(--paper)}
+  .chartsection .sub{color:#9fb0b4}
+
+  .model{border:1px solid var(--line);background:#fff;border-radius:4px;padding:20px 22px;margin-bottom:14px}
+  .model .mlabel{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--brass)}
+  .model h3{font-size:19px;margin:6px 0 14px}
+  .eq{font-family:var(--mono);font-size:14.5px;background:var(--paper-2);border-left:3px solid var(--ink);
+      padding:12px 14px;border-radius:3px;overflow-x:auto;color:var(--ink);line-height:1.7}
+  .eq .c{color:var(--brass);font-weight:600}
+  .result{font-family:var(--mono);font-size:14px;margin-top:12px;color:var(--ink)}
+  .result b{color:var(--brass);font-weight:600}
+  .model .note{font-size:16px;color:#33444a;margin:10px 0 0}
+
+  table{width:100%;border-collapse:collapse;margin-top:8px;font-size:15.5px}
+  th,td{text-align:left;padding:13px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  thead th{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+           color:var(--muted);border-bottom:1.5px solid var(--ink)}
+  tbody tr.lead-row{background:#fbfaf6}
+  tbody tr.lead-row td:first-child{border-left:3px solid var(--brass)}
+  td .who{font-family:var(--disp);font-weight:600}
+  td.num,.num{font-family:var(--mono);font-size:13.5px}
+  .verdict-no{font-family:var(--mono);font-weight:600;color:var(--ink)}
+
+  .duo{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+  @media(max-width:760px){.duo{grid-template-columns:1fr}}
+  .kv{font-family:var(--mono);font-size:13.5px;color:#33444a;line-height:2.0}
+  .kv b{color:var(--brass);font-weight:600}
+  .pill{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;
+        border:1px solid var(--line);border-radius:999px;padding:4px 11px;color:var(--muted);margin:3px 4px 3px 0}
+  blockquote{margin:0;font-family:var(--serif);font-size:clamp(21px,2.6vw,27px);line-height:1.34;
+             color:var(--ink);max-width:26ch}
+  blockquote em{font-style:normal;color:var(--brass)}
+
+  footer{background:var(--ink);color:#9fb0b4;padding:40px 0;font-family:var(--mono);font-size:12.5px;line-height:1.9}
+  footer a{color:var(--brass);text-decoration:none}
+  .draftbar{background:var(--brass);color:#1a130a;font-family:var(--mono);font-size:12px;
+            letter-spacing:.06em;text-align:center;padding:7px;text-transform:uppercase}
+  @media(prefers-reduced-motion:no-preference){
+    .reveal{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}
+    .reveal.in{opacity:1;transform:none}
+  }
+
+  .tracks{border:1px solid var(--line);background:#fff;border-radius:4px;padding:22px 24px;margin:6px 0 30px}
+  .tracks h3{font-size:18px;margin:0 0 10px}
+  .tracks p{margin:0 0 10px;font-size:16.5px;color:#33444a}
+  .tracklist{margin:8px 0 4px;padding:0;list-style:none;counter-reset:t}
+  .tracklist li{position:relative;padding:9px 0 9px 36px;border-top:1px solid var(--line);font-size:16.5px;color:#33444a;counter-increment:t}
+  .tracklist b{color:var(--ink);font-weight:600}
+  .tracklist li:before{content:counter(t);position:absolute;left:0;top:9px;font-family:var(--mono);font-size:12px;color:var(--brass);border:1px solid var(--line);border-radius:3px;width:22px;height:22px;display:flex;align-items:center;justify-content:center}
+</style>
+</head>
+<body>
+<div class="draftbar">Draft preview. Not yet published. For content and design review.</div>
+<nav><div class="wrap">
+  <span class="brand"><b>external-hire-premium</b> / research</span>
+  <ul>
+    <li><a href="#plain">Summary</a></li>
+    <li><a href="#picture">The picture</a></li>
+    <li><a href="#models">The models</a></li>
+    <li><a href="#results">Results</a></li>
+    <li><a href="#audit">Audit</a></li>
+  </ul>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="eyebrow">S&P 500 CEO transitions, 2010 to 2022</div>
+  <h1>What you pay for external talent does <em>not</em> predict what you get.</h1>
+  <div class="lede">
+    <p>Boards pay a premium to hire an external CEO.</p>
+    <p>This study tests whether that premium buys a better result. Across 611 transitions, it does not.</p>
+    <p>Four sports free-agency studies reach the same answer.</p>
+  </div>
+  <div class="meta">
+    <span><b>611</b> transitions</span>
+    <span><b>158</b> external hires</span>
+    <span><b>free public data</b></span>
+    <span><b>96</b> logged decisions</span>
+  </div>
+</div></header>
+
+<section id="plain"><div class="wrap reveal">
+  <div class="stitle"><span class="snum">01</span><h2>In plain terms</h2></div>
+  <p class="lead-p">Companies often hire an external CEO. They usually pay more to do it.
+    The bet is that an external hire beats a promotion from within.</p>
+  <p class="lead-p">This study tests that bet on 611 S&P 500 CEO changes. It measures what
+    firms paid and what they got back.</p>
+  <div class="tracks">
+    <h3>What this research tracks</h3>
+    <p>This study looks at Standard and Poor&#8217;s 500 (S&P 500) companies that changed their
+      Chief Executive Officer (CEO) between 2010 and 2022. For each change, it first records one
+      thing. Was the new CEO promoted from within (internal), or brought in from outside (external).</p>
+    <p>Then it measures four things.</p>
+    <ol class="tracklist">
+      <li><b>Pay.</b> What the new CEO earns, against what the departing CEO earned. This is the
+        premium. It is the cost of the hire.</li>
+      <li><b>Stock performance.</b> The return to shareholders, called Total Shareholder Return
+        (TSR). It is the change in share price plus dividends, measured against the market.
+        Above zero beat the market. Below zero lagged it.</li>
+      <li><b>Operating performance.</b> The profit a company earns from what it owns, called
+        Return on Assets (ROA). It is net income divided by total assets. It shows how the
+        business runs, apart from the stock price.</li>
+      <li><b>Tenure.</b> How long the new CEO stays in the job.</li>
+    </ol>
+    <p>The study also checks how the company was performing before the hire. That shows what
+      kind of firm reaches for an external hire.</p>
+  </div>
+  <p class="sub">Two claims are worth separating. One holds up. One does not.</p>
+  <div class="cards">
+    <div class="card hold">
+      <div class="tag">What holds</div>
+      <h3>The premium does not predict the return.</h3>
+      <p>The amount a board pays over the departing CEO does not signal the return that
+        follows. This holds after controls for firm size, year, and industry. It holds when
+        the return is measured only after the hire.</p>
+      <div class="stat">premium to return: p = 0.14 (stock), 0.45 (operating)</div>
+    </div>
+    <div class="card fold">
+      <div class="tag">What does not hold</div>
+      <h3>External hires cost more and deliver less.</h3>
+      <p>The cost premium points up, but it is not precise. The worse-return result is mostly
+        selection. External CEOs are more often hired after the stock has lagged the market,
+        not after operating decline. Pre-hire return was &#8722;18 pts vs market for external hires,
+        &#8722;2 pts for internal (p &lt; 0.001). The gap mostly disappears once the return is measured
+        after the hire.</p>
+      <div class="stat">full window −38 pts (p &lt; 0.001) to post-hire −12 pts (p = 0.14)</div>
+    </div>
+  </div>
+</div></section>
+
+<section id="picture" class="chartsection"><div class="wrap reveal">
+  <div class="stitle"><span class="snum">02</span><h2>The picture</h2></div>
+  <p class="sub">If paying more bought more, the line would slope up. It does not. The fitted
+    line is flat. The premium carries no signal about the return.</p>
+  <div class="figure">
+    <svg viewBox="0 0 720 250" role="img" aria-label="Premium paid versus return delivered. The fitted line is flat, near zero.">
+      <line x1="60" y1="20" x2="60" y2="210" stroke="#2a3b43" stroke-width="1.2"/>
+      <line x1="60" y1="210" x2="690" y2="210" stroke="#2a3b43" stroke-width="1.2"/>
+      <text x="60" y="234" fill="#8fa0a4" font-family="IBM Plex Mono" font-size="12">premium paid →</text>
+      <text x="16" y="30" fill="#8fa0a4" font-family="IBM Plex Mono" font-size="12" transform="rotate(-90 22,120)">return delivered →</text>
+      <line x1="60" y1="200" x2="690" y2="40" stroke="#6b8c99" stroke-width="1.6" stroke-dasharray="5 6" opacity="0.85"/>
+      <text x="486" y="58" fill="#6b8c99" font-family="IBM Plex Mono" font-size="12">what you would expect</text>
+      <g fill="#c0913f" opacity="0.85">
+        <circle cx="110" cy="120" r="4"/><circle cx="150" cy="138" r="4"/><circle cx="185" cy="100" r="4"/>
+        <circle cx="225" cy="150" r="4"/><circle cx="262" cy="108" r="4"/><circle cx="300" cy="132" r="4"/>
+        <circle cx="338" cy="96" r="4"/><circle cx="372" cy="160" r="4"/><circle cx="410" cy="118" r="4"/>
+        <circle cx="448" cy="140" r="4"/><circle cx="486" cy="104" r="4"/><circle cx="524" cy="150" r="4"/>
+        <circle cx="560" cy="116" r="4"/><circle cx="598" cy="134" r="4"/><circle cx="636" cy="112" r="4"/>
+        <circle cx="130" cy="156" r="4"/><circle cx="280" cy="92" r="4"/><circle cx="430" cy="166" r="4"/>
+        <circle cx="580" cy="98" r="4"/><circle cx="350" cy="128" r="4"/>
+      </g>
+      <line x1="60" y1="126" x2="690" y2="124" stroke="#eef0ec" stroke-width="2.6"/>
+      <text x="500" y="150" fill="#eef0ec" font-family="IBM Plex Mono" font-size="12">what the data shows</text>
+    </svg>
+    <div class="cap">Premium over predecessor against the return that followed, for external
+      hires. The fitted slope is near zero (p = 0.14 on stock performance, 0.45 on operating
+      performance). Scatter is illustrative.</div>
+  </div>
+</div></section>
+
+<section id="models"><div class="wrap reveal">
+  <div class="stitle"><span class="snum">03</span><h2>The models</h2></div>
+  <p class="sub">Three models carry the result. Each uses robust (HC1) errors. Controls are
+    firm size (log assets), appointment year, and two-digit SIC industry.</p>
+
+  <div class="model">
+    <div class="mlabel">Model 1. The premium</div>
+    <h3>Do external hires cost more?</h3>
+    <div class="eq">log( pay<sub>succ</sub> / pay<sub>pred</sub> ) = <span class="c">&#946;</span>&#183;External + controls + &#949;</div>
+    <div class="result"><span class="c">&#946;</span> = <b>+0.088</b> &nbsp; p = 0.54 &nbsp; n = 236</div>
+    <p class="note">The premium points up and matches Bidwell in size (about 9%). It is
+      not significant on the mean. It is significant on the median test (p = 0.007). The pay
+      data is heavy-tailed, so the median is the steadier read.</p>
+  </div>
+
+  <div class="model">
+    <div class="mlabel">Model 2. The return, after the hire</div>
+    <h3>Do external hires deliver worse?</h3>
+    <div class="eq">TSR<sub>post</sub> = <span class="c">&#946;</span>&#183;External + controls + &#949;</div>
+    <div class="result"><span class="c">&#946;</span> = <b>&#8722;0.119</b> &nbsp; p = 0.14 &nbsp; n = 431</div>
+    <p class="note">The full window that straddles the hire gave &#8722;0.385 (p &lt; 0.001). Most of
+      that was decline the firm carried in before the hire. Measured only after the hire, the
+      gap is not significant. Operating performance (ROA change) keeps a small effect:
+      &#8722;0.025, p = 0.009.</p>
+  </div>
+
+  <div class="model">
+    <div class="mlabel">Model 3. The headline</div>
+    <h3>Does the premium predict the return?</h3>
+    <div class="eq">Return = <span class="c">&#946;</span>&#183;log( pay<sub>succ</sub> / pay<sub>pred</sub> ) + controls + &#949;</div>
+    <div class="result"><span class="c">&#946;</span> &#8776; <b>0</b> &nbsp; p = 0.14 (stock), 0.45 (operating) &nbsp; n = 189</div>
+    <p class="note">The slope is flat. Paying a larger premium does not buy a better return.
+      This survives every control and the post-hire window. It is the finding the study rests
+      on.</p>
+  </div>
+
+  <div class="model">
+    <div class="mlabel">Also tested. Tenure</div>
+    <h3>Do external hires last as long?</h3>
+    <div class="eq">h(t) = h<sub>0</sub>(t) &#183; exp( <span class="c">&#946;</span>&#183;External + controls )</div>
+    <div class="result">hazard ratio = <b>1.28</b> &nbsp; p = 0.20</div>
+    <p class="note">External CEOs leave a little sooner. The difference is not significant.
+      Tenure comes from the transition chain, censored at the 2022 window end.</p>
+  </div>
+</div></section>
+
+<section id="results"><div class="wrap reveal">
+  <div class="stitle"><span class="snum">04</span><h2>Full results</h2></div>
+  <p class="sub">Every estimate, with its verdict. Compensation from SEC proxy filings,
+    accounting from SEC XBRL, returns from public adjusted prices.</p>
+  <table>
+    <thead><tr><th>Question</th><th>Measure</th><th>Estimate</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr><td>Cost more?</td><td>pay vs. predecessor, controlled</td>
+          <td class="num">+9% (p = 0.54)</td><td>directional, not precise</td></tr>
+      <tr><td>Worse stock performance (raw window)?</td><td>market-adjusted TSR, &#8722;2/+3yr</td>
+          <td class="num">&#8722;38 pts (p &lt; 0.001)</td><td>confounded by selection</td></tr>
+      <tr><td>Worse stock performance (after the hire)?</td><td>market-adjusted TSR, hire to +3yr</td>
+          <td class="num">&#8722;12 pts (p = 0.14)</td><td>not significant</td></tr>
+      <tr><td>Worse operating performance?</td><td>ROA change</td>
+          <td class="num">&#8722;2.5 pts (p = 0.009)</td><td>small, real</td></tr>
+      <tr class="lead-row"><td><span class="who">Premium predicts return?</span></td>
+          <td>return on premium, controlled</td>
+          <td class="num">&#8776; 0 (p = 0.14 / 0.45)</td><td class="verdict-no">NO. holds.</td></tr>
+      <tr><td>Shorter tenure?</td><td>Cox hazard, external</td>
+          <td class="num">HR 1.28 (p = 0.20)</td><td>not significant</td></tr>
+    </tbody>
+  </table>
+
+  <h3 style="font-size:21px;margin:40px 0 6px">Two markets, one answer</h3>
+  <p class="sub">The executive market and sports free agency look nothing alike. Both price
+    external talent off a recent peak that tends not to last. The CEO work leads. The sports
+    studies corroborate.</p>
+  <table>
+    <thead><tr><th>Market</th><th>Premium paid for</th><th>Predicts return?</th><th>Key statistic</th></tr></thead>
+    <tbody>
+      <tr class="lead-row"><td><span class="who">CEO hires, S&P 500</span><br><span class="num" style="color:var(--muted)">611 transitions</span></td>
+          <td>external pay over predecessor</td><td class="verdict-no">No</td>
+          <td class="num">premium to return p = 0.14 / 0.45</td></tr>
+      <tr><td>NHL free agency</td><td>offseason UFA spend</td><td>No</td>
+          <td class="num">prior to next slope &#8722;0.42, p &lt; 0.001</td></tr>
+      <tr><td>NFL free agency</td><td>top-spender status</td><td>No</td>
+          <td class="num">top spender is not top win-gainer</td></tr>
+      <tr><td>NBA supermax</td><td>supermax contract</td><td>No</td>
+          <td class="num">penalty vanishes with controls</td></tr>
+      <tr><td>NHL play-for-contract</td><td>cap share, retention</td><td>retention wins</td>
+          <td class="num">same-team +0.70, p &lt; 0.0001</td></tr>
+    </tbody>
+  </table>
+</div></section>
+
+<section id="methods"><div class="wrap reveal">
+  <div class="stitle"><span class="snum">05</span><h2>Methods</h2></div>
+  <div class="duo">
+    <div>
+      <p style="margin-top:0">Every input is public. The whole study reproduces with no paid
+        database. The sample was frozen before any financial data was pulled. The
+        classification could not be tuned to the result.</p>
+      <p><span class="pill">SEC DEF 14A &#8594; pay</span><span class="pill">SEC XBRL &#8594; ROA</span>
+        <span class="pill">public prices &#8594; TSR</span><span class="pill">point-in-time S&P 500</span>
+        <span class="pill">robust (HC1) errors</span><span class="pill">industry fixed effects</span></p>
+    </div>
+    <div class="kv">
+      <div><b>Sample</b> &nbsp; 611 transitions, 2010 to 2022</div>
+      <div><b>Split</b> &nbsp; 453 internal, 158 external (25.9%)</div>
+      <div><b>Pay</b> &nbsp; proxy table, outlier-screened</div>
+      <div><b>Returns</b> &nbsp; &#8722;2/+3yr and post-hire windows</div>
+      <div><b>Tenure</b> &nbsp; from the transition chain</div>
+      <div><b>Code</b> &nbsp; scripts and data in the repo</div>
+    </div>
+  </div>
+</div></section>
+
+<section id="audit"><div class="wrap reveal">
+  <div class="stitle"><span class="snum">06</span><h2>Audit trail</h2></div>
+  <div class="duo">
+    <blockquote>Every ruling that could move the sample is <em>dated, sourced, and logged.</em></blockquote>
+    <div>
+      <p style="margin-top:0">The rules were set before any coding. Each decision is recorded
+        with its date, source, and reasoning. That covers every reclassification, every
+        excluded firm, every manual correction. The sample is frozen. Results are reported
+        with their uncertainty, including where they fall short of significance.</p>
+      <div class="kv">
+        <div><b>D-001 to D-096</b> &nbsp; full decision log, dated</div>
+        <div><b>Pre-committed</b> &nbsp; rules set before analysis</div>
+        <div><b>Frozen</b> &nbsp; sample locked before enrichment</div>
+        <div><b>Nulls shown</b> &nbsp; non-findings reported, not buried</div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  External hire premium. A reproducible research study.<br>
+  Data and code: <a href="#">github.com/&#8230;/external-hire-premium</a><br>
+  Sports comparison: four prior free-agency studies, cited, not re-run. Draft, pending review.
+</div></footer>
+
+<script>
+  const io=new IntersectionObserver((es)=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
