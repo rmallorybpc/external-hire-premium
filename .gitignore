@@ -1,20 +1,12 @@
-# Python
 __pycache__/
 *.pyc
 .venv/
 venv/
 .ipynb_checkpoints/
-
-# OS / editor
 .DS_Store
 .vscode/
-
-# Large or regenerated raw pulls (keep the derived snapshots, not the bulk dumps)
-execucomp_ceo_years.csv
-compustat_funda.csv
-crsp_monthly.csv
+# large regenerable raw dump (kept out; rebuild by running the comp script)
 edgar_comp_raw.csv
-
-# Secrets (none needed by default; here as a guard if you ever add a Tiingo key)
+# secrets (none needed by default)
 .env
 *.key
