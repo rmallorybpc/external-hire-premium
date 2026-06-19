@@ -4,9 +4,48 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The external hire premium</title>
+<style>
+  :root {
+    /* Core palette */
+    --tmg-cream: #FDFCF0;
+    --tmg-charcoal: #2D3436;
+    --tmg-sage: #84A98C;
+    --tmg-sage-hover: #6B8F74;
+    --tmg-white: #FFFFFF;
+
+    /* Semantic aliases */
+    --tmg-bg: var(--tmg-cream);
+    --tmg-text: var(--tmg-charcoal);
+    --tmg-accent: var(--tmg-sage);
+    --tmg-surface: var(--tmg-white);
+
+    /* Status colors */
+    --tmg-success: #2E8540;
+    --tmg-warning: #C47F00;
+    --tmg-error: #B00020;
+
+    /* Borders */
+    --tmg-border: 1px solid rgba(45, 52, 54, 0.12);
+    --tmg-border-hover: 1px solid rgba(132, 169, 140, 0.50);
+
+    /* Radii */
+    --tmg-bento-radius: 16px;
+    --tmg-nav-radius: 8px;
+    --tmg-btn-radius: 8px;
+
+    /* Spacing */
+    --tmg-gap: 24px;
+    --tmg-gap-sm: 12px;
+
+    /* Elevation */
+    --tmg-shadow-sm: 0 1px 3px rgba(45, 52, 54, 0.08);
+    --tmg-shadow-md: 0 2px 8px rgba(45, 52, 54, 0.10);
+  }
+</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Newsreader:ital,opsz,wght@0,12..72,400;0,12..72,500;1,12..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../tmg.css">
 <style>
   :root{
     --ink:#12222a; --ink-2:#0d191f; --paper:#eef0ec; --paper-2:#e4e7e1;
@@ -17,23 +56,33 @@
     --mono:"IBM Plex Mono",ui-monospace,monospace;
   }
   *{box-sizing:border-box} html{scroll-behavior:smooth}
-  body{margin:0;background:var(--paper);color:var(--text);font-family:var(--serif);
+  body{margin:0;/* background:var(--paper); */ /* color:var(--text); */ /* font-family:var(--serif); */
        font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased}
   h1,h2,h3,.disp{font-family:var(--disp);font-weight:600;letter-spacing:-0.01em;line-height:1.1}
   .mono{font-family:var(--mono)}
   .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
   .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--brass)}
 
-  nav{position:sticky;top:0;z-index:20;background:rgba(18,34,42,.92);backdrop-filter:blur(6px);
+    /*
+    nav{position:sticky;top:0;z-index:20;background:rgba(18,34,42,.92);backdrop-filter:blur(6px);
       border-bottom:1px solid var(--line-dark)}
-  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px}
-  nav .brand{font-family:var(--mono);font-size:13px;letter-spacing:.04em;color:var(--paper)}
-  nav .brand b{color:var(--brass);font-weight:600}
-  nav ul{display:flex;gap:24px;list-style:none;margin:0;padding:0}
-  nav a{font-family:var(--mono);font-size:12.5px;text-transform:uppercase;letter-spacing:.12em;
-        color:#a9b6ba;text-decoration:none;transition:color .2s}
-  nav a:hover{color:var(--brass)}
-  @media(max-width:760px){nav ul{display:none}}
+    nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px}
+    nav .brand{font-family:var(--mono);font-size:13px;letter-spacing:.04em;color:var(--paper)}
+    nav .brand b{color:var(--brass);font-weight:600}
+    nav ul{display:flex;gap:24px;list-style:none;margin:0;padding:0}
+    nav a{font-family:var(--mono);font-size:12.5px;text-transform:uppercase;letter-spacing:.12em;
+      color:#a9b6ba;text-decoration:none;transition:color .2s}
+    nav a:hover{color:var(--brass)}
+    @media(max-width:760px){nav ul{display:none}}
+    */
+
+    .tmg-nav-inner{width:100%;max-width:1280px;margin:0 auto;padding:8px 0}
+    .tmg-nav-top{display:flex;align-items:center;justify-content:space-between;height:40px}
+    .tmg-nav-secondary{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:34px}
+    .tmg-nav-links{display:flex;gap:16px;list-style:none;margin:0;padding:0}
+    .tmg-nav-links a{text-decoration:none;color:var(--tmg-charcoal);font-size:12px;letter-spacing:0.06em;text-transform:uppercase}
+    .tmg-nav-links a:hover{color:var(--tmg-sage-hover)}
+    @media(max-width:760px){.tmg-nav-links{display:none}}
 
   .hero{background:var(--ink);color:var(--paper);padding:88px 0 80px;border-bottom:1px solid var(--line-dark)}
   .hero h1{font-size:clamp(34px,6vw,66px);color:var(--paper);max-width:17ch}
@@ -99,7 +148,7 @@
              color:var(--ink);max-width:26ch}
   blockquote em{font-style:normal;color:var(--brass)}
 
-  footer{background:var(--ink);color:#9fb0b4;padding:40px 0;font-family:var(--mono);font-size:12.5px;line-height:1.9}
+  footer:not(.tmg-footer){background:var(--ink);color:#9fb0b4;padding:40px 0;font-family:var(--mono);font-size:12.5px;line-height:1.9}
   footer a{color:var(--brass);text-decoration:none}
   .draftbar{background:var(--brass);color:#1a130a;font-family:var(--mono);font-size:12px;
             letter-spacing:.06em;text-align:center;padding:7px;text-transform:uppercase}
@@ -119,24 +168,53 @@
 </head>
 <body>
 <div class="draftbar">Draft preview. Not yet published. For content and design review.</div>
-<nav><div class="wrap">
-  <span class="brand"><b>external-hire-premium</b> / research</span>
-  <ul>
-    <li><a href="#plain">Summary</a></li>
-    <li><a href="#picture">The picture</a></li>
-    <li><a href="#models">The models</a></li>
-    <li><a href="#results">Results</a></li>
-    <li><a href="#audit">Audit</a></li>
-  </ul>
-</div></nav>
+<nav class="tmg-nav" role="banner">
+  <div class="tmg-nav-inner">
+    <div class="tmg-nav-top">
+      <div class="tmg-logo" aria-label="The Mallory Group">
+        <span>TM</span>
+        <div class="tmg-logo-divider" aria-hidden="true"></div>
+        <span>G</span>
+      </div>
+      <div class="tmg-dropdown-wrap">
+        <button class="tmg-dropdown-btn" id="tmgDdBtn" aria-haspopup="true" aria-expanded="false" aria-controls="tmgDdMenu">
+          TMG Tool Suite
+          <svg class="tmg-chevron" viewBox="0 0 12 12" fill="none" width="12" height="12" aria-hidden="true">
+            <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <div class="tmg-dropdown-menu" id="tmgDdMenu" role="menu">
+          <a href="https://rmallorybpc.github.io/pdf-multi-agent-analysis/" target="_blank" rel="noreferrer" role="menuitem">PDF Multi-Agent Analysis</a>
+          <a href="https://rmallorybpc.github.io/housing-market-intel/" target="_blank" rel="noreferrer" role="menuitem">Housing Market Intel</a>
+          <a href="https://rmallorybpc.github.io/real-estate-report/" target="_blank" rel="noreferrer" role="menuitem">Real Estate Report</a>
+          <a href="https://rmallorybpc.github.io/nflanalysis/dashboard/src/" target="_blank" rel="noreferrer" role="menuitem">NFL Analysis</a>
+          <a href="https://rmallorybpc.github.io/recipes/" target="_blank" rel="noreferrer" role="menuitem">Recipe Book</a>
+        </div>
+      </div>
+    </div>
+    <div class="tmg-nav-secondary">
+      <ul class="tmg-nav-links">
+        <li><a href="#plain">Summary</a></li>
+        <li><a href="#picture">The picture</a></li>
+        <li><a href="#models">The models</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#audit">Audit</a></li>
+      </ul>
+      <span class="tmg-body-sm">external-hire-premium / research</span>
+    </div>
+  </div>
+</nav>
 
-<header class="hero"><div class="wrap">
-  <div class="eyebrow">S&P 500 CEO transitions, 2010 to 2022</div>
-  <h1>What you pay for external talent does <em>not</em> predict what you get.</h1>
+<div class="tmg-page tmg-container">
+<header class="hero tmg-card-wide"><div class="wrap">
+  <div class="tmg-page-header">
+  <p class="eyebrow tmg-eyebrow">S&P 500 CEO transitions, 2010 to 2022</p>
+  <h1 class="tmg-page-title">What you pay for external talent does <em>not</em> predict what you get.</h1>
   <div class="lede">
-    <p>Boards pay a premium to hire an external CEO.</p>
+    <p class="tmg-page-desc">Boards pay a premium to hire an external CEO.</p>
     <p>This study tests whether that premium buys a better result. Across 611 transitions, it does not.</p>
     <p>Four sports free-agency studies reach the same answer.</p>
+  </div>
   </div>
   <div class="meta">
     <span><b>611</b> transitions</span>
@@ -152,7 +230,7 @@
     The bet is that an external hire beats a promotion from within.</p>
   <p class="lead-p">This study tests that bet on 611 S&P 500 CEO changes. It measures what
     firms paid and what they got back.</p>
-  <div class="tracks">
+  <div class="tracks tmg-card-wide">
     <h3>What this research tracks</h3>
     <p>This study looks at Standard and Poor&#8217;s 500 (S&P 500) companies that changed their
       Chief Executive Officer (CEO) between 2010 and 2022. For each change, it first records one
@@ -173,24 +251,24 @@
       kind of firm reaches for an external hire.</p>
   </div>
   <p class="sub">Two claims are worth separating. One holds up. One does not.</p>
-  <div class="cards">
-    <div class="card hold">
-      <div class="tag">What holds</div>
-      <h3>The premium does not predict the return.</h3>
+  <div class="cards tmg-bento-grid">
+    <div class="card hold tmg-card">
+      <div class="tag tmg-card-label">What holds</div>
+      <h3 class="tmg-card-title">The premium does not predict the return.</h3>
       <p>The amount a board pays over the departing CEO does not signal the return that
         follows. This holds after controls for firm size, year, and industry. It holds when
         the return is measured only after the hire.</p>
-      <div class="stat">premium to return: p = 0.14 (stock), 0.45 (operating)</div>
+      <div class="stat tmg-card-sub">premium to return: p = 0.14 (stock), 0.45 (operating)</div>
     </div>
-    <div class="card fold">
-      <div class="tag">What does not hold</div>
-      <h3>External hires cost more and deliver less.</h3>
+    <div class="card fold tmg-card">
+      <div class="tag tmg-card-label">What does not hold</div>
+      <h3 class="tmg-card-title">External hires cost more and deliver less.</h3>
       <p>The cost premium points up, but it is not precise. The worse-return result is mostly
         selection. External CEOs are more often hired after the stock has lagged the market,
         not after operating decline. Pre-hire return was &#8722;18 pts vs market for external hires,
         &#8722;2 pts for internal (p &lt; 0.001). The gap mostly disappears once the return is measured
         after the hire.</p>
-      <div class="stat">full window −38 pts (p &lt; 0.001) to post-hire −12 pts (p = 0.14)</div>
+      <div class="stat tmg-card-sub">full window −38 pts (p &lt; 0.001) to post-hire −12 pts (p = 0.14)</div>
     </div>
   </div>
 </div></section>
@@ -199,7 +277,7 @@
   <div class="stitle"><span class="snum">02</span><h2>The picture</h2></div>
   <p class="sub">If paying more bought more, the line would slope up. It does not. The fitted
     line is flat. The premium carries no signal about the return.</p>
-  <div class="figure">
+  <div class="figure tmg-card-wide">
     <svg viewBox="0 0 720 250" role="img" aria-label="Premium paid versus return delivered. The fitted line is flat, near zero.">
       <line x1="60" y1="20" x2="60" y2="210" stroke="#2a3b43" stroke-width="1.2"/>
       <line x1="60" y1="210" x2="690" y2="210" stroke="#2a3b43" stroke-width="1.2"/>
@@ -230,42 +308,42 @@
   <p class="sub">Three models carry the result. Each uses robust (HC1) errors. Controls are
     firm size (log assets), appointment year, and two-digit SIC industry.</p>
 
-  <div class="model">
-    <div class="mlabel">Model 1. The premium</div>
-    <h3>Do external hires cost more?</h3>
+  <div class="model tmg-card-wide">
+    <div class="mlabel tmg-card-label">Model 1. The premium</div>
+    <h3 class="tmg-card-title">Do external hires cost more?</h3>
     <div class="eq">log( pay<sub>succ</sub> / pay<sub>pred</sub> ) = <span class="c">&#946;</span>&#183;External + controls + &#949;</div>
-    <div class="result"><span class="c">&#946;</span> = <b>+0.088</b> &nbsp; p = 0.54 &nbsp; n = 236</div>
+    <div class="result tmg-card-value"><span class="c">&#946;</span> = <b>+0.088</b> &nbsp; p = 0.54 &nbsp; n = 236</div>
     <p class="note">The premium points up and matches Bidwell in size (about 9%). It is
       not significant on the mean. It is significant on the median test (p = 0.007). The pay
       data is heavy-tailed, so the median is the steadier read.</p>
   </div>
 
-  <div class="model">
-    <div class="mlabel">Model 2. The return, after the hire</div>
-    <h3>Do external hires deliver worse?</h3>
+  <div class="model tmg-card-wide">
+    <div class="mlabel tmg-card-label">Model 2. The return, after the hire</div>
+    <h3 class="tmg-card-title">Do external hires deliver worse?</h3>
     <div class="eq">TSR<sub>post</sub> = <span class="c">&#946;</span>&#183;External + controls + &#949;</div>
-    <div class="result"><span class="c">&#946;</span> = <b>&#8722;0.119</b> &nbsp; p = 0.14 &nbsp; n = 431</div>
+    <div class="result tmg-card-value"><span class="c">&#946;</span> = <b>&#8722;0.119</b> &nbsp; p = 0.14 &nbsp; n = 431</div>
     <p class="note">The full window that straddles the hire gave &#8722;0.385 (p &lt; 0.001). Most of
       that was decline the firm carried in before the hire. Measured only after the hire, the
       gap is not significant. Operating performance (ROA change) keeps a small effect:
       &#8722;0.025, p = 0.009.</p>
   </div>
 
-  <div class="model">
-    <div class="mlabel">Model 3. The headline</div>
-    <h3>Does the premium predict the return?</h3>
+  <div class="model tmg-card-wide">
+    <div class="mlabel tmg-card-label">Model 3. The headline</div>
+    <h3 class="tmg-card-title">Does the premium predict the return?</h3>
     <div class="eq">Return = <span class="c">&#946;</span>&#183;log( pay<sub>succ</sub> / pay<sub>pred</sub> ) + controls + &#949;</div>
-    <div class="result"><span class="c">&#946;</span> &#8776; <b>0</b> &nbsp; p = 0.14 (stock), 0.45 (operating) &nbsp; n = 189</div>
+    <div class="result tmg-card-value"><span class="c">&#946;</span> &#8776; <b>0</b> &nbsp; p = 0.14 (stock), 0.45 (operating) &nbsp; n = 189</div>
     <p class="note">The slope is flat. Paying a larger premium does not buy a better return.
       This survives every control and the post-hire window. It is the finding the study rests
       on.</p>
   </div>
 
-  <div class="model">
-    <div class="mlabel">Also tested. Tenure</div>
-    <h3>Do external hires last as long?</h3>
+  <div class="model tmg-card-wide">
+    <div class="mlabel tmg-card-label">Also tested. Tenure</div>
+    <h3 class="tmg-card-title">Do external hires last as long?</h3>
     <div class="eq">h(t) = h<sub>0</sub>(t) &#183; exp( <span class="c">&#946;</span>&#183;External + controls )</div>
-    <div class="result">hazard ratio = <b>1.28</b> &nbsp; p = 0.20</div>
+    <div class="result tmg-card-value">hazard ratio = <b>1.28</b> &nbsp; p = 0.20</div>
     <p class="note">External CEOs leave a little sooner. The difference is not significant.
       Tenure comes from the transition chain, censored at the 2022 window end.</p>
   </div>
@@ -275,8 +353,9 @@
   <div class="stitle"><span class="snum">04</span><h2>Full results</h2></div>
   <p class="sub">Every estimate, with its verdict. Compensation from SEC proxy filings,
     accounting from SEC XBRL, returns from public adjusted prices.</p>
-  <table>
-    <thead><tr><th>Question</th><th>Measure</th><th>Estimate</th><th>Verdict</th></tr></thead>
+  <div class="tmg-card-wide">
+  <table class="tmg-table">
+    <thead><tr><th scope="col">Question</th><th scope="col">Measure</th><th scope="col">Estimate</th><th scope="col">Verdict</th></tr></thead>
     <tbody>
       <tr><td>Cost more?</td><td>pay vs. predecessor, controlled</td>
           <td class="num">+9% (p = 0.54)</td><td>directional, not precise</td></tr>
@@ -293,13 +372,15 @@
           <td class="num">HR 1.28 (p = 0.20)</td><td>not significant</td></tr>
     </tbody>
   </table>
+  </div>
 
   <h3 style="font-size:21px;margin:40px 0 6px">Two markets, one answer</h3>
   <p class="sub">The executive market and sports free agency look nothing alike. Both price
     external talent off a recent peak that tends not to last. The CEO work leads. The sports
     studies corroborate.</p>
-  <table>
-    <thead><tr><th>Market</th><th>Premium paid for</th><th>Predicts return?</th><th>Key statistic</th></tr></thead>
+  <div class="tmg-card-wide">
+  <table class="tmg-table">
+    <thead><tr><th scope="col">Market</th><th scope="col">Premium paid for</th><th scope="col">Predicts return?</th><th scope="col">Key statistic</th></tr></thead>
     <tbody>
       <tr class="lead-row"><td><span class="who">CEO hires, S&P 500</span><br><span class="num" style="color:var(--muted)">611 transitions</span></td>
           <td>external pay over predecessor</td><td class="verdict-no">No</td>
@@ -314,12 +395,13 @@
           <td class="num">same-team +0.70, p &lt; 0.0001</td></tr>
     </tbody>
   </table>
+  </div>
 </div></section>
 
 <section id="methods"><div class="wrap reveal">
   <div class="stitle"><span class="snum">05</span><h2>Methods</h2></div>
-  <div class="duo">
-    <div>
+  <div class="duo tmg-bento-grid">
+    <div class="tmg-card">
       <p style="margin-top:0">Every input is public. The whole study reproduces with no paid
         database. The sample was frozen before any financial data was pulled. The
         classification could not be tuned to the result.</p>
@@ -327,7 +409,7 @@
         <span class="pill">public prices &#8594; TSR</span><span class="pill">point-in-time S&P 500</span>
         <span class="pill">robust (HC1) errors</span><span class="pill">industry fixed effects</span></p>
     </div>
-    <div class="kv">
+    <div class="kv tmg-card">
       <div><b>Sample</b> &nbsp; 611 transitions, 2010 to 2022</div>
       <div><b>Split</b> &nbsp; 453 internal, 158 external (25.9%)</div>
       <div><b>Pay</b> &nbsp; proxy table, outlier-screened</div>
@@ -340,9 +422,9 @@
 
 <section id="audit"><div class="wrap reveal">
   <div class="stitle"><span class="snum">06</span><h2>Audit trail</h2></div>
-  <div class="duo">
-    <blockquote>Every ruling that could move the sample is <em>dated, sourced, and logged.</em></blockquote>
-    <div>
+  <div class="duo tmg-bento-grid">
+    <blockquote class="tmg-card">Every ruling that could move the sample is <em>dated, sourced, and logged.</em></blockquote>
+    <div class="tmg-card">
       <p style="margin-top:0">The rules were set before any coding. Each decision is recorded
         with its date, source, and reasoning. That covers every reclassification, every
         excluded firm, every manual correction. The sample is frozen. Results are reported
@@ -357,11 +439,43 @@
   </div>
 </div></section>
 
-<footer><div class="wrap">
+</div>
+
+<footer class="tmg-footer"><div class="wrap">
   External hire premium. A reproducible research study.<br>
   Data and code: <a href="#">github.com/&#8230;/external-hire-premium</a><br>
   Sports comparison: four prior free-agency studies, cited, not re-run. Draft, pending review.
 </div></footer>
+
+<script>
+(function () {
+  const btn  = document.getElementById('tmgDdBtn');
+  const menu = document.getElementById('tmgDdMenu');
+  if (!btn || !menu) return;
+
+  btn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    const isOpen = menu.classList.toggle('open');
+    btn.classList.toggle('open', isOpen);
+    btn.setAttribute('aria-expanded', String(isOpen));
+  });
+
+  document.addEventListener('click', function () {
+    menu.classList.remove('open');
+    btn.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      menu.classList.remove('open');
+      btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+      btn.focus();
+    }
+  });
+})();
+</script>
 
 <script>
   const io=new IntersectionObserver((es)=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});
