@@ -4,11 +4,46 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Key findings | External hire premium</title>
+<style>
+  :root {
+    --tmg-cream: #FDFCF0;
+    --tmg-charcoal: #2D3436;
+    --tmg-sage: #84A98C;
+    --tmg-sage-hover: #6B8F74;
+    --tmg-white: #FFFFFF;
+    --tmg-bg: var(--tmg-cream);
+    --tmg-text: var(--tmg-charcoal);
+    --tmg-accent: var(--tmg-sage);
+    --tmg-surface: var(--tmg-white);
+    --tmg-success: #2E8540;
+    --tmg-warning: #C47F00;
+    --tmg-error: #B00020;
+    --tmg-border: 1px solid rgba(45, 52, 54, 0.12);
+    --tmg-border-hover: 1px solid rgba(132, 169, 140, 0.50);
+    --tmg-bento-radius: 16px;
+    --tmg-nav-radius: 8px;
+    --tmg-btn-radius: 8px;
+    --tmg-gap: 24px;
+    --tmg-gap-sm: 12px;
+    --tmg-shadow-sm: 0 1px 3px rgba(45, 52, 54, 0.08);
+    --tmg-shadow-md: 0 2px 8px rgba(45, 52, 54, 0.10);
+  }
+</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://rmallorybpc.github.io/tmg-brand-guide/dist/tmg.css">
 <style>
+  .tmg-nav {
+    height: auto;
+    min-height: 56px;
+    align-items: flex-start;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .tmg-nav-left { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+  .tmg-nav-secondary { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+  .tmg-nav-secondary a { text-decoration: none; }
   .ehp-cap { font-size: 13px; color: rgba(45,52,54,0.55); margin: 12px 0 0; line-height: 1.6; }
   .ehp-list { margin: 8px 0 0; padding: 0; list-style: none; }
   .ehp-list li { padding: 9px 0; border-top: 1px solid rgba(45,52,54,0.08); }
@@ -23,15 +58,19 @@
 </head>
 <body>
 
-<nav class="tmg-nav" aria-label="Main">
+<nav class="tmg-nav" role="banner">
+  <div class="tmg-nav-left">
   <a class="tmg-logo" href="index.html" aria-label="The Mallory Group home">
     <span>TM</span><span class="tmg-logo-divider" aria-hidden="true"></span><span>G</span>
   </a>
-  <div style="display:flex;align-items:center;gap:18px">
+    <div class="tmg-nav-secondary" aria-label="Page links">
     <a class="tmg-body-sm" href="index.html">Overview</a>
     <a class="tmg-body-sm" href="findings.html">Key findings</a>
     <a class="tmg-body-sm" href="methods.html">Methods</a>
     <a class="tmg-body-sm" href="audit.html">Audit</a>
+    </div>
+  </div>
+  <div style="display:flex;align-items:center;gap:18px">
     <div class="tmg-dropdown-wrap">
       <button class="tmg-dropdown-btn" id="toolBtn" aria-haspopup="true" aria-expanded="false">
         TMG Tool Suite
@@ -54,7 +93,7 @@
   </div>
 </nav>
 
-<div class="tmg-page"><div class="tmg-container">
+<div class="tmg-page tmg-container">
 
     <header class="tmg-page-header">
       <p class="tmg-eyebrow">External hire premium</p>
@@ -67,7 +106,7 @@
 
       <section class="tmg-card-wide" aria-labelledby="f0">
         <p class="tmg-card-label">Headline</p>
-        <h2 id="f0" class="tmg-h2">The premium does not predict the return.</h2>
+        <h2 id="f0" class="tmg-h2 tmg-card-title">The premium does not predict the return.</h2>
         <p class="tmg-body">Among external hires, the amount paid over the departing CEO does not
           signal the return that follows. It holds after controls for firm size, year, and
           industry. It holds when the return is measured only after the hire. It is the most
@@ -164,21 +203,36 @@
   <footer class="tmg-footer">
     External hire premium by The Mallory Group. Last updated 2026.
   </footer>
-</div></div>
+</div>
 
 <script>
-  var btn = document.getElementById('toolBtn');
-  var menu = document.getElementById('toolMenu');
-  btn.addEventListener('click', function (e) {
-    e.stopPropagation();
-    var open = menu.classList.toggle('open');
-    btn.classList.toggle('open', open);
-    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-  });
-  document.addEventListener('click', function () {
-    menu.classList.remove('open'); btn.classList.remove('open');
-    btn.setAttribute('aria-expanded', 'false');
-  });
+  (function () {
+    var btn = document.getElementById('toolBtn');
+    var menu = document.getElementById('toolMenu');
+    if (!btn || !menu) return;
+
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var isOpen = menu.classList.toggle('open');
+      btn.classList.toggle('open', isOpen);
+      btn.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    document.addEventListener('click', function () {
+      menu.classList.remove('open');
+      btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        menu.classList.remove('open');
+        btn.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+        btn.focus();
+      }
+    });
+  })();
 </script>
 </body>
 </html>
