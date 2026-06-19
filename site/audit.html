@@ -7,29 +7,30 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../tmg.css">
+<link rel="stylesheet" href="https://rmallorybpc.github.io/tmg-brand-guide/dist/tmg.css">
 <style>
-  .tmg-nav {
-    height: auto;
-    min-height: 56px;
-    align-items: flex-start;
-    padding-top: 8px;
-    padding-bottom: 8px;
+  .ehp-subnav {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin: 0 0 20px;
+    padding: 10px 12px;
+    background: var(--tmg-white);
+    border: var(--tmg-border);
+    border-radius: var(--tmg-nav-radius);
   }
-  .tmg-nav-left { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
-  .tmg-nav-secondary { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
-  .tmg-nav-secondary a {
+  .ehp-subnav a {
     text-decoration: none;
     color: var(--tmg-charcoal);
     padding: 3px 0;
     border-bottom: 2px solid transparent;
   }
-  .tmg-nav-secondary a:hover { color: var(--tmg-sage-hover); }
-  .tmg-nav-secondary a[aria-current="page"] {
+  .ehp-subnav a:hover { color: var(--tmg-sage-hover); }
+  .ehp-subnav a[aria-current="page"] {
     color: var(--tmg-sage-hover);
     border-bottom-color: var(--tmg-sage);
   }
-  .tmg-nav-meta { display: flex; align-items: center; gap: 18px; }
   .ehp-cap { font-size: 13px; color: rgba(45,52,54,0.55); margin: 12px 0 0; line-height: 1.6; }
   .ehp-list { margin: 8px 0 0; padding: 0; list-style: none; }
   .ehp-list li { padding: 9px 0; border-top: 1px solid rgba(45,52,54,0.08); }
@@ -41,16 +42,6 @@
   .ehp-res { font-size: 13px; color: var(--tmg-charcoal); margin: 0 0 4px; }
   .ehp-res b { font-weight: 500; color: var(--tmg-sage-hover); }
   @media (max-width: 900px) {
-    .tmg-nav {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 10px;
-    }
-    .tmg-nav-meta {
-      justify-content: space-between;
-      width: 100%;
-    }
-    .tmg-dropdown-wrap,
     .tmg-dropdown-btn {
       width: 100%;
     }
@@ -66,41 +57,36 @@
 <body>
 
 <nav class="tmg-nav" role="banner">
-  <div class="tmg-nav-left">
   <a class="tmg-logo" href="index.html" aria-label="The Mallory Group home">
     <span>TM</span><span class="tmg-logo-divider" aria-hidden="true"></span><span>G</span>
   </a>
-    <div class="tmg-nav-secondary" aria-label="Page links">
-    <a class="tmg-body-sm" href="index.html">Overview</a>
-    <a class="tmg-body-sm" href="findings.html">Key findings</a>
-    <a class="tmg-body-sm" href="methods.html">Methods</a>
-    <a class="tmg-body-sm" href="audit.html" aria-current="page">Audit</a>
+  <div class="tmg-dropdown-wrap">
+    <button class="tmg-dropdown-btn" id="toolBtn" aria-haspopup="true" aria-expanded="false">
+      TMG Tool Suite
+      <svg class="tmg-chevron" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+    </button>
+    <div class="tmg-dropdown-menu" id="toolMenu" role="menu">
+      <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/pdf-multi-agent-analysis/">PDF Multi-Agent Analysis</a>
+      <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/housing-market-intel/">Housing Market Intel</a>
+      <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/real-estate-report/">Real Estate Report</a>
+      <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/nflanalysis/dashboard/src/">NFL Analysis</a>
+      <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/recipes/">Recipe Book</a>
+      <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/nhl-free-agency-research/">NHL Free Agency Research</a>
+      <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/nhl-play-for-contract/">NHL Play for Contract</a>
+      <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/nba-research-project/">NBA Supermax Research</a>
+      <a role="menuitem" target="_blank" rel="noreferrer" href="https://content-integrity-audit.pages.dev/">Content Integrity</a>
+      <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/external-hire-premium/">External Hire Premium</a>
     </div>
-  </div>
-  <div class="tmg-nav-meta">
-    <div class="tmg-dropdown-wrap">
-      <button class="tmg-dropdown-btn" id="toolBtn" aria-haspopup="true" aria-expanded="false">
-        TMG Tool Suite
-        <svg class="tmg-chevron" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
-      </button>
-      <div class="tmg-dropdown-menu" id="toolMenu" role="menu">
-        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/pdf-multi-agent-analysis/">PDF Multi-Agent Analysis</a>
-        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/housing-market-intel/">Housing Market Intel</a>
-        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/real-estate-report/">Real Estate Report</a>
-        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/nflanalysis/dashboard/src/">NFL Analysis</a>
-        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/recipes/">Recipe Book</a>
-        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/nhl-free-agency-research/">NHL Free Agency Research</a>
-        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/nhl-play-for-contract/">NHL Play for Contract</a>
-        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/nba-research-project/">NBA Supermax Research</a>
-        <a role="menuitem" target="_blank" rel="noreferrer" href="https://content-integrity-audit.pages.dev/">Content Integrity</a>
-        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/external-hire-premium/">External Hire Premium</a>
-      </div>
-    </div>
-    <span class="tmg-body-sm tmg-text-muted">The Mallory Group</span>
   </div>
 </nav>
 
 <div class="tmg-page tmg-container">
+    <nav class="ehp-subnav" aria-label="Page links">
+      <a class="tmg-body-sm" href="index.html">Overview</a>
+      <a class="tmg-body-sm" href="findings.html">Key findings</a>
+      <a class="tmg-body-sm" href="methods.html">Methods</a>
+      <a class="tmg-body-sm" href="audit.html" aria-current="page">Audit</a>
+    </nav>
 
     <header class="tmg-page-header">
       <p class="tmg-eyebrow">External hire premium</p>

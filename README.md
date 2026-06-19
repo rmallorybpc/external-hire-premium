@@ -29,6 +29,10 @@ TSR); operating performance (Return on Assets, ROA); tenure; and pre-hire perfor
 
 GitHub Pages should serve from `site/index.html` as the primary entry page.
 
+Brand stylesheet rule: published pages in `site/` must load TMG styles using either
+the CDN URL from `TMG-BRAND-GUIDE.md` or a stylesheet copied into `site/`.
+Do not use parent-relative stylesheet paths for published pages.
+
 ## Reproduce
 
 See `RUN_LOCALLY.md`. Collect the data locally once, commit the snapshot CSVs, then the
