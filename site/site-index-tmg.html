@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>External hire premium</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://rmallorybpc.github.io/tmg-brand-guide/dist/tmg.css">
+<style>
+  /* page-local only: the signature chart and a few content helpers. all colors from TMG tokens. */
+  .ehp-chart { width: 100%; height: auto; display: block; }
+  .ehp-cap { font-size: 13px; color: rgba(45,52,54,0.55); margin: 12px 0 0; line-height: 1.6; }
+  .ehp-stat { font-size: 13px; color: var(--tmg-charcoal); margin-top: 12px; padding-top: 12px;
+              border-top: 1px solid rgba(45,52,54,0.10); }
+  .ehp-list { margin: 8px 0 0; padding: 0; list-style: none; }
+  .ehp-list li { padding: 9px 0; border-top: 1px solid rgba(45,52,54,0.08); }
+  .ehp-list li:first-child { border-top: none; }
+  .ehp-list b { font-weight: 500; }
+  .ehp-eq { font-size: 14px; background: rgba(132,169,140,0.10); border-left: 3px solid var(--tmg-sage);
+            padding: 10px 12px; border-radius: 6px; margin: 6px 0; overflow-x: auto; }
+  .ehp-btnrow { display: flex; gap: 12px; flex-wrap: wrap; margin: 4px 0 24px; }
+</style>
+</head>
+<body>
+
+<!-- TMG navigation -->
+<nav class="tmg-nav" aria-label="Main">
+  <a class="tmg-logo" href="https://rmallorybpc.github.io/external-hire-premium/" aria-label="The Mallory Group home">
+    <span>TM</span><span class="tmg-logo-divider" aria-hidden="true"></span><span>G</span>
+  </a>
+  <div style="display:flex;align-items:center;gap:18px">
+    <a class="tmg-body-sm" href="index.html">Overview</a>
+    <a class="tmg-body-sm" href="findings.html">Key findings</a>
+    <a class="tmg-body-sm" href="methods.html">Methods</a>
+    <a class="tmg-body-sm" href="audit.html">Audit</a>
+    <div class="tmg-dropdown-wrap">
+      <button class="tmg-dropdown-btn" id="toolBtn" aria-haspopup="true" aria-expanded="false">
+        TMG Tool Suite
+        <svg class="tmg-chevron" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+      </button>
+      <div class="tmg-dropdown-menu" id="toolMenu" role="menu">
+        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/pdf-multi-agent-analysis/">PDF Multi-Agent Analysis</a>
+        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/housing-market-intel/">Housing Market Intel</a>
+        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/real-estate-report/">Real Estate Report</a>
+        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/nflanalysis/dashboard/src/">NFL Analysis</a>
+        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/recipes/">Recipe Book</a>
+        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/nhl-free-agency-research/">NHL Free Agency Research</a>
+        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/nhl-play-for-contract/">NHL Play for Contract</a>
+        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/nba-research-project/">NBA Supermax Research</a>
+        <a role="menuitem" target="_blank" rel="noreferrer" href="https://content-integrity-audit.pages.dev/">Content Integrity</a>
+        <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/external-hire-premium/">External Hire Premium</a>
+      </div>
+    </div>
+    <span class="tmg-body-sm tmg-text-muted">The Mallory Group</span>
+  </div>
+</nav>
+
+<div class="tmg-page">
+  <div class="tmg-container">
+
+    <header class="tmg-page-header">
+      <p class="tmg-eyebrow">S&P 500 CEO transitions, 2010 to 2022</p>
+      <h1 class="tmg-page-title">The external hire premium</h1>
+      <p class="tmg-page-desc">Do externally hired CEOs cost more and deliver less than internal
+        promotions? A study of 611 transitions, with a sports free-agency comparison.</p>
+    </header>
+
+    <div class="ehp-btnrow">
+      <a class="tmg-btn" href="findings.html">Go to findings</a>
+      <a class="tmg-btn-ghost" href="methods.html">Go to methods</a>
+    </div>
+
+    <div class="tmg-bento-grid">
+
+      <!-- headline finding -->
+      <section class="tmg-card-wide" aria-labelledby="hl">
+        <p class="tmg-card-label">Headline finding</p>
+        <h2 id="hl" class="tmg-h2">What a company pays for an external hire does not predict the
+          return that follows.</h2>
+        <p class="tmg-body">Companies often hire a CEO from outside, and they usually pay more to
+          do it. The premium is real but small, about 9 percent over the predecessor. It does not
+          buy a better result. The claim that external hires cost more and deliver less does not
+          hold: the cost premium is imprecise, and the weaker returns are mostly selection. The
+          robust finding, which holds under every control and repeats in four sports datasets, is
+          simpler. What you pay for outside talent does not predict what you get.</p>
+      </section>
+
+      <!-- key numbers -->
+      <section class="tmg-card" aria-labelledby="kn">
+        <p class="tmg-card-label">Key numbers</p>
+        <h3 id="kn" class="tmg-card-title">The premium and the return</h3>
+        <ul class="ehp-list tmg-body-sm">
+          <li><b>External pay premium:</b> about +9% over the predecessor (p = 0.54)</li>
+          <li><b>Premium to stock return:</b> p = 0.14</li>
+          <li><b>Premium to operating return:</b> p = 0.45</li>
+          <li><b>Sample:</b> 611 transitions, 158 external (25.9%)</li>
+        </ul>
+        <p class="ehp-stat tmg-text-muted">Robust standard errors. Industry, size, and year controls.</p>
+      </section>
+
+      <!-- the picture -->
+      <section class="tmg-card-wide" aria-labelledby="pic">
+        <p class="tmg-card-label">The picture</p>
+        <h3 id="pic" class="tmg-card-title">If paying more bought more, the line would slope up. It does not.</h3>
+        <svg class="ehp-chart" viewBox="0 0 720 250" role="img" aria-label="Premium paid versus return delivered. The fitted line is flat, near zero.">
+          <line x1="60" y1="20" x2="60" y2="210" stroke="rgba(45,52,54,0.25)" stroke-width="1.2"/>
+          <line x1="60" y1="210" x2="690" y2="210" stroke="rgba(45,52,54,0.25)" stroke-width="1.2"/>
+          <text x="60" y="234" fill="rgba(45,52,54,0.55)" font-family="Inter" font-size="12">premium paid →</text>
+          <text x="16" y="30" fill="rgba(45,52,54,0.55)" font-family="Inter" font-size="12" transform="rotate(-90 22,120)">return delivered →</text>
+          <line x1="60" y1="200" x2="690" y2="40" stroke="#84A98C" stroke-width="1.6" stroke-dasharray="5 6"/>
+          <text x="470" y="58" fill="#6B8F74" font-family="Inter" font-size="12">what you would expect</text>
+          <g fill="#84A98C" opacity="0.8">
+            <circle cx="110" cy="120" r="4"/><circle cx="150" cy="138" r="4"/><circle cx="185" cy="100" r="4"/>
+            <circle cx="225" cy="150" r="4"/><circle cx="262" cy="108" r="4"/><circle cx="300" cy="132" r="4"/>
+            <circle cx="338" cy="96" r="4"/><circle cx="372" cy="160" r="4"/><circle cx="410" cy="118" r="4"/>
+            <circle cx="448" cy="140" r="4"/><circle cx="486" cy="104" r="4"/><circle cx="524" cy="150" r="4"/>
+            <circle cx="560" cy="116" r="4"/><circle cx="598" cy="134" r="4"/><circle cx="636" cy="112" r="4"/>
+            <circle cx="130" cy="156" r="4"/><circle cx="280" cy="92" r="4"/><circle cx="430" cy="166" r="4"/>
+            <circle cx="580" cy="98" r="4"/><circle cx="350" cy="128" r="4"/>
+          </g>
+          <line x1="60" y1="126" x2="690" y2="124" stroke="#2D3436" stroke-width="2.4"/>
+          <text x="480" y="148" fill="#2D3436" font-family="Inter" font-size="12">what the data shows</text>
+        </svg>
+        <p class="ehp-cap">Premium over predecessor against the return that followed, for external
+          hires. The fitted slope is near zero (p = 0.14 on stock performance, 0.45 on operating
+          performance). Scatter is illustrative.</p>
+      </section>
+
+      <!-- what it tracks -->
+      <section class="tmg-card-wide" aria-labelledby="tr">
+        <p class="tmg-card-label">What this research tracks</p>
+        <h3 id="tr" class="tmg-card-title">Four measures, plus the split everything rests on</h3>
+        <p class="tmg-body">For each CEO change, the study first records whether the new CEO was
+          promoted from within (internal) or brought in from outside (external). Then it measures
+          four things.</p>
+        <ul class="ehp-list tmg-body">
+          <li><b>Pay.</b> What the new CEO earns against the departing CEO. This is the premium.</li>
+          <li><b>Stock performance.</b> The return to shareholders, Total Shareholder Return (TSR),
+            measured against the market.</li>
+          <li><b>Operating performance.</b> Return on Assets (ROA), net income divided by total assets.</li>
+          <li><b>Tenure.</b> How long the new CEO stays in the job.</li>
+        </ul>
+      </section>
+
+      <!-- question / approach / data -->
+      <section class="tmg-card" aria-labelledby="q1">
+        <p class="tmg-card-label">The question</p>
+        <h3 id="q1" class="tmg-card-title">Does the premium buy a result?</h3>
+        <p class="tmg-body">Whether the price paid for an outside CEO predicts the return the company
+          gets. A backward-looking test, not a hiring tool.</p>
+      </section>
+      <section class="tmg-card" aria-labelledby="q2">
+        <p class="tmg-card-label">The approach</p>
+        <h3 id="q2" class="tmg-card-title">Public data, frozen sample</h3>
+        <p class="tmg-body">Pay from SEC proxy filings, accounting from SEC XBRL, returns from public
+          prices. The sample was frozen before any financial data was collected.</p>
+      </section>
+      <section class="tmg-card" aria-labelledby="q3">
+        <p class="tmg-card-label">The data</p>
+        <h3 id="q3" class="tmg-card-title">611 transitions</h3>
+        <p class="tmg-body">453 internal, 158 external. Reproducible from public sources, with no
+          licensed database. Code and snapshots are in the repository.</p>
+      </section>
+
+    </div>
+
+    <footer class="tmg-footer">
+      External hire premium by The Mallory Group. Last updated 2026.
+    </footer>
+
+  </div>
+</div>
+
+<script>
+  var btn = document.getElementById('toolBtn');
+  var menu = document.getElementById('toolMenu');
+  btn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    var open = menu.classList.toggle('open');
+    btn.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  document.addEventListener('click', function () {
+    menu.classList.remove('open'); btn.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+  });
+</script>
+</body>
+</html>
