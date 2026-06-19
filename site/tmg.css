@@ -168,6 +168,16 @@ body {
   border-top: var(--tmg-border); margin-top: var(--tmg-gap);
 }
 
+.tmg-footer a {
+  color: var(--tmg-charcoal);
+  margin-left: 8px;
+  text-decoration-color: rgba(45,52,54,0.35);
+}
+
+.tmg-footer a:hover {
+  text-decoration-color: var(--tmg-charcoal);
+}
+
 
 /* ── 6. Cards ──────────────────────────────────────────────── */
 .tmg-card {
