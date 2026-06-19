@@ -38,16 +38,17 @@
   .ehp-list li { padding: 9px 0; border-top: 1px solid rgba(45,52,54,0.08); }
   .ehp-list li:first-child { border-top: none; }
   .ehp-list b { font-weight: 500; }
-  .ehp-inline-metrics {
+  .ehp-key-rows {
     margin: 8px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .ehp-key-rows li {
     white-space: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    padding: 9px 0;
+    border-top: 1px solid rgba(45,52,54,0.08);
   }
-  .ehp-inline-metrics .sep {
-    color: rgba(45,52,54,0.35);
-    margin: 0 10px;
-  }
+  .ehp-key-rows li:first-child { border-top: none; }
   .ehp-eq { font-size: 14px; background: rgba(132,169,140,0.10); border-left: 3px solid var(--tmg-sage);
             padding: 10px 12px; border-radius: 6px; margin: 6px 0; overflow-x: auto; }
   .ehp-btnrow { display: flex; gap: 12px; flex-wrap: wrap; margin: 4px 0 24px; }
@@ -74,6 +75,9 @@
       left: 0;
       width: 100%;
       min-width: 0;
+    }
+    .ehp-key-rows li {
+      white-space: normal;
     }
   }
 </style>
@@ -138,15 +142,12 @@
       <section class="tmg-card-wide" aria-labelledby="kn">
         <p class="tmg-card-label">Key numbers</p>
         <h3 id="kn" class="tmg-card-title">The premium and the return</h3>
-        <p class="ehp-inline-metrics tmg-body-sm">
-          <b>External pay premium:</b> about +9% over the predecessor (p = 0.54)
-          <span class="sep" aria-hidden="true">|</span>
-          <b>Premium to stock return:</b> p = 0.14
-          <span class="sep" aria-hidden="true">|</span>
-          <b>Premium to operating return:</b> p = 0.45
-          <span class="sep" aria-hidden="true">|</span>
-          <b>Sample:</b> 611 transitions, 158 external (25.9%)
-        </p>
+        <ul class="ehp-key-rows tmg-body-sm">
+          <li><b>External pay premium:</b> about +9% over the predecessor (p = 0.54)</li>
+          <li><b>Premium to stock return:</b> p = 0.14</li>
+          <li><b>Premium to operating return:</b> p = 0.45</li>
+          <li><b>Sample:</b> 611 transitions, 158 external (25.9%)</li>
+        </ul>
         <p class="ehp-stat tmg-text-muted">Robust standard errors. Industry, size, and year controls.</p>
       </section>
 
