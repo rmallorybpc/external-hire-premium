@@ -76,13 +76,93 @@
     @media(max-width:760px){nav ul{display:none}}
     */
 
-    .tmg-nav-inner{width:100%;max-width:1280px;margin:0 auto;padding:8px 0}
-    .tmg-nav-top{display:flex;align-items:center;justify-content:space-between;height:40px}
-    .tmg-nav-secondary{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:34px}
-    .tmg-nav-links{display:flex;gap:16px;list-style:none;margin:0;padding:0}
-    .tmg-nav-links a{text-decoration:none;color:var(--tmg-charcoal);font-size:12px;letter-spacing:0.06em;text-transform:uppercase}
-    .tmg-nav-links a:hover{color:var(--tmg-sage-hover)}
-    @media(max-width:760px){.tmg-nav-links{display:none}}
+  .tmg-page-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--tmg-gap-sm);
+    margin-bottom: var(--tmg-gap);
+  }
+
+  .tmg-nav {
+    height: auto;
+    min-height: 56px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas:
+      "logo . tools"
+      "links links links";
+    align-items: center;
+    row-gap: 8px;
+    column-gap: var(--tmg-gap-sm);
+  }
+
+  .tmg-nav > .tmg-logo {
+    grid-area: logo;
+  }
+
+  .tmg-nav > .tmg-page-links {
+    grid-area: links;
+  }
+
+  .tmg-nav > .tmg-dropdown-wrap {
+    grid-area: tools;
+    justify-self: end;
+  }
+
+  .tmg-nav .tmg-page-links {
+    margin-bottom: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 2px;
+    scrollbar-width: thin;
+  }
+
+  .tmg-page-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    border: var(--tmg-border);
+    color: var(--tmg-text);
+    background: var(--tmg-surface);
+    border-radius: var(--tmg-btn-radius);
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .tmg-nav .tmg-page-link {
+    flex: 0 0 auto;
+    padding: 5px 10px;
+  }
+
+  .tmg-page-link[aria-current="page"] {
+    border-color: var(--tmg-accent);
+    color: var(--tmg-sage-hover);
+  }
+
+  .tmg-page-link:hover {
+    border-color: var(--tmg-accent);
+    color: var(--tmg-sage-hover);
+  }
+
+  @media (max-width: 760px) {
+    .tmg-nav {
+      grid-template-columns: 1fr auto;
+      grid-template-areas:
+        "logo tools"
+        "links links";
+    }
+
+    .tmg-nav .tmg-page-link {
+      padding: 5px 9px;
+      font-size: 12px;
+    }
+  }
 
   .hero{background:var(--ink);color:var(--paper);padding:88px 0 80px;border-bottom:1px solid var(--line-dark)}
   .hero h1{font-size:clamp(34px,6vw,66px);color:var(--paper);max-width:17ch}
@@ -169,38 +249,31 @@
 <body>
 <div class="draftbar">Draft preview. Not yet published. For content and design review.</div>
 <nav class="tmg-nav" role="banner">
-  <div class="tmg-nav-inner">
-    <div class="tmg-nav-top">
-      <div class="tmg-logo" aria-label="The Mallory Group">
-        <span>TM</span>
-        <div class="tmg-logo-divider" aria-hidden="true"></div>
-        <span>G</span>
-      </div>
-      <div class="tmg-dropdown-wrap">
-        <button class="tmg-dropdown-btn" id="tmgDdBtn" aria-haspopup="true" aria-expanded="false" aria-controls="tmgDdMenu">
-          TMG Tool Suite
-          <svg class="tmg-chevron" viewBox="0 0 12 12" fill="none" width="12" height="12" aria-hidden="true">
-            <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
-        </button>
-        <div class="tmg-dropdown-menu" id="tmgDdMenu" role="menu">
-          <a href="https://rmallorybpc.github.io/pdf-multi-agent-analysis/" target="_blank" rel="noreferrer" role="menuitem">PDF Multi-Agent Analysis</a>
-          <a href="https://rmallorybpc.github.io/housing-market-intel/" target="_blank" rel="noreferrer" role="menuitem">Housing Market Intel</a>
-          <a href="https://rmallorybpc.github.io/real-estate-report/" target="_blank" rel="noreferrer" role="menuitem">Real Estate Report</a>
-          <a href="https://rmallorybpc.github.io/nflanalysis/dashboard/src/" target="_blank" rel="noreferrer" role="menuitem">NFL Analysis</a>
-          <a href="https://rmallorybpc.github.io/recipes/" target="_blank" rel="noreferrer" role="menuitem">Recipe Book</a>
-        </div>
-      </div>
-    </div>
-    <div class="tmg-nav-secondary">
-      <ul class="tmg-nav-links">
-        <li><a href="#plain">Summary</a></li>
-        <li><a href="#picture">The picture</a></li>
-        <li><a href="#models">The models</a></li>
-        <li><a href="#results">Results</a></li>
-        <li><a href="#audit">Audit</a></li>
-      </ul>
-      <span class="tmg-body-sm">external-hire-premium / research</span>
+  <div class="tmg-logo" aria-label="The Mallory Group">
+    <span>TM</span>
+    <div class="tmg-logo-divider" aria-hidden="true"></div>
+    <span>G</span>
+  </div>
+  <div class="tmg-page-links" role="navigation" aria-label="Site pages">
+    <a class="tmg-page-link" href="#plain" aria-current="page">Summary</a>
+    <a class="tmg-page-link" href="#picture">The picture</a>
+    <a class="tmg-page-link" href="#models">The models</a>
+    <a class="tmg-page-link" href="#results">Results</a>
+    <a class="tmg-page-link" href="#audit">Audit</a>
+  </div>
+  <div class="tmg-dropdown-wrap">
+    <button class="tmg-dropdown-btn" id="tmgDdBtn" aria-haspopup="true" aria-expanded="false" aria-controls="tmgDdMenu">
+      TMG Tool Suite
+      <svg class="tmg-chevron" viewBox="0 0 12 12" fill="none" width="12" height="12" aria-hidden="true">
+        <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <div class="tmg-dropdown-menu" id="tmgDdMenu" role="menu">
+      <a href="https://rmallorybpc.github.io/pdf-multi-agent-analysis/" target="_blank" rel="noreferrer" role="menuitem">PDF Multi-Agent Analysis</a>
+      <a href="https://rmallorybpc.github.io/housing-market-intel/" target="_blank" rel="noreferrer" role="menuitem">Housing Market Intel</a>
+      <a href="https://rmallorybpc.github.io/real-estate-report/" target="_blank" rel="noreferrer" role="menuitem">Real Estate Report</a>
+      <a href="https://rmallorybpc.github.io/nflanalysis/dashboard/src/" target="_blank" rel="noreferrer" role="menuitem">NFL Analysis</a>
+      <a href="https://rmallorybpc.github.io/recipes/" target="_blank" rel="noreferrer" role="menuitem">Recipe Book</a>
     </div>
   </div>
 </nav>
