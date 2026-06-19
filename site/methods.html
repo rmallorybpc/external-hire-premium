@@ -4,35 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Methods | External hire premium</title>
-<style>
-  :root {
-    --tmg-cream: #FDFCF0;
-    --tmg-charcoal: #2D3436;
-    --tmg-sage: #84A98C;
-    --tmg-sage-hover: #6B8F74;
-    --tmg-white: #FFFFFF;
-    --tmg-bg: var(--tmg-cream);
-    --tmg-text: var(--tmg-charcoal);
-    --tmg-accent: var(--tmg-sage);
-    --tmg-surface: var(--tmg-white);
-    --tmg-success: #2E8540;
-    --tmg-warning: #C47F00;
-    --tmg-error: #B00020;
-    --tmg-border: 1px solid rgba(45, 52, 54, 0.12);
-    --tmg-border-hover: 1px solid rgba(132, 169, 140, 0.50);
-    --tmg-bento-radius: 16px;
-    --tmg-nav-radius: 8px;
-    --tmg-btn-radius: 8px;
-    --tmg-gap: 24px;
-    --tmg-gap-sm: 12px;
-    --tmg-shadow-sm: 0 1px 3px rgba(45, 52, 54, 0.08);
-    --tmg-shadow-md: 0 2px 8px rgba(45, 52, 54, 0.10);
-  }
-</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://rmallorybpc.github.io/tmg-brand-guide/dist/tmg.css">
+<link rel="stylesheet" href="../tmg.css">
 <style>
   .tmg-nav {
     height: auto;
@@ -43,7 +18,18 @@
   }
   .tmg-nav-left { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
   .tmg-nav-secondary { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
-  .tmg-nav-secondary a { text-decoration: none; }
+  .tmg-nav-secondary a {
+    text-decoration: none;
+    color: var(--tmg-charcoal);
+    padding: 3px 0;
+    border-bottom: 2px solid transparent;
+  }
+  .tmg-nav-secondary a:hover { color: var(--tmg-sage-hover); }
+  .tmg-nav-secondary a[aria-current="page"] {
+    color: var(--tmg-sage-hover);
+    border-bottom-color: var(--tmg-sage);
+  }
+  .tmg-nav-meta { display: flex; align-items: center; gap: 18px; }
   .ehp-cap { font-size: 13px; color: rgba(45,52,54,0.55); margin: 12px 0 0; line-height: 1.6; }
   .ehp-list { margin: 8px 0 0; padding: 0; list-style: none; }
   .ehp-list li { padding: 9px 0; border-top: 1px solid rgba(45,52,54,0.08); }
@@ -54,6 +40,27 @@
   .ehp-eq b { font-weight: 500; }
   .ehp-res { font-size: 13px; color: var(--tmg-charcoal); margin: 0 0 4px; }
   .ehp-res b { font-weight: 500; color: var(--tmg-sage-hover); }
+  @media (max-width: 900px) {
+    .tmg-nav {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 10px;
+    }
+    .tmg-nav-meta {
+      justify-content: space-between;
+      width: 100%;
+    }
+    .tmg-dropdown-wrap,
+    .tmg-dropdown-btn {
+      width: 100%;
+    }
+    .tmg-dropdown-menu {
+      right: auto;
+      left: 0;
+      width: 100%;
+      min-width: 0;
+    }
+  }
 </style>
 </head>
 <body>
@@ -66,11 +73,11 @@
     <div class="tmg-nav-secondary" aria-label="Page links">
     <a class="tmg-body-sm" href="index.html">Overview</a>
     <a class="tmg-body-sm" href="findings.html">Key findings</a>
-    <a class="tmg-body-sm" href="methods.html">Methods</a>
+    <a class="tmg-body-sm" href="methods.html" aria-current="page">Methods</a>
     <a class="tmg-body-sm" href="audit.html">Audit</a>
     </div>
   </div>
-  <div style="display:flex;align-items:center;gap:18px">
+  <div class="tmg-nav-meta">
     <div class="tmg-dropdown-wrap">
       <button class="tmg-dropdown-btn" id="toolBtn" aria-haspopup="true" aria-expanded="false">
         TMG Tool Suite
