@@ -23,7 +23,11 @@ TSR); operating performance (Return on Assets, ROA); tenure; and pre-hire perfor
 - `docs/` decision log, methods, design, and the findings write-ups
 - `data/source` the working panel; `data/classification` the frozen sample;
   `data/enrichment` the collected financial snapshots and merged data
-- `site/` the findings site (GitHub Pages), currently a draft
+- `site/` static findings site for GitHub Pages (`index.html`, `findings.html`, `methods.html`, `audit.html`)
+
+## Site publishing
+
+GitHub Pages should serve from `site/index.html` as the primary entry page.
 
 ## Reproduce
 

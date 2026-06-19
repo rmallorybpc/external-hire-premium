@@ -24,10 +24,9 @@ externally hired CEOs predicts the return they deliver. Set it up as follows:
 - A `docs/` folder for the methods, the pre-committed rules, and a dated decision log.
 - A `data/` folder with subfolders `source/`, `classification/`, and `enrichment/`, and a
   README stating that data are committed snapshots with provenance, not live feeds.
-- A `site/` folder reserved for a GitHub Pages findings site, to be built later.
+- A `site/` folder containing the GitHub Pages findings site. Primary entry page is `site/index.html`.
 
-Do not enable GitHub Pages yet and do not add any GitHub Actions workflow; data collection
-runs locally and the findings site is built after the analysis is complete.
+Do not add any GitHub Actions workflow for data collection; data collection runs locally.
 
 ---
 
