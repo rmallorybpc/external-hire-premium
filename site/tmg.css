@@ -378,6 +378,10 @@ body {
   margin: 4px 0 24px;
 }
 
+.ehp-keynumbers {
+  grid-column: span 2;
+}
+
 .ehp-keynumbers .tmg-card-title,
 .ehp-keynumbers .ehp-list li,
 .ehp-keynumbers .ehp-stat {
@@ -421,6 +425,7 @@ body {
   }
 
   .ehp-keynumbers {
+    grid-column: 1 / -1;
     overflow-x: auto;
   }
 
