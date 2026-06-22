@@ -271,6 +271,22 @@ body {
 
 /* ── 10. External hire premium shared styles ─────────────── */
 .ehp-nav-links {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  margin-left: 24px;
+}
+
+.ehp-nav-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.ehp-nav-meta {
   display: flex;
   align-items: center;
   gap: 18px;
@@ -362,6 +378,16 @@ body {
   margin: 4px 0 24px;
 }
 
+.ehp-keynumbers .tmg-card-title,
+.ehp-keynumbers .ehp-list li,
+.ehp-keynumbers .ehp-stat {
+  white-space: nowrap;
+}
+
+.ehp-findings-focus {
+  grid-column: span 2;
+}
+
 @media (max-width: 980px) {
   .tmg-nav {
     height: auto;
@@ -373,11 +399,32 @@ body {
 
   .ehp-nav-links {
     width: 100%;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-left: 0;
+  }
+
+  .ehp-nav-center {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+  }
+
+  .ehp-nav-meta {
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 8px 14px;
   }
 
   .ehp-brand-lockup {
-    margin-left: auto;
+    margin-left: 0;
+  }
+
+  .ehp-keynumbers {
+    overflow-x: auto;
+  }
+
+  .ehp-findings-focus {
+    grid-column: 1 / -1;
   }
 }
