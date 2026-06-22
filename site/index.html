@@ -8,20 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://rmallorybpc.github.io/tmg-brand-guide/dist/tmg.css">
-<style>
-  /* page-local only: the signature chart and a few content helpers. all colors from TMG tokens. */
-  .ehp-chart { width: 100%; height: auto; display: block; }
-  .ehp-cap { font-size: 13px; color: rgba(45,52,54,0.55); margin: 12px 0 0; line-height: 1.6; }
-  .ehp-stat { font-size: 13px; color: var(--tmg-charcoal); margin-top: 12px; padding-top: 12px;
-              border-top: 1px solid rgba(45,52,54,0.10); }
-  .ehp-list { margin: 8px 0 0; padding: 0; list-style: none; }
-  .ehp-list li { padding: 9px 0; border-top: 1px solid rgba(45,52,54,0.08); }
-  .ehp-list li:first-child { border-top: none; }
-  .ehp-list b { font-weight: 500; }
-  .ehp-eq { font-size: 14px; background: rgba(132,169,140,0.10); border-left: 3px solid var(--tmg-sage);
-            padding: 10px 12px; border-radius: 6px; margin: 6px 0; overflow-x: auto; }
-  .ehp-btnrow { display: flex; gap: 12px; flex-wrap: wrap; margin: 4px 0 24px; }
-</style>
+<link rel="stylesheet" href="tmg.css">
 </head>
 <body>
 
@@ -30,11 +17,11 @@
   <a class="tmg-logo" href="https://rmallorybpc.github.io/external-hire-premium/" aria-label="The Mallory Group home">
     <span>TM</span><span class="tmg-logo-divider" aria-hidden="true"></span><span>G</span>
   </a>
-  <div style="display:flex;align-items:center;gap:18px">
-    <a class="tmg-body-sm" href="index.html">Overview</a>
-    <a class="tmg-body-sm" href="findings.html">Key findings</a>
-    <a class="tmg-body-sm" href="methods.html">Methods</a>
-    <a class="tmg-body-sm" href="audit.html">Audit</a>
+  <div class="ehp-nav-links">
+    <a class="tmg-body-sm ehp-nav-link is-active" href="index.html">Overview</a>
+    <a class="tmg-body-sm ehp-nav-link" href="findings.html">Key findings</a>
+    <a class="tmg-body-sm ehp-nav-link" href="methods.html">Methods</a>
+    <a class="tmg-body-sm ehp-nav-link" href="audit.html">Audit</a>
     <div class="tmg-dropdown-wrap">
       <button class="tmg-dropdown-btn" id="toolBtn" aria-haspopup="true" aria-expanded="false">
         TMG Tool Suite
@@ -53,7 +40,7 @@
         <a role="menuitem" target="_blank" rel="noreferrer" href="https://rmallorybpc.github.io/external-hire-premium/">External Hire Premium</a>
       </div>
     </div>
-    <span class="tmg-body-sm tmg-text-muted">The Mallory Group</span>
+    <span class="tmg-body-sm tmg-text-muted ehp-brand-lockup">The Mallory Group</span>
   </div>
 </nav>
 
